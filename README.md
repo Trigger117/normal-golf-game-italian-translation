@@ -1,63 +1,64 @@
 # 🇮🇹 Normal Golf Game — Traduzione italiana
 
-Traduzione amatoriale **non ufficiale** di **Normal Golf Game**, dedicata ai giocatori italiani.
+**Traduzione amatoriale, gratuita e non ufficiale di Normal Golf Game**, dedicata ai giocatori italiani.
 
-> **Beta 0.9 pubblicata!** Puoi scaricare la traduzione dalla sezione **[Releases](../../releases/tag/v0.9.0-beta)**. È una versione sperimentale: alcune schermate potrebbero avere ancora testi in inglese. L'installer automatico è in fase di prova; al momento la release contiene il pacchetto ZIP per l'installazione manuale.
+La patch traduce dialoghi, menu, interfaccia e descrizioni delle sfide. Il doppiaggio rimane in inglese; i termini tecnici del golf, come *par*, *green*, *draw*, *fade*, *hook* e *slice*, vengono mantenuti nella lingua originale quando appropriato.
 
-## Cosa viene tradotto
+> **Versione pubblica: [Beta 0.9 — v0.9.0-beta](https://github.com/Trigger117/normal-golf-game-italian-translation/releases/tag/v0.9.0-beta).** La traduzione è utilizzabile ma ancora sperimentale. Alcuni testi possono essere rimasti in inglese o richiedere correzioni.
 
-Il progetto mira a tradurre in italiano:
+## 📥 Download
 
-- Dialoghi e testi narrativi.
-- Menu e interfaccia.
-- Titoli, descrizioni e istruzioni delle sfide.
-- Altre scritte presenti nel mondo di gioco, quando tecnicamente accessibili.
+**[Scarica la traduzione italiana da GitHub Releases](https://github.com/Trigger117/normal-golf-game-italian-translation/releases/tag/v0.9.0-beta)**
 
-**Le voci originali restano in inglese.** Manteniamo inoltre i termini tecnici del golf, come *par*, *green*, *fairway*, *tee*, *draw*, *fade*, *hook* e *slice*, quando sono usati nel loro significato sportivo.
+Al momento la release pubblica contiene **`NormalGolf_Italian_v0.9.0-beta.zip`**, con il plugin già compilato.
 
-## Stato della traduzione
+### 🛠️ Installazione manuale
 
-La versione sperimentale attualmente provata è la **Beta 1.5**.
+1. Chiudi completamente il gioco.
+2. Installa [BepInEx 5 per Unity Mono](https://github.com/BepInEx/BepInEx/releases) e [XUnity.AutoTranslator per BepInEx](https://github.com/bbepis/XUnity.AutoTranslator/releases).
+3. Scarica `NormalGolf_Italian_v0.9.0-beta.zip` dalla release.
+4. Estrai il contenuto nella cartella contenente `Normal Golf Game.exe`. Non occorre sostituire l'eseguibile né i file originali del gioco.
+5. Nel file di configurazione di XUnity, sotto `BepInEx/config`, imposta:
 
-- **881 voci I2 Localization** risultano applicate correttamente al database durante una prova reale, come confermato dal log del plugin.
-- Il sistema dispone anche di **358 regole** per riconoscere descrizioni di sfide nell'interfaccia.
-- È stata verificata nel gioco la descrizione italiana della sfida **«Isola minuscola 1»**, precedentemente rimasta in inglese.
-- **Non tutte le sfide, i dialoghi e le schermate sono stati testati**: possono ancora esserci testi in inglese, traduzioni da correggere o problemi di compatibilità.
+   ```ini
+   Language=it
+   FromLanguage=en
+   Endpoint=
+   FallbackEndpoint=
+   ```
 
-Questi numeri descrivono i dati caricati, **non una copertura garantita al 100%**.
+6. Avvia il gioco mantenendo **English** come lingua originale.
 
-## Requisiti
+Se XUnity non ha ancora creato il suo file di configurazione, avvia il gioco una volta dopo averlo installato. Se hai usato traduzioni automatiche in precedenza, consulta `LEGGIMI.txt` nello ZIP per evitare interferenze con vecchie cache.
 
-- Una copia Windows di **Normal Golf Game**.
-- [BepInEx 5 per Unity Mono](https://github.com/BepInEx/BepInEx/releases).
-- [XUnity.AutoTranslator per BepInEx](https://github.com/bbepis/XUnity.AutoTranslator/releases), utilizzato per alcuni testi esterni al catalogo I2.
+### 🖥️ Installer automatico Windows
 
-## Download e installazione
+È stato sviluppato un **installer grafico WPF** che permette di scegliere la cartella del gioco, installare BepInEx e XUnity se mancanti, configurare la traduzione e conservare backup dei file sovrascritti.
 
-È disponibile la prima **[release pubblica v0.9.0-beta](../../releases/tag/v0.9.0-beta)**, con il plugin già compilato. Scarica l'archivio **`NormalGolf_Italian_v0.9.0-beta.zip`**, installa BepInEx 5 e XUnity.AutoTranslator, quindi estrai il contenuto dello ZIP nella cartella che contiene `Normal Golf Game.exe`. Segui le indicazioni di configurazione nelle note della release e nel file `LEGGIMI.txt` incluso nell'archivio. L'installer automatico è ancora in fase di test.
+**L'installer è ancora in fase di verifica e non è attualmente allegato alla release GitHub.** Finché non sarà pubblicato, utilizza la procedura manuale indicata sopra.
 
-Il plugin sperimentale interviene sulle traduzioni caricate in memoria e non richiede di sostituire l'eseguibile del gioco, `Assembly-CSharp.dll` o `resources.assets`.
+## 📋 Stato e copertura
 
-## Problemi noti e test
+- **881 voci I2 Localization** applicate e confermate nei log durante i test.
+- **358 regole** aggiuntive per le descrizioni delle sfide.
+- Verificata in gioco almeno una descrizione di sfida, «Isola minuscola 1», precedentemente non tradotta.
+- Test non ancora completi per tutte le schermate, le sfide e i dialoghi.
 
-- [Problemi noti](docs/KNOWN_ISSUES.md)
-- [Verifiche eseguite e test ancora da fare](docs/TESTING.md)
-- [Procedura di preparazione della release](docs/RELEASE_PROCESS.md)
+La versione interna del plugin è **1.5**; il numero della distribuzione pubblica è **0.9 Beta**. I numeri descrivono componenti diversi e non indicano che tutte le stringhe del gioco siano state controllate.
+
+## 🐛 Segnalazioni e aggiornamenti
+
+Hai trovato un testo in inglese, una traduzione poco naturale o un problema tecnico? **[Apri una segnalazione (Issues)](https://github.com/Trigger117/normal-golf-game-italian-translation/issues)**, possibilmente con screenshot, versione della patch e una breve descrizione della schermata.
+
+Per i problemi tecnici puoi allegare estratti di `BepInEx/LogOutput.log` (e, se necessario, `BepInEx/normal-golf-italian/DIAGNOSTICA_F9.txt`), dopo aver oscurato eventuali percorsi personali.
+
+Altre informazioni:
 - [Cronologia delle modifiche](CHANGELOG.md)
+- [Problemi noti](docs/KNOWN_ISSUES.md)
+- [Checklist di verifica](docs/TESTING.md)
 
-## Segnalazioni e suggerimenti
+## ⚖️ Avvertenze
 
-Per segnalare una traduzione errata o un malfunzionamento, apri una [segnalazione su GitHub](../../issues) e indica, se possibile:
+Progetto amatoriale **non ufficiale**, non affiliato né approvato da Luke Muscat o dagli altri titolari dei diritti di Normal Golf Game. Tutti i diritti relativi al gioco restano ai rispettivi proprietari.
 
-1. La versione della patch e quella del gioco.
-2. Il testo originale, la traduzione attuale e quella suggerita.
-3. Uno screenshot e i passaggi per raggiungere la schermata.
-4. Per problemi tecnici, le righe pertinenti di `BepInEx/LogOutput.log` e, se richiesto, `BepInEx/normal-golf-italian/DIAGNOSTICA_F9.txt`.
-
-**Oscura eventuali percorsi personali e dati privati presenti nei log prima di condividerli.**
-
-## Avvertenze
-
-Questa è una traduzione amatoriale, **non ufficiale e non affiliata agli sviluppatori o agli editori di Normal Golf Game**. Tutti i diritti relativi al gioco, ai suoi nomi e ai suoi contenuti appartengono ai rispettivi titolari.
-
-Il progetto richiede una copia legittima del gioco e non intende distribuire eseguibili o asset originali.
+La traduzione è gratuita, richiede una copia legittima del gioco e non include il gioco completo o i suoi file originali.
