@@ -1,10 +1,11 @@
 # Problemi noti
 
 - **Test di gioco non ancora completi:** non tutte le schermate, le sfide e i dialoghi sono stati verificati.
-- **Interferenze delle vecchie cache XUnity:** traduzioni automatiche precedenti possono ancora mostrare `PARAGRAFO`, `Disegno`, `Dissolvenza`, `Gancio` o `Fetta`. Queste traduzioni sono scorrette quando il testo originale indica i termini sportivi *Par*, *Draw*, *Fade*, *Hook* e *Slice*. Per verificare la patch usare traduzioni manuali/offline e non distribuire vecchie cache.
-- **Terminologia da interpretare nel contesto:** *green* può indicare la superficie di gioco oppure il colore verde. Evitare sostituzioni globali della parola.
-- **Compatibilità dell'interfaccia:** gli aggiornamenti del gioco possono modificare i componenti TextMesh Pro. I log e la diagnostica F9 permettono di individuare testi che non vengono intercettati.
-- **Catalogo e visualizzazione non sono la stessa cosa:** la presenza di una traduzione in `i2_terms.tsv` non garantisce che appaia correttamente sullo schermo. Il test della Beta 1.5 conferma l'aggiornamento del database I2 e la traduzione della sfida **«Isola minuscola 1»**, ma non di tutte le altre sfide.
-- **Dipendenze esterne:** per ora BepInEx e XUnity.AutoTranslator devono essere installati separatamente.
+- **Alcune impostazioni ancora in inglese nella release 0.9:** sono state osservate voci come `Change Difficulty`, `Sound Settings`, `Video Settings`, `Gameplay Settings`, `Delete Saves` e `Loading`. Sono in preparazione traduzioni aggiuntive, non ancora pubblicate nella release corrente.
+- **Interferenze delle vecchie cache XUnity:** traduzioni precedenti possono ancora mostrare `PARAGRAFO`, `Disegno`, `Dissolvenza`, `Gancio` o `Fetta` al posto dei termini golfistici *Par*, *Draw*, *Fade*, *Hook* e *Slice*.
+- **Terminologia da verificare in base al contesto:** *green* può indicare la superficie di gioco oppure il colore verde.
+- **Compatibilità dell'interfaccia:** gli aggiornamenti del gioco possono modificare i componenti TextMesh Pro. I log e la diagnostica F9 aiutano a identificare le stringhe non intercettate.
+- **Catalogo e visualizzazione non sono la stessa cosa:** una traduzione presente in `i2_terms.tsv` non garantisce automaticamente che appaia correttamente a schermo.
+- **Installer automatico:** è in fase di verifica. La release pubblica corrente include soltanto il pacchetto ZIP e richiede BepInEx e XUnity installati separatamente.
 
-Per segnalare problemi, apri una [segnalazione su GitHub](../../issues), preferibilmente con screenshot, versione del gioco, versione della patch e righe pertinenti dei log senza dati personali.
+Per segnalare problemi, apri una [segnalazione su GitHub](../issues) e aggiungi, se possibile, screenshot, versione della patch, versione del gioco e righe pertinenti dei log, senza informazioni personali.
