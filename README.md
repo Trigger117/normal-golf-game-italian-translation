@@ -2,7 +2,7 @@
 
 Traduzione amatoriale **non ufficiale** di **Normal Golf Game**, dedicata ai giocatori italiani.
 
-> **Stato del progetto: beta in preparazione.** La traduzione è ancora in revisione e **non è disponibile una versione pubblica pronta da installare**. I file del repository non sono un installer.
+> **Beta 0.9 pubblicata!** Puoi scaricare la traduzione dalla sezione **[Releases](../../releases/tag/v0.9.0-beta)**. È una versione sperimentale: alcune schermate potrebbero avere ancora testi in inglese. L'installer automatico è in fase di prova; al momento la release contiene il pacchetto ZIP per l'installazione manuale.
 
 ## Cosa viene tradotto
 
@@ -34,7 +34,7 @@ Questi numeri descrivono i dati caricati, **non una copertura garantita al 100%*
 
 ## Download e installazione
 
-Il pacchetto con il plugin già compilato e le istruzioni definitive sarà pubblicato nella sezione **[Releases](../../releases)**, dopo le ultime verifiche. **Al momento non è stata ancora pubblicata alcuna release.**
+È disponibile la prima **[release pubblica v0.9.0-beta](../../releases/tag/v0.9.0-beta)**, con il plugin già compilato. Scarica l'archivio **`NormalGolf_Italian_v0.9.0-beta.zip`**, installa BepInEx 5 e XUnity.AutoTranslator, quindi estrai il contenuto dello ZIP nella cartella che contiene `Normal Golf Game.exe`. Segui le indicazioni di configurazione nelle note della release e nel file `LEGGIMI.txt` incluso nell'archivio. L'installer automatico è ancora in fase di test.
 
 Il plugin sperimentale interviene sulle traduzioni caricate in memoria e non richiede di sostituire l'eseguibile del gioco, `Assembly-CSharp.dll` o `resources.assets`.
 
