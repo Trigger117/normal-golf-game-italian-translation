@@ -1,39 +1,47 @@
-# Preparing a public beta / Preparazione della beta pubblica
+# Preparazione della prima beta pubblica
 
-The project's source data is **not a tested installer**. The internal 1.5.0 plugin has been tested in-game by the maintainer, but there has not yet been a full playthrough or a clean-install test.
+**I dati e i sorgenti del progetto non costituiscono ancora un pacchetto di installazione collaudato.** Il plugin interno 1.5.0 è stato provato nel gioco, ma manca una verifica dell'intera campagna e dell'installazione su una copia pulita.
 
-## Version strategy
-- Internal working plugin: **1.5.0**
-- First public GitHub release: **v0.9.0-beta**, once a user-ready ZIP has been checked
-- The version numbers distinguish a plugin's internal code version from the public distribution version.
+## Numerazione delle versioni
 
-## Build (Windows)
-1. Install the original game, BepInEx 5 (Unity Mono), and XUnity.AutoTranslator (BepInEx).
-2. Place `NormalGolfItalianI2.cs`, `CompilaPatch.ps1`, `i2_terms.tsv` and `ui_challenges.tsv` under `BepInEx/normal-golf-italian/`.
-3. Place `ItalianoCompleto.txt` under `BepInEx/Translation/it/Text/`.
-4. Run `powershell.exe -NoProfile -ExecutionPolicy Bypass -File ".\BepInEx\normal-golf-italian\CompilaPatch.ps1"` from the game root.
-5. Start the game and confirm that `BepInEx/LogOutput.log` reports the plugin and `I2: applied 881 translated terms`.
-6. Open a challenge and verify its description is displayed in Italian with GoogleTranslateV2 **disabled**.
-7. Run `scripts/Build-Release.ps1` from the game root, or copy that script there and execute it. It generates `dist/NormalGolf_Italian_v0.9.0-beta.zip`.
+- **1.5.0:** versione interna del plugin attualmente utilizzata per i test.
+- **v0.9.0-beta:** nome previsto per la prima release pubblica su GitHub, una volta verificato il pacchetto.
 
-## What the ZIP may contain
+Questi numeri distinguono la versione tecnica del plugin da quella del pacchetto distribuito ai giocatori.
 
-- `BepInEx/plugins/NormalGolfItalianI2.dll` compiled on Windows
-- `BepInEx/normal-golf-italian/i2_terms.tsv`
-- `BepInEx/normal-golf-italian/ui_challenges.tsv`
-- `BepInEx/Translation/it/Text/ItalianoCompleto.txt`
-- Installation instructions
+## Compilazione su Windows
 
-**Do not ship:** `Assembly-CSharp.dll`, `resources.assets`, `UnityPlayer.dll`, game scenes, game sprites, user save files, or any original game binaries. Do not include automatically generated machine-translation caches.
+1. Installa il gioco originale, **BepInEx 5 per Unity Mono** e **XUnity.AutoTranslator per BepInEx**.
+2. Copia `NormalGolfItalianI2.cs`, `CompilaPatch.ps1`, `i2_terms.tsv` e `ui_challenges.tsv` in `BepInEx/normal-golf-italian/`.
+3. Copia `ItalianoCompleto.txt` in `BepInEx/Translation/it/Text/`.
+4. Apri PowerShell nella cartella principale del gioco ed esegui:
 
-## Clean-install acceptance criteria
+   ```powershell
+   powershell.exe -NoProfile -ExecutionPolicy Bypass -File ".\BepInEx\normal-golf-italian\CompilaPatch.ps1"
+   ```
 
-- Download the packaged ZIP onto a fresh Windows copy of the game with compatible BepInEx and XUnity versions.
-- Unzip into the folder containing `Normal Golf Game.exe`.
-- Set `Language=it`, `FromLanguage=en`, `Endpoint=`, and `FallbackEndpoint=` in XUnity.
-- Keep the game language set to English so the I2 replacement matches the original source language.
-- Verify menu, dialogue, at least 3 different challenge descriptions, and a full restart.
-- Check logs for exceptions, garbled placeholders, and broken rich-text tags.
-- Review the ZIP and README before publishing GitHub release assets.
+5. Avvia il gioco e controlla in `BepInEx/LogOutput.log` che compaiano il caricamento del plugin e il messaggio `I2: applied 881 translated terms`.
+6. Apri una sfida e verifica la descrizione in italiano con **GoogleTranslateV2 disattivato**.
+7. Esegui lo script `scripts/Build-Release.ps1` dalla cartella principale del gioco, oppure copialo lì prima di eseguirlo. Il risultato previsto è `dist/NormalGolf_Italian_v0.9.0-beta.zip`.
 
-The first public version must be described as a **beta**; the 881 loaded entries do not by themselves demonstrate complete coverage.
+## Contenuto previsto dell'archivio pubblico
+
+- `BepInEx/plugins/NormalGolfItalianI2.dll` compilata su Windows.
+- `BepInEx/normal-golf-italian/i2_terms.tsv`.
+- `BepInEx/normal-golf-italian/ui_challenges.tsv`.
+- `BepInEx/Translation/it/Text/ItalianoCompleto.txt`.
+- Istruzioni di installazione.
+
+**Non includere:** `Assembly-CSharp.dll`, `resources.assets`, `UnityPlayer.dll`, scene, immagini, salvataggi, eseguibili o altri contenuti originali del gioco. Non includere vecchie cache di traduzione automatica.
+
+## Verifiche prima della pubblicazione
+
+1. Prepara una copia Windows pulita del gioco con versioni compatibili di BepInEx e XUnity.
+2. Estrai lo ZIP nella cartella contenente `Normal Golf Game.exe`.
+3. Configura XUnity con `Language=it`, `FromLanguage=en`, `Endpoint=` e `FallbackEndpoint=`.
+4. Mantieni **English** come lingua originale nelle impostazioni del gioco.
+5. Controlla menu, dialoghi, almeno tre descrizioni diverse delle sfide e il comportamento dopo il riavvio.
+6. Verifica l'assenza di eccezioni nei log, segnaposto corrotti e tag di formattazione non validi.
+7. Ricontrolla il contenuto dello ZIP e le istruzioni prima di caricarlo nelle GitHub Releases.
+
+La prima versione pubblica deve essere presentata come **beta**: il caricamento di 881 voci I2, da solo, non dimostra una copertura completa.
