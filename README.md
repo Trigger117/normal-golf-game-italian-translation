@@ -1,4 +1,4 @@
-# 🇮🇹 Traduzione italiana amatoriale di Normal Golf Game. Dialoghi, interfaccia e sfide tradotti in italiano.
+# 🇮🇹 Normal Golf Game — Traduzione italiana
 
 Traduzione amatoriale **non ufficiale** di **Normal Golf Game**, dedicata ai giocatori italiani.
 
