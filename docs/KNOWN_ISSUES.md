@@ -1,10 +1,10 @@
-# Known issues / Problemi noti
+# Problemi noti
 
-- **Not fully playtested:** Not every scene or challenge has been checked in-game.
-- **XUnity cache interference:** Older automatically generated translations may still say `PARAGRAFO`, `Disegno`, `Dissolvenza`, `Gancio` or `Fetta`. These are not correct when referring to *Par*, *Draw*, *Fade*, *Hook* and *Slice*. Prefer offline/manual translations for testing and keep old caches out of the release ZIP.
-- **Glossary by context:** Words like *green* can refer to either a golf surface or the color. Don't globally replace every occurrence without checking where the term is used.
-- **Interface compatibility:** Modded Unity TextMesh Pro components can change after game updates. Logs and the F9 diagnostics can help identify a failing UI text component.
-- **Runtime versus catalog:** A translation present in `i2_terms.tsv` is not proof it appears correctly on screen. The internal 1.5.0 test confirmed the I2 source was patched and the *Isola minuscola 1* challenge description appeared in Italian, but not every challenge has been validated.
-- **Dependency:** This translation needs third-party BepInEx/XUnity installed separately.
+- **Test di gioco non ancora completi:** non tutte le schermate, le sfide e i dialoghi sono stati verificati.
+- **Interferenze delle vecchie cache XUnity:** traduzioni automatiche precedenti possono ancora mostrare `PARAGRAFO`, `Disegno`, `Dissolvenza`, `Gancio` o `Fetta`. Queste traduzioni sono scorrette quando il testo originale indica i termini sportivi *Par*, *Draw*, *Fade*, *Hook* e *Slice*. Per verificare la patch usare traduzioni manuali/offline e non distribuire vecchie cache.
+- **Terminologia da interpretare nel contesto:** *green* può indicare la superficie di gioco oppure il colore verde. Evitare sostituzioni globali della parola.
+- **Compatibilità dell'interfaccia:** gli aggiornamenti del gioco possono modificare i componenti TextMesh Pro. I log e la diagnostica F9 permettono di individuare testi che non vengono intercettati.
+- **Catalogo e visualizzazione non sono la stessa cosa:** la presenza di una traduzione in `i2_terms.tsv` non garantisce che appaia correttamente sullo schermo. Il test della Beta 1.5 conferma l'aggiornamento del database I2 e la traduzione della sfida **«Isola minuscola 1»**, ma non di tutte le altre sfide.
+- **Dipendenze esterne:** per ora BepInEx e XUnity.AutoTranslator devono essere installati separatamente.
 
-Report problems in [GitHub Issues](../issues), ideally with a screenshot, the game version, the patch version, and sanitized relevant log lines.
+Per segnalare problemi, apri una [segnalazione su GitHub](../../issues), preferibilmente con screenshot, versione del gioco, versione della patch e righe pertinenti dei log senza dati personali.
