@@ -1,22 +1,27 @@
-# Testing e segnalazioni / QA checklist
+# Verifica della traduzione e segnalazioni
 
-Questa checklist distingue i controlli eseguiti dai test ancora mancanti. Spuntare una voce solo dopo una prova in partita con GoogleTranslateV2 **disattivato**.
+Questa lista distingue le verifiche già eseguite dai controlli ancora necessari. Per valutare la copertura offline, i test devono essere svolti con **GoogleTranslateV2 disattivato**.
 
-- [x] Plugin Beta 1.5 caricato da BepInEx
-- [x] 881 termini I2 applicati (confermato nei log)
-- [x] Descrizione della sfida *Isola minuscola 1* visualizzata in italiano
-- [ ] Test delle altre sfide e dei testi con tasti dinamici
-- [ ] Revisione completa dei dialoghi
-- [ ] Controllo dei menu e delle scritte nel mondo di gioco
-- [ ] Glossario: PAR, tee, green, draw, fade, hook, slice e colori distinti dai termini golfistici
-- [ ] Test con `Endpoint=` e `FallbackEndpoint=` vuoti
-- [ ] Test d'installazione su una copia pulita del gioco
-- [ ] Pacchetto che include la DLL già compilata
-- [ ] Verifica che il pacchetto non contenga DLL o asset originali del gioco
+- [x] Plugin Beta 1.5 caricato correttamente da BepInEx.
+- [x] Applicazione di **881 voci I2**, confermata nei log.
+- [x] Descrizione della sfida **«Isola minuscola 1»** visualizzata in italiano.
+- [ ] Verifica di altre sfide, comprese quelle con tasti indicati dinamicamente.
+- [ ] Revisione di tutti i dialoghi.
+- [ ] Controllo dei menu e delle scritte nel mondo di gioco.
+- [ ] Uniformità dei termini: `PAR`, `tee`, `green`, `draw`, `fade`, `hook`, `slice`; distinguere i termini golfistici dai colori.
+- [ ] Funzionamento con `Endpoint=` e `FallbackEndpoint=` vuoti.
+- [ ] Installazione su una copia pulita del gioco.
+- [ ] Pacchetto pubblico contenente la DLL già compilata.
+- [ ] Controllo dell'archivio per escludere DLL e asset originali del gioco.
 
-## Diagnostica / Debug
+## Diagnostica
 
-Il plugin Beta 1.5 produce log in `BepInEx/LogOutput.log`.
-Con una sfida aperta, il tasto F9 salva un report in `BepInEx/normal-golf-italian/DIAGNOSTICA_F9.txt`.
+Il plugin Beta 1.5 scrive il log in `BepInEx/LogOutput.log`.
 
-Prima di condividere i file, oscurare eventuali percorsi o dati personali. I messaggi `NO_MATCH` possono comparire anche su testi già tradotti: non sono di per sé una prova di errore.
+Con una sfida aperta, premendo **F9** viene generato il rapporto:
+
+`BepInEx/normal-golf-italian/DIAGNOSTICA_F9.txt`
+
+Prima di condividere i log, oscura eventuali percorsi personali o informazioni private.
+
+La dicitura `NO_MATCH` può comparire anche accanto a un testo già tradotto: **da sola non dimostra che la traduzione non funzioni**.
