@@ -50,6 +50,22 @@ Se la configurazione di XUnity non è ancora stata generata, avvia il gioco una 
 - Almeno una sfida verificata in gioco: **«Isola minuscola 1»**.
 - Le verifiche non coprono ancora tutte le schermate, le sfide e i dialoghi. La numerazione interna del plugin **1.5** è distinta dalla release pubblica **0.9**.
 
+## 📷 Anteprima della traduzione
+
+Schermate reali di una build di test della traduzione italiana. Sono indicative: la Beta 0.9.1 può presentare differenze e alcune voci restano da perfezionare.
+
+**Menu principale tradotto**
+
+![Menu principale di Normal Golf Game con comandi in italiano](screenshots/menu-italiano.jpg)
+
+**Esempio di dialogo italiano**
+
+![Dialogo in italiano durante il gioco](screenshots/dialogo-italiano.jpg)
+
+**Grafica dell'installer WPF**
+
+![Illustrazione dell'intestazione dell'installer italiano](installer/assets/banner_golf.jpg)
+
 ## 💻 Sorgenti e contributi
 
 Il progetto è organizzato in:
