@@ -1,8 +1,17 @@
 # Cronologia delle modifiche
 
-## In sviluppo — Non ancora pubblicato
+## v0.9.1-beta — 2 novembre 2026 (release pubblica)
 
-- Installer grafico Windows **WPF** con selezione cartella, dipendenze opzionali, log, avanzamento, controlli di integrità e backup; verificato in parte su Windows, ancora in fase di rifinitura e distribuzione.
+- Pubblicati **installer WPF Windows** e ZIP per l'installazione manuale.
+- Nuova interfaccia grafica con cartella gioco, avanzamento, log, backup e selezione automatica delle dipendenze mancanti.
+- Aggiunte corrispondenze offline per diverse voci delle impostazioni e per `Loading` (la visualizzazione effettiva non è ancora verificata in tutte le schermate).
+- Pubblicati i sorgenti del plugin, dell'installer e i dizionari, con licenza e avvertenze sui contenuti del gioco.
+- Test in ambiente già predisposto completati; installazione pulita delle dipendenze ancora da verificare.
+
+
+## Ancora da verificare
+
+- Test completo dell'installer grafico Windows **WPF** con download delle dipendenze assenti e controllo dopo più riavvii.
 - Preparazione di correzioni per ulteriori testi dei menu e delle schermate di caricamento, da verificare nel gioco prima della prossima release.
 - Revisione continua della terminologia golfistica e dei testi residui in inglese.
 
