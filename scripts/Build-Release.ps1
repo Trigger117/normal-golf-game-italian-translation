@@ -1,6 +1,6 @@
 # Create a distributable ZIP from a locally tested BepInEx plugin DLL.
 # Run from the game's root folder (next to Normal Golf Game.exe).
-param([string]$GameDir = (Get-Location).Path)
+param([string]$GameDir = (Get-Location).Path, [string]$Version = 'v0.9.0-beta')
 $ErrorActionPreference = 'Stop'
 $GameDir = (Resolve-Path -LiteralPath $GameDir).Path
 $path = Join-Path $GameDir 'BepInEx\plugins\NormalGolfItalianI2.dll'
@@ -43,7 +43,7 @@ Questa patch non include DLL o asset originali del videogioco.
 [System.IO.File]::WriteAllText((Join-Path $staging 'LEGGIMI.txt'),$readme,[System.Text.UTF8Encoding]::new($false))
 $dist = Join-Path $GameDir 'dist'
 New-Item -ItemType Directory -Path $dist -Force | Out-Null
-$zip = Join-Path $dist 'NormalGolf_Italian_v0.9.0-beta.zip'
+$zip = Join-Path $dist ('NormalGolf_Italian_' + $Version + '.zip')
 if (Test-Path -LiteralPath $zip) { Remove-Item -LiteralPath $zip -Force }
 Compress-Archive -Path (Join-Path $staging '*') -DestinationPath $zip -CompressionLevel Optimal
 Write-Host "PACCHETTO CREATO: $zip" -ForegroundColor Green
