@@ -16,7 +16,8 @@ Per controllare che la traduzione funzioni senza servizi online, effettuare i te
 - [ ] Uniformità dei termini golfistici (`par`, `tee`, `green`, `draw`, `fade`, `hook`, `slice`).
 - [ ] Verifica dell'installazione manuale su una copia pulita del gioco.
 - [ ] Controllo di un'intera partita e del funzionamento dopo più riavvii.
-- [ ] Pubblicazione e verifica del download dell'installer WPF su GitHub.
+- [x] Installer WPF e ZIP pubblicati come allegati nella release `v0.9.1-beta`.
+- [ ] Test del download e avvio dell'installer su un secondo sistema Windows.
 
 ## Diagnostica
 
