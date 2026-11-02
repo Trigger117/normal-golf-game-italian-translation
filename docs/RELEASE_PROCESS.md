@@ -1,40 +1,31 @@
-# Pubblicazione e verifica delle release
+# Procedura di rilascio (Beta)
 
-## Stato attuale
+**Versione pubblica verificata su GitHub:** `v0.9.0-beta`, con ZIP per installazione manuale. La nuova Beta 0.9.1 e l'installer WPF non vanno annunciati come disponibili finché non compare una release con entrambi gli allegati.
 
-La prima release pubblica è **[v0.9.0-beta](https://github.com/Trigger117/normal-golf-game-italian-translation/releases/tag/v0.9.0-beta)**, pubblicata il **1 novembre 2026**. Contiene uno ZIP da installare manualmente.
+## Sorgenti
 
-L'**installer grafico WPF** è in prova su Windows; la sua pubblicazione come allegato separato è in preparazione. Non indicarlo come disponibile finché non compare negli allegati della release.
+- `plugin/`: plugin C# e script per compilarlo in un'installazione locale del gioco.
+- `translations/`: dizionari italiani (fan translation; vedi `LICENSING.md`).
+- `installer/`: UI WPF, worker PowerShell, launcher C++ e script di impacchettamento senza percorsi assoluti.
+- `scripts/Build-Release.ps1`: crea lo ZIP della patch dai file della propria installazione.
+- `scripts/Publish-WpfInstaller.ps1`: carica su una release **già esistente** un EXE il cui SHA-256 è stato verificato.
 
-## Numerazione delle versioni
+## Verifiche prima di pubblicare la nuova Beta
 
-- **1.5:** versione interna del plugin BepInEx verificata in gioco.
-- **v0.9.0-beta:** versione della distribuzione ZIP pubblica.
-- **WPF v1.x (test):** numerazione delle build sperimentali dell'installer, non delle release pubbliche.
+1. Verificare il funzionamento dell'installer grafico su Windows, inclusa l'icona della barra delle applicazioni.
+2. Testare almeno una installazione pulita con BepInEx e XUnity assenti, compreso il download dei pacchetti e la verifica SHA-256.
+3. Verificare il riavvio del gioco, menu e schermate di caricamento. Le nuove corrispondenze `Loading` e menu presenti nella beta 0.9.1 devono essere confermate nel gioco.
+4. Assicurarsi che lo ZIP sia leggibile e che EXE e ZIP contengano la **stessa versione** della traduzione.
+5. Controllare che non vengano pubblicati DLL, eseguibili o asset originali del gioco.
+6. Creare il tag `v0.9.1-beta` e una pre-release con **installer EXE + ZIP**; non alterare la release precedente.
+7. Soltanto dopo, aggiornare `README.md`, `CHANGELOG.md` e il collegamento pubblico al nuovo download.
 
-I numeri non sono intercambiabili.
+## Caricamento mediante GitHub CLI
 
-## Checklist prima di pubblicare un aggiornamento
+Per una release creata in precedenza e un installer EXE con hash noto, dalla radice del repository:
 
-1. Controlla che il pacchetto contenga la DLL della patch, `i2_terms.tsv`, `ui_challenges.tsv`, `ItalianoCompleto.txt` e le istruzioni.
-2. Verifica che **non** contenga `Assembly-CSharp.dll`, `resources.assets`, `UnityPlayer.dll`, eseguibili del gioco, scene, immagini o salvataggi originali.
-3. Conferma la validità dello ZIP e confronta gli SHA-256 con il pacchetto approvato.
-4. Prova l'installazione su Windows, preferibilmente anche con BepInEx e XUnity assenti, e verifica l'integrità dei download.
-5. Avvia il gioco, mantenendo **English** come lingua originale, e controlla menu, dialoghi e almeno tre descrizioni diverse delle sfide.
-6. Ripeti il test dopo il riavvio, verifica la gestione dei backup e l'assenza di eccezioni nei log.
-7. Nelle note di pubblicazione indica chiaramente i **problemi noti** e che la traduzione è sperimentale.
+```powershell
+.\scripts\Publish-WpfInstaller.ps1 -InstallerPath .\dist\NormalGolf_Installer_WPF.exe -Tag 'v0.9.1-beta' -ExpectedSha256 '<SHA-256 dell\'EXE verificato>'
+```
 
-## Installer WPF
-
-Quando una build sarà stata verificata:
-
-- Allegare l'eseguibile nella stessa release o in una nuova release dedicata, specificando che si tratta di un installer e non del gioco completo.
-- Lasciare disponibile anche lo ZIP per chi preferisce l'installazione manuale.
-- Aggiornare contemporaneamente README, note della release e guida Steam.
-- Non attribuire alla versione pubblica eventuali correzioni presenti soltanto nelle build di test.
-
-Per i dettagli sulle verifiche vedi [TESTING.md](TESTING.md).
-
-## Indicazioni per i contributori
-
-Il pacchetto disponibile su GitHub Releases è **già compilato**. I sorgenti dell'installer di prova e gli script usati localmente per creare gli archivi non sono ancora tutti caricati nel repository; le presenti istruzioni non costituiscono una procedura di compilazione autonoma dal solo checkout GitHub.
+Non usare `--clobber`: una release esistente non deve essere sovrascritta silenziosamente. La release pubblica corrente e la procedura manuale rimangono disponibili finché la nuova distribuzione non è stata collaudata.

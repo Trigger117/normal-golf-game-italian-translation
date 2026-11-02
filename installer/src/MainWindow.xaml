@@ -1,0 +1,201 @@
+<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Normal Golf Game — Traduzione italiana"
+        Width="1040" Height="760" MinWidth="980" MinHeight="720"
+        WindowStartupLocation="CenterScreen" Background="#F3F7F9"
+        FontFamily="Segoe UI" FontSize="14" UseLayoutRounding="True"
+        SnapsToDevicePixels="True" ResizeMode="CanResize">
+  <Window.Resources>
+    <SolidColorBrush x:Key="Ink" Color="#153139" />
+    <SolidColorBrush x:Key="Muted" Color="#607782" />
+    <SolidColorBrush x:Key="Accent" Color="#07855E" />
+    <Style x:Key="Card" TargetType="Border">
+      <Setter Property="Background" Value="#FBFDFE" />
+      <Setter Property="CornerRadius" Value="15" />
+      <Setter Property="BorderBrush" Value="#D6E4E9" />
+      <Setter Property="BorderThickness" Value="1" />
+      <Setter Property="Margin" Value="0,0,0,10" />
+      <Setter Property="Padding" Value="18,12" />
+    </Style>
+    <Style x:Key="SectionHeading" TargetType="TextBlock">
+      <Setter Property="FontSize" Value="16" />
+      <Setter Property="FontWeight" Value="SemiBold" />
+      <Setter Property="Foreground" Value="#142C34" />
+    </Style>
+    <Style x:Key="Explanation" TargetType="TextBlock">
+      <Setter Property="FontSize" Value="12.5" />
+      <Setter Property="Foreground" Value="{StaticResource Muted}" />
+      <Setter Property="TextWrapping" Value="Wrap" />
+    </Style>
+    <Style x:Key="GreenButton" TargetType="Button">
+      <Setter Property="Background" Value="#05825C" />
+      <Setter Property="Foreground" Value="White" />
+      <Setter Property="FontWeight" Value="SemiBold" />
+      <Setter Property="FontSize" Value="14" />
+      <Setter Property="Cursor" Value="Hand" />
+      <Setter Property="BorderThickness" Value="0" />
+      <Setter Property="Template">
+        <Setter.Value>
+          <ControlTemplate TargetType="Button">
+            <Border x:Name="BtnSurface" Background="{TemplateBinding Background}"
+                    CornerRadius="10" Padding="{TemplateBinding Padding}">
+              <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" RecognizesAccessKey="True"/>
+            </Border>
+            <ControlTemplate.Triggers>
+              <Trigger Property="IsMouseOver" Value="True">
+                <Setter TargetName="BtnSurface" Property="Background" Value="#086F55" />
+              </Trigger>
+              <Trigger Property="IsPressed" Value="True">
+                <Setter TargetName="BtnSurface" Property="Background" Value="#064E41" />
+              </Trigger>
+              <Trigger Property="IsEnabled" Value="False">
+                <Setter TargetName="BtnSurface" Property="Background" Value="#AECBC4" />
+              </Trigger>
+            </ControlTemplate.Triggers>
+          </ControlTemplate>
+        </Setter.Value>
+      </Setter>
+    </Style>
+    <Style x:Key="LightButton" BasedOn="{StaticResource GreenButton}" TargetType="Button">
+      <Setter Property="Background" Value="#E4F3EE" />
+      <Setter Property="Foreground" Value="#07674D" />
+      <Setter Property="Template">
+        <Setter.Value>
+          <ControlTemplate TargetType="Button">
+            <Border x:Name="BtnSurface" Background="{TemplateBinding Background}"
+                    BorderBrush="#CDE7DD" BorderThickness="1" CornerRadius="10"
+                    Padding="{TemplateBinding Padding}">
+              <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" RecognizesAccessKey="True"/>
+            </Border>
+            <ControlTemplate.Triggers>
+              <Trigger Property="IsMouseOver" Value="True"><Setter TargetName="BtnSurface" Property="Background" Value="#D5EAE4" /></Trigger>
+              <Trigger Property="IsPressed" Value="True"><Setter TargetName="BtnSurface" Property="Background" Value="#BADFD1" /></Trigger>
+              <Trigger Property="IsEnabled" Value="False"><Setter TargetName="BtnSurface" Property="Background" Value="#EEF2F2" /></Trigger>
+            </ControlTemplate.Triggers>
+          </ControlTemplate>
+        </Setter.Value>
+      </Setter>
+    </Style>
+    <Style x:Key="PathStyle" TargetType="TextBox">
+      <Setter Property="FontFamily" Value="Segoe UI" />
+      <Setter Property="FontSize" Value="14" />
+      <Setter Property="Foreground" Value="#162E36" />
+      <Setter Property="Background" Value="White" />
+      <Setter Property="BorderBrush" Value="#AFBEC6" />
+      <Setter Property="BorderThickness" Value="1" />
+      <Setter Property="Padding" Value="12,8" />
+      <Setter Property="VerticalContentAlignment" Value="Center" />
+    </Style>
+  </Window.Resources>
+
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="154"/>
+      <RowDefinition Height="*"/>
+      <RowDefinition Height="68"/>
+    </Grid.RowDefinitions>
+
+    <!-- Banner derived from the approved reference: continuous gradient, two title blocks and golf image -->
+    <Border Grid.Row="0" Background="#092D2E" ClipToBounds="True">
+      <Image x:Name="HeaderImage" Stretch="Fill" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+    </Border>
+
+    <!-- The main page does NOT scroll; only the diagnostic log scrolls internally. -->
+    <Grid Grid.Row="1" Margin="22,14,22,8">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="140"/>
+        <RowDefinition Height="82"/>
+        <RowDefinition Height="106"/>
+        <RowDefinition Height="*"/>
+      </Grid.RowDefinitions>
+
+      <Border Grid.Row="0" Style="{StaticResource Card}">
+        <Grid>
+          <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+          </Grid.RowDefinitions>
+          <TextBlock Grid.Row="0" Text="Cartella di installazione del gioco" Style="{StaticResource SectionHeading}" />
+          <Grid Grid.Row="1" Margin="0,11,0,6" VerticalAlignment="Center">
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="*"/>
+              <ColumnDefinition Width="12"/>
+              <ColumnDefinition Width="136"/>
+            </Grid.ColumnDefinitions>
+            <TextBox x:Name="PathText" Grid.Column="0" Height="42" Style="{StaticResource PathStyle}"
+                     ToolTip="Incolla qui il percorso o scegli la cartella del gioco" />
+            <Button x:Name="BrowseButton" Grid.Column="2" Height="42" Content="Sfoglia..."
+                    Style="{StaticResource LightButton}" />
+          </Grid>
+          <TextBlock x:Name="PathHint" Grid.Row="2" Text="Seleziona la cartella Normal che contiene Normal Golf Game.exe."
+                     Style="{StaticResource Explanation}" />
+        </Grid>
+      </Border>
+
+      <Border Grid.Row="1" Style="{StaticResource Card}">
+        <Grid VerticalAlignment="Center">
+          <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+          <CheckBox x:Name="AutoDeps" Grid.Row="0" IsChecked="True" FontWeight="SemiBold" FontSize="14"
+                    Foreground="{StaticResource Ink}" VerticalAlignment="Center">
+            <TextBlock Text="Installa automaticamente BepInEx 5 e XUnity se mancanti" TextWrapping="Wrap" />
+          </CheckBox>
+          <TextBlock Grid.Row="1" Margin="22,5,0,0" Style="{StaticResource Explanation}"
+                     Text="Scaricati solo se necessari, dalle release ufficiali. File verificati con SHA-256." />
+        </Grid>
+      </Border>
+
+      <Border Grid.Row="2" Style="{StaticResource Card}" Padding="18,10">
+        <Grid>
+          <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+          <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+            <TextBlock x:Name="ProgressTitle" Text="Pronto per installare" Style="{StaticResource SectionHeading}" />
+            <TextBlock x:Name="ProgressPercent" Grid.Column="1" Text="In attesa" FontSize="12.5"
+                       VerticalAlignment="Center" Foreground="{StaticResource Muted}" />
+          </Grid>
+          <ProgressBar x:Name="Progress" Grid.Row="1" Value="0" Maximum="100" Height="9" Margin="0,8,0,3"
+                       Foreground="#0A966B" Background="#DEEAEA" BorderThickness="0"/>
+          <TextBlock x:Name="ProgressHint" Grid.Row="2" Text="Seleziona il percorso e premi Installa la traduzione."
+                     Style="{StaticResource Explanation}" />
+        </Grid>
+      </Border>
+
+      <Border Grid.Row="3" Background="#FBFDFE" BorderBrush="#D6E4E9" BorderThickness="1"
+              CornerRadius="15" Padding="18,12">
+        <Grid>
+          <Grid.RowDefinitions><RowDefinition Height="24"/><RowDefinition Height="*"/></Grid.RowDefinitions>
+          <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+            <TextBlock Text="Dettagli installazione" Style="{StaticResource SectionHeading}" />
+            <TextBlock Grid.Column="1" Text="Registro locale, nessun invio dati" FontSize="11.5"
+                       Foreground="{StaticResource Muted}" VerticalAlignment="Center" />
+          </Grid>
+          <TextBox x:Name="LogText" Grid.Row="1" IsReadOnly="True" BorderBrush="#DDE7EB" BorderThickness="1"
+                   Background="#F7FAFC" Foreground="#38565C" FontFamily="Consolas" FontSize="12.5"
+                   Padding="11,8" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto"
+                   HorizontalScrollBarVisibility="Disabled" VerticalAlignment="Stretch" />
+        </Grid>
+      </Border>
+    </Grid>
+
+    <Border Grid.Row="2" BorderThickness="0,1,0,0" BorderBrush="#DFE8EA" Background="#FFFFFF">
+      <Grid Margin="22,10">
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="Auto"/><ColumnDefinition Width="*"/>
+          <ColumnDefinition Width="Auto"/><ColumnDefinition Width="12"/><ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <Border Grid.Column="0" Background="#DFF3EA" CornerRadius="12" Padding="12,7" VerticalAlignment="Center">
+          <TextBlock Text="BETA 0.9" Foreground="#08694D" FontWeight="Bold" FontSize="12" />
+        </Border>
+        <TextBlock Grid.Column="1" Text="Patch gratuita e non ufficiale · Backup automatici"
+                   VerticalAlignment="Center" Margin="14,0,10,0" Foreground="{StaticResource Muted}"
+                   FontSize="12" TextTrimming="CharacterEllipsis" />
+        <Button x:Name="OpenFolderButton" Grid.Column="2" Content="Apri cartella" Height="42" MinWidth="126"
+                Visibility="Collapsed" Style="{StaticResource LightButton}" />
+        <Button x:Name="InstallButton" Grid.Column="4" Content="Installa la traduzione" Height="42" MinWidth="206"
+                Style="{StaticResource GreenButton}" />
+      </Grid>
+    </Border>
+  </Grid>
+</Window>

@@ -1,0 +1,882 @@
+# Normal Golf Game Italian I2 translations, original terms from resources.assets
+Back	Indietro
+Change Color	Cambia colore
+Completed	Completato:
+Configure Controls	Configura i comandi
+Continue	Continua
+Control	Comando
+Controls	Comandi
+Credits	Riconoscimenti
+Credits_Arcade	Cabinati arcade
+Credits_Art	Grafica aggiuntiva
+Credits_Attribution_1	Icone dei controller di Kenney.nl
+Credits_End	Grazie per aver giocato!
+Credits_Game_By	Progettato e realizzato da
+Credits_Music	Musica e audio aggiuntivo
+Credits_Narrative	Storia e testi
+Credits_Playtesters	Tester
+Credits_Programming	Programmazione aggiuntiva
+Credits_Supported_By	Con il prezioso supporto di
+Credits_Thanks	Ringraziamenti speciali
+Credits_Traditional_Country	Sviluppato sulle terre tradizionali dei popoli Jagera e Turrbal, nel Queensland
+Drop	Lascia
+Equipment	Equipaggiamento
+Exit	Esci
+Exit to Menu	Torna al menu
+Fullscreen	Schermo intero
+Gamepad	Controller
+Gamepad Controls	- Comandi del controller -
+Grab	Afferra
+Keyboard	Tastiera
+Keyboard Controls	- Comandi della tastiera -
+Langauge	Imposta lingua
+Loading Save State	Caricamento del salvataggio...
+Look	Guarda
+Music Volume	Volume musica
+Next	Avanti
+Off	Disattivato
+On	Attivato
+Open Shop	Apri il negozio
+Paused	- In pausa -
+Press button to assign	Premi un tasto per assegnarlo
+Random Selection	Selezione casuale:
+Read	Leggi
+Reset All	Ripristina tutto
+Restart	Ricomincia
+Resume	Riprendi
+Retry	Riprova
+SFX Volume	Volume effetti sonori
+Save and Exit	Salva ed esci
+Screen Mode	Modalità schermo
+Screen Shake	Scuotimento schermo
+Select	Seleziona
+Select Language	- Seleziona lingua -
+Select Upgrade	Seleziona potenziamento
+Set	Imposta
+Settings	- Impostazioni -
+Skip	Salta
+Statistics	Statistiche
+Tip	Suggerimento:
+Visual Quality	Qualità grafica
+Windowed	In finestra
+Give Up Bounty	Tieni premuto [Reset] per rinunciare
+Exit Bounty	Tieni premuto [Reset] per uscire
+Cannot Quick Reset	Impossibile ripristinare rapidamente la sfida
+Restarted Challenge	Sfida multicolpo riavviata
+Restart Challenge	Premi [Restart] per ricominciare
+Restart Challenge Long	Avvicinati alla palla per continuare.
+Golf Prompt	[Switch] per giocare a golf
+Activate Bounty	[Switch] per attivare la sfida
+Collect	[Use] per raccogliere
+Next Shot	[Switch] per il colpo successivo
+Bounty Accepted	Sfida accettata
+Bounty Complete	Sfida completata
+Bounty Failed	Sfida fallita
+Shot	Colpo
+Reward	RICOMPENSA
+Driver	Driver
+Hybrid	Hybrid
+Putter	Putter
+Iron	Iron
+Wedge	Wedge
+Range	Distanza
+Loft	Loft
+Path	Traiettoria
+Backspin	Backspin
+Clubs	Mazze
+Reset	Ripristina
+Time	Tempo:
+Strokes	Colpi:
+Power	POTENZA
+Complete	<wave>COMPLETATO!
+Bounty Challenge	SFIDA A PREMIO
+Angle Icon	ANGOLO <sprite name="angleIcon">
+Spin Icon	SPIN <sprite name="spinIcon">
+Bank	Banca
+Multi Hit Ball	MODALITÀ MULTICOLPO ATTIVA
+Journal	Diario
+Launch Angle	Angolo di lancio
+Hold Stance	Tieni premuto [StanceHold]
+Hold Club	Tieni premuto [ClubHold]
+Reset Stance	Ripristina: [JoystickClick]
+Input Message	<b>Consigliati mouse e tastiera.</b>\nI controller funzionano benissimo, ma per alcuni giocatori sono più difficili da usare.
+Streamer Mode	Attivare la modalità streamer?\n<size=24>Disattiva soltanto la musica che potrebbe provocare reclami per copyright.\nAl momento Luke Muscat non può permettersi un musicista per più di un brano...
+Streamer Mode Yes	Sì, disattiva la musica
+Streamer Mode No	No, lascia la musica attiva
+Delete Prompt	Eliminare il salvataggio e ricominciare?
+Yes Delete	Sì, elimina il salvataggio
+Cancel	Annulla
+Wishlist Now	Aggiungi alla lista dei desideri
+Discord Button	Commenti? Bug?\nClicca per unirti al server Discord.
+Buy Putter	[Use] per acquistare il putter
+Buy Driver	[Use] per acquistare il driver
+Buy Wedge	[Use] per acquistare il wedge
+Buy Hybrid	[Use] per acquistare l’ibrido
+Price	Prezzo
+Out of Stock	Esaurito
+Red	Rosso
+Blue	Blu
+Green	Verde
+Yellow	Giallo
+Purple	Viola
+Taupe	Tortora
+Yes	Sì
+Delete	Elimina
+Error	Errore
+Difficulty Pick This	<wave>Consigliato
+Difficulty	Difficoltà
+Difficulty Normal	Modalità normale
+Difficulty Normal Info	- L'esperienza di gioco prevista!\n- <b>Capiterà</b> di sbagliare i colpi: è difficile\n- I colpi riusciti danno grandi soddisfazioni\n- Angolo ed effetto calcolati separatamente
+Difficulty Easy	Modalità senza oscillazioni
+Difficulty Easy Info	- <b>Molto</b> più facile\n- Imposti angolo della mazza ed effetto una volta sola, così non farai slice o hook per sbaglio\n- Alcuni obiettivi non sono disponibili
+Difficulty Hard	Modalità realistica
+Difficulty Hard Info	- Ancora più difficile!\n- Calcolo dell'effetto più realistico, basato sull'angolo della faccia della mazza rispetto alla traiettoria.\n- Nessun aiuto per la forma del tiro né barra della potenza. Imparare è più difficile.
+Difficulty Change Any Time	Puoi cambiare modalità in qualsiasi momento dal menu di pausa
+Difficulty Change	Cambia modalità
+Confirm	Conferma
+Golf	Una normalissima partita a golf
+Next With Prompt	Avanti - <size=80%>[Reset]
+Reset With Prompt	Ripristina - <size=80%>[Reset]
+SuperEasy	Super facile
+Easy	Facile
+Medium	Gestibile
+KindaHard	Intermedio
+Hard	Difficile
+VeryHard	Molto difficile
+Nightmare	Incubo
+SuperNightmare	Diabolico
+ActuallyImpossible	Impossibile
+Offline	<wiggle>ERRORE\nOFFLINE
+Hide Hands	Nascondi le mani
+Janky Trees	Alberi grezzi
+Physics Arms	Fisica delle braccia
+Multi Hit Continue	Continua la sfida multicolpo.
+Reset Multi Hit	Torna al punto di partenza!
+Teleport	[Use] per teletrasportarti
+Get Crowbar	[Use] per prendere il piede di porco
+Find Ball	[Use] per riscuotere la ricompensa
+Break Lock	[Use] per rompere il lucchetto
+Talk to Luke	[Use] per parlare con Luke
+Buy Ticket	[Use] per comprare un biglietto
+Recommend Putter	Putter consigliato
+Recommend Wedge	Wedge consigliato
+Recommend Iron	Ferro consigliato
+Recommend Hybrid	Ibrido consigliato
+Recommend Driver	Driver consigliato
+Shoot From Anywhere	Tira da qualsiasi punto
+Press Button	[Use] per premere il pulsante
+Show Access Card	[Use] per passare la tessera di accesso
+No Card Message	Tessera di accesso non trovata
+No Entry	VIETATO L’ACCESSO OLTRE QUESTO PUNTO
+Lukes Office	UFFICIO DI LUKE\nVIETATO ENTRARE
+Comms Room	Sala server e comunicazioni
+Comms Room Small	Controlli complessi all’interno. Solo personale qualificato.
+Continue Challenge	Continua la sfida
+Retake Shot	Ripeti il colpo <rainb>(penalità di 1 colpo!)</rainb>
+Exit Challenge	Esci dalla sfida
+LMUGC Menu Prompt	Premi [Reset] per vedere le opzioni
+Quit LMUGC	{LMUGCPlain}: fallita
+Go To Next Tee	Vai al <swing>prossimo tee</swing>. La palla ti aspetta!
+Best Score	Miglior punteggio
+Best Score No Assist	Record senza aiuti
+Practice On	<wave>Allenamento - [Practice]</wave>
+Practice Off	Allenamento - [Practice]
+Must Exit LMUGC	Esci da {LMUGCPlain} prima di avviare una sfida.
+Start LMUGC	[Switch] per iniziare
+Mulligan	Usa un mulligan
+Left	rimasti
+No Wind	Vento assente per altri 60 secondi
+Skip Hole	Ottieni {Par} per questa buca
+Skip Hole No Style	Buca saltata: ottieni il Par!
+Buy Mulligan	[Use] per comprare 3 mulligan
+Buy No Wind	[Use] per eliminare il vento
+Buy Hole Skip	[Use] per saltare una buca
+Assist	Aiuti
+Mulligans Label	Mulligan:
+No Wind Label	Vento assente:
+Hole Skip Label	Buche saltate:
+Assist Label	Aiuti {LMUGCShort}
+Per Round	per giro
+Cut Server	[Use] per spegnere le telecamere
+Server Online	SERVER COMUNICAZIONI\n<size=16>TELECAMERE ONLINE \nCOLLEGAMENTO ESTERNO ATTIVO
+Server Offline	SERVER COMUNICAZIONI\n<size=16>TELECAMERE OFFLINE \nCOLLEGAMENTO ESTERNO INTERROTTO
+Pro Shop Secure	PRO SHOP (PIANO SUPERIORE)\nPROTETTO
+Pro Shop Not Secure	PRO SHOP (PIANO SUPERIORE)\n! NON PROTETTO !
+Bunker Secure	BUNKER IN MONTAGNA\nPROTETTO
+Bunker Not Secure	BUNKER IN MONTAGNA\n! NON PROTETTO !
+Open Bunker	[Use] per sbloccare il bunker
+Bunker Closed	Bunker di emergenza\n<size=16>CHIUSO
+Bunker Open	Bunker di emergenza\n<size=16>APERTO
+Offline Bounty	<color=#FFFFFF>OFFLINE
+Fast Forward	[Reset] per avanzare rapidamente
+Bounties Online	SFIDE\nONLINE
+Bounties Offline	SFIDE\n! OFFLINE !
+Know Your Golf	Conosci il tuo golf
+Total	Totale
+Anti Cheese	Devi fare clic sulle mani per iniziare lo swing
+You Have	Hai
+Disable Power Bar	Disattiva la barra di potenza
+Disable Shot Shape Helper	Disattiva l’indicatore della traiettoria
+Disable Options	Sperimentale. Punta più sulle sensazioni che sugli indicatori.
+Enable Crosshair	Attiva il mirino
+Enable Motion Sickness Frame	Attiva la cornice anti-cinetosi
+Delete Story	Vuoi cancellare i progressi della storia e ricominciare?
+Delete Everything	Eliminare tutti i dati e ricominciare?\nQuesto include impostazioni e comandi personalizzati.
+Unlock Ball	Ogni volta che raggiungi il finale B, sblocchi una nuova palla casuale.\nElimina il salvataggio della storia per completare più volte il finale B.
+Select Ball	Seleziona la palla
+Always Run	[Sprint] per camminare anziché correre
+Bounties Count	Sfide completate: 
+Replay Bounty	Ripetizione della sfida
+Rangefinder Hint	Non dimenticare il telemetro!\n[Zoom]
+Dialogue/LUKE	Luke Muscat
+Dialogue/INTRO_01	Mi chiedevo quando ti saresti fatto vivo. Ti aspetto da <wiggle>tutto il giorno</wiggle>.
+Dialogue/INTRO_02	Ci siamo parlati la settimana scorsa, ricordi? Quando ti sei iscritto. Sono <color=#FF107D>Luke Muscat</color> e ho progettato io tutta questa esperienza.
+Dialogue/INTRO_03	Tu... non ricordi niente? Proprio niente?
+Dialogue/INTRO_04	La quota d'iscrizione? Le liberatorie? Nemmeno la <wiggle>Sfida di golf definitiva</wiggle>?
+Dialogue/INTRO_05	Wow. Allora per te sarà una giornata ancora più assurda del previsto.
+Dialogue/INTRO_06	Per fortuna hai già firmato il contratto. Ed eri in uno stato mentale <rainb>assolutamente razionale</rainb>. Quindi ormai non puoi tirarti indietro.
+Dialogue/INTRO_07	Ora ti addebito soltanto i <color=#FF4800>100.000 $</color> d'iscrizione...
+Dialogue/INTRO_08	E puoi cominciare le sfide introduttive dalla <color=#00FF00>piazzola di partenza</color>. Sono sicuro che la troverai senza problemi.
+Dialogue/TUTORIAL_01	Ottimo inizio! Mi sa che stai cominciando a prendere il... <swing>ritmo</swing> giusto!
+Dialogue/TUTORIAL_02	Scusa, preparati a sentirne parecchie di battute così.
+Dialogue/TUTORIAL_02b	...
+Dialogue/TUTORIAL_02c	Con me è tutto nella norma: è il {Par} del mestiere.
+Dialogue/TUTORIAL_03	Ah, a proposito: ti hanno portato via l'auto col carro attrezzi.
+Dialogue/TUTORIAL_04	Perché quella faccia stupita? Hai parcheggiato proprio davanti a un cartello di <color=#FF4800>DIVIETO DI SOSTA</color>. Ce ne sono ovunque.
+Dialogue/TUTORIAL_05	Ah, dimenticavo. Si poteva parcheggiare quando abbiamo celebrato l'ultimo campione della <wiggle>Sfida di golf definitiva</wiggle>... ma era un permesso temporaneo.
+Dialogue/TUTORIAL_06	Fammi un favore: distruggi le assi che coprono i cartelli. Intanto chiamo il carro attrezzi per te.
+Dialogue/BROKE_SIGNS_01	<whisper>Non ci credo che abbiano fatto tutto gratis...</whisper> OH, CIAO! Sei già tornato.
+Dialogue/BROKE_SIGNS_02	Senti, lo so che i <color=#FF4800>100.000 $</color> di quota e la faccenda dell'auto ti hanno colto alla sprovvista. Ma niente paura: <color=#FF107D>Luke Muscat</color> è qui per aiutarti.
+Dialogue/BROKE_SIGNS_03	Parlerò io con quelli del carro attrezzi. Sono sempre da queste parti, e conosco l'autista da una vita.
+Dialogue/BROKE_SIGNS_04	Spero di raggiungerli prima che sia troppo tardi. Certo che ci hai messo un bel po' a completare le sfide introduttive...
+Dialogue/BROKE_SIGNS_05	Nel frattempo torniamo a qualche normale lezione di golf. Queste sfide strampalate sono così <swing>infantili</swing>.
+Dialogue/FOUND_CASH_01	I miei commercialisti mi avevano avvertito che sarebbe arrivata una recessione tremenda e mi avevano consigliato di tenere dei contanti.
+Dialogue/FOUND_CASH_02	Per sicurezza li ho diversificati. Nel senso che li ho sparsi fisicamente per tutta la mappa... <whisper>ehm...</whisper> volevo dire, il campo.
+Dialogue/FOUND_CASH_03	I miei avvocati mi hanno anche spiegato che, vista la <wiggle>natura particolare</wiggle> di questa proprietà, vale la regola <rainb>chi trova, tiene</rainb>. Legalmente parlando.
+Dialogue/FOUND_CASH_04	Ma ora comincio a pensare che i miei commercialisti e avvocati siano degli idioti...
+Dialogue/BOUNTY_01	Niente male. Rispetto agli altri giocatori ci hai messo soltanto... <whisper>oh...</whisper>
+Dialogue/BOUNTY_02	Ora avremmo dovuto provare qualche putt, ma non hai un putter.
+Dialogue/BOUNTY_03	E non hai neanche i soldi per <wiggle>COMPRARE</wiggle> il putter. Dove sono finiti tutti i tuoi soldi? Ti sei davvero indebitato per partecipare?
+Dialogue/BOUNTY_04	È il momento perfetto per presentarti le sfide a premio. Sono sparse per il campo e sono <swing>il</swing> modo per guadagnare denaro. Che ti serve per riavere l'auto e sca-<whisper>coff</whisper> andartene.
+Dialogue/BOUNTY_05	Alcune sono facili, altre quasi impossibili. Alcune si sbloccano completandone altre. Sei libero di affrontarle nell'ordine che preferisci.
+Dialogue/BOUNTY_06	Ora devo solo farle apparire con le parole magiche... <code>foreach(Bounty b in Bounties)   b.gameObject.SetActive(true);</code>
+Dialogue/BULLETPROOF_00	Ma guarda un po'.
+Dialogue/BULLETPROOF_01	Pensi di essere il primo a provare a distruggere il mio prezioso negozio?
+Dialogue/BULLETPROOF_02	Il vetro, le telecamere e <whisper>quasi</whisper> tutto quello che c'è dentro sono <code>antiproiettile.</code>
+Dialogue/BULLETPROOF_03	Sarebbe tutto molto più semplice per tutti se ti concentrassi su quello che devi fare.
+Dialogue/DEMO_00	Comunque, è adesso che le cose si fanno interessanti. C'è un campo enorme da esplorare, sfide da scoprire, mazze da comprare e molte, <wiggle>moltissime</wiggle> altre prove.
+Dialogue/DEMO_01	Ma... tutto questo dovrà aspettare, perché questa è <code>solo la demo</code>.
+Dialogue/DEMO_02	Non eri <wiggle>davvero indebitato</wiggle>: era solo una prova. Lascia che ti restituisca tutti i tuoi soldi...
+Dialogue/DEMO_03	Puoi cancellare il salvataggio dal menu principale, provare una <rainb>speedrun della demo</rainb> e vedere qui, alla fine, il tempo e i colpi impiegati.
+Dialogue/DEMO_04	Ho anche attivato alcune <code>sfide a premio</code> facoltative, sparse in giro, se vuoi metterti alla prova con qualcosa di più impegnativo.
+Dialogue/DEMO_05	Ma prima dovresti <code>aggiungere il gioco alla lista dei desideri</code>. Non costa nulla, e più persone lo fanno, migliore potrò renderlo.
+Dialogue/DEMO_06	A presto. E ricorda: la prossima volta perderai davvero tutti i tuoi soldi...
+Dialogue/BOUGHTPUTTER_00	Ah, sì. L'umile putter.
+Dialogue/BOUGHTPUTTER_01	Sembra innocuo, ma per molti è la mazza più difficile del gioco.
+Dialogue/BOUGHTPUTTER_02	Vai nell'area di allenamento <wiggle>serissima</wiggle> e <wiggle>realisticissima</wiggle>. Ho già aperto il cancello col lucchetto.
+Dialogue/BUYDRIVER_00a	Bel colpo con quel putt finale. Il green della {Hole 1} è uno dei più difficili del campo.
+Dialogue/BUYDRIVER_00b	Certo, i putt sono sempre più facili quando non hai la pressione di dover chiudere in {Par}.
+Dialogue/BUYDRIVER_00c	Se vuoi mettere davvero alla prova le tue abilità, ho aggiunto sfide a premio per il {Par} e il {Birdie} su ogni buca.
+Dialogue/BUYDRIVER_00d	Naturalmente per ora hai accesso solo alla {Hole 1}, ma presto cambierà...
+Dialogue/BUYDRIVER_00	Perché penso tu sia pronto per la mazza che tutti amiamo odiare e odiamo amare.
+Dialogue/BUYDRIVER_01	Il pezzo grosso. Il driver. L'ho appena rimesso in vendita... <wiggle>ora</wiggle>.
+Dialogue/BUYDRIVER_02	Che coincidenza assurda, visto che fa anche da meccanismo di blocco per proseguire nelle sfide, eh?
+Dialogue/BUYDRIVER_03	Comunque, completa qualche altra sfida e compra il driver quando sei pronto.
+Dialogue/BOUGHTDRIVER_00	Beh, questo ragazzaccio non ha proprio nulla di umile.
+Dialogue/BOUGHTDRIVER_01	Vai alla {Hole 2} e prova il tuo nuovo driver in qualche sfida.
+Dialogue/BOUGHTDRIVER_02	Ancora una volta devo pronunciare la formula magica... <code>ProgressManager.instance.m_objectStates.UnlockGates("Hole2");</code>
+Dialogue/DEMOBUG_00	Ehi, ehi, ehi! Aspetta un secondo. Che succede qui?
+Dialogue/DEMOBUG_01	Pensi di poter scappare dall'area della demo?
+Dialogue/DEMOBUG_02	Cos'è stato? Una mod che hai scaricato? Un trucco sui salvataggi? O mi sono proprio dimenticato di mettere una collisione?
+Dialogue/DEMOBUG_03	Comunque, si torna al parcheggio.
+Dialogue/AUTOCOMPLETE_00	Ehi, hai completato questa sfida {Multi Hit}!
+Dialogue/AUTOCOMPLETE_01	Nel caso non te ne fossi accorto, con questa prestazione avresti completato anche un'altra sfida.
+Dialogue/AUTOCOMPLETE_02	Per riconoscere il risultato, le ho segnate entrambe come completate e ti ho dato entrambe le ricompense.
+Dialogue/AUTOCOMPLETE_03	Tutta questa messinscena potrebbe farmi sembrare antipatico, ma come puoi vedere sono dalla tua parte!
+Dialogue/TELEUNLOCK_00	Bel viaggetto, vero? Spero che strada facendo tu abbia visto qualche posto interessante da esplorare più tardi.
+Dialogue/TELEUNLOCK_01	Ora non indovinerai mai cosa devo mostrarti alla club house.
+Dialogue/TELEUNLOCK_02	O era il negozio? Continuo a dimenticare qual è il nome ufficiale. Comunque, hai capito.
+Dialogue/TELEUNLOCK_03	So cosa stai pensando: «Uffa, devo rifarmi tutta la strada? E corro pure così piano?!»
+Dialogue/TELEUNLOCK_04	Beh, guarda qua.
+Dialogue/TELEUNLOCK_04b	Ti ho costruito un teletrasporto.
+Dialogue/TELEUNLOCK_05	Cosa, ti aspettavi qualcosa di più spettacolare? Teletrasportarsi è semplicissimo, non serve fare tutto questo cinema.
+Dialogue/TELEUNLOCK_06	Comunque, attraversa il teletrasporto e torna al negozio del club, così ti mostro cosa ti aspetta.
+Dialogue/WEDGESTOCK_00	Bene, sei pronto?
+Dialogue/WEDGESTOCK_00_b	Tre... due... uno... ta-daa!
+Dialogue/WEDGESTOCK_01	<whisper>Aspetta un attimo, perché sbaglio sempre questa cosa?</whisper>
+Dialogue/WEDGESTOCK_02	Ta-daa!
+Dialogue/WEDGESTOCK_03	Il wedge è di nuovo disponibile. Tutti quei colpi corti d'approccio sono molto più facili con questo che con il ferro.
+Dialogue/WEDGESTOCK_04	Avrai notato che questa mazza costa più delle altre.
+Dialogue/WEDGESTOCK_05	Stai avanzando <wiggle>abbastanza</wiggle> in fretta, quindi devo assicurarmi che tu non ti perda tutto il divertimento aggiuntivo.
+Dialogue/WEDGESTOCK_06	Ah, e il teletrasporto funziona in entrambe le direzioni. Dimenticavo di dirtelo.
+Dialogue/WEDGESTOCK_07	Comunque, completa qualche sfida e procurati il wedge!
+Dialogue/BUYWEDGE_00	Hai preso il wedge: quattro mazze su cinque.
+Dialogue/BUYWEDGE_01	Oh, ti aspettavi una sacca completa da 14 mazze? Mi spiace, questo non è un megastore del golf. Hai notato quanto è isolato questo campo?
+Dialogue/BUYWEDGE_02	È già stato abbastanza difficile far arrivare qui queste mazze. E poi limitare le opzioni è il modo migliore per mettere davvero alla prova le tue abilità.
+Dialogue/BUYWEDGE_03	Comunque, torna alla {Hole 5} con il teletrasporto e proviamo qualche sfida con i colpi d'approccio!
+Dialogue/CLIMBING_00	Questo qui è uno dei miei posti preferiti di tutto il campo.
+Dialogue/CLIMBING_01	Adoro guardare quelle pareti lassù. Le scalerei, se solo avessi qualcuno che mi facesse sicura.
+Dialogue/CLIMBING_02	Comunque, per fortuna tu non sai arrampicare. Altrimenti sarebbe molto più difficile tenerti...
+Dialogue/CLIMBING_03	Ehm. Tenerti... lontano dalle DISTRAZIONI. Dopotutto siamo qui solo per giocare a golf! Lo sport migliore, più normale e meno frustrante del mondo.
+Dialogue/OPENBAR_00	Ottimo lavoro! Hai preso la mano con il wedge. Penso tu sia pronto per esplorare il resto del campo. Apro questo cancello pronunciando le parole magiche...
+Dialogue/OPENBAR_01	<code>ProgressManager.instance.m_objectStates.UnlockGates("Hole6");</code>
+Dialogue/OPENBAR_02	Ma che diavolo?
+Dialogue/OPENBAR_03	Oh, ehm... forse era più qualcosa del tipo... <code>ProgressManager.instance.m_objectStates.UnlockGates("hole_6");</code>
+Dialogue/OPENBAR_04	Va bene, ecco... che imbarazzo.
+Dialogue/OPENBAR_05	Devo aver configurato male tutta questa roba.
+Dialogue/OPENBAR_06	Hai visto il piede di porco nella club house? Quello dietro il bancone? Vai a prenderlo, torna qui e spacca il lucchetto alla vecchia maniera, per favore.
+Dialogue/OPENBAR_07	Ma, qualsiasi cosa tu faccia... <color=#FF4800>NON</color> andare al piano di sopra.
+Dialogue/OPENBAR_08	Il piano di sopra è riservato SOLO al personale. E ti terrò d'occhio.
+Dialogue/UPSTAIRS_00	Ehi, che ti avevo detto sul salire di sopra?
+Dialogue/UPSTAIRS_01	Non posso avere un po' di privacy? Non si tratta di me, ma di far divertire TE.
+Dialogue/UPSTAIRS_02	Quindi lasciami in pace. Io faccio il mio lavoro e tu fai il tuo. Che è giocare. A golf.
+Dialogue/GOTCROWBAR_00	Bene, ora torna a spaccare quel lucchetto per me.
+Dialogue/BUSTEDLOCK_00	Grazie dell'aiuto. Non so davvero cosa sia successo. Sono da solo a gestire tutto, quindi è bello avere giocatori disposti a dare una mano!
+Dialogue/BUSTEDLOCK_01	Ricordami di riprendermi quel piede di porco, più tardi. Non vorremmo che tu distruggessi altri lucchetti, vero?
+Dialogue/BUSTEDLOCK_02	Comunque, guarda qui! Hai una nuova area ENORME da esplorare.
+Dialogue/BUSTEDLOCK_03	Ora puoi accedere a tutte e nove le buche e, naturalmente, a tantissime nuove sfide entusiasmanti.
+Dialogue/BUSTEDLOCK_04	Questo, più o meno, è tutto il complesso. Puoi esplorare <swing>quasi</swing> tutto quello che vuoi!
+Dialogue/BUSTEDLOCK_06	Guardati pure intorno. Quando sei pronto, raggiungimi in cima alla montagna...
+Dialogue/EXPLORED_00	Un posto spettacolare, eh? L'ho costruito tutto da solo.
+Dialogue/EXPLORED_01	Ogni singolo fairway, green e bunker, realizzati pazientemente a mano.
+Dialogue/EXPLORED_02	È stato un lavoro immenso, ma ne sarà valsa la pena quando io... cioè, tu... avrai ottenuto lo swing perfetto.
+Dialogue/EXPLORED_03	Cosa? Vuoi andartene? Adesso?
+Dialogue/EXPLORED_04	Ma migliori a ogni colpo! Ti ho osservato attentamente. Sei passato da principiante a campione in pochissimo tempo.
+Dialogue/EXPLORED_05	E di certo non puoi permetterti di violare il contratto!
+Dialogue/EXPLORED_06	No... ora non puoi andartene.
+Dialogue/EXPLORED_07	Ti ho già detto che adesso l'ibrido è disponibile nel negozio?
+Dialogue/EXPLORED_08	Esatto! Così avrai la sacca completa e sarai quasi pronto per il grande evento.
+Dialogue/EXPLORED_09	Continua a esplorare, completare sfide e guadagnare denaro. Quando sei pronto, compra l'ultima mazza.
+Dialogue/BUYHYBRID_00	L'ibrido! Ora hai la sacca completa. Che traguardo!
+Dialogue/BUYHYBRID_01	Con tutte le mazze a disposizione, probabilmente sarà molto più facile puntare al {Par} e al {Birdie} sulle varie buche.
+Dialogue/BUYHYBRID_02	Anzi, sbloccherò nuove sfide per te, chiamate Par Plus.
+Dialogue/BUYHYBRID_03	Ce n'è una per ogni buca e... beh, vedrai.
+Dialogue/BUYHYBRID_04	Ma prima facciamo pratica con l'ibrido! Attraversa il teletrasporto nel bagno e raggiungi la partenza della {Hole 6}.
+Dialogue/LMUGCREADY_00	Impressionante. Hai imparato a usare tutte e cinque le mazze.
+Dialogue/LMUGCREADY_01	Il che significa che finalmente sei pronto per <wiggle>{LMUGC}</wiggle>!
+Dialogue/LMUGCREADY_02	Ovviamente... devi comprare un biglietto.
+Dialogue/LMUGCREADY_03	Ma una volta fatto potrai tentare tutte le volte che vorrai.
+Dialogue/LMUGCREADY_04	E fidati... il nome è azzeccato. Considerala una specie di <rainb>boss finale</rainb>. Metterà davvero alla prova la tua padronanza di questo grande e nobile sport.
+Dialogue/LMUGCREADY_05	Se devi guadagnare altri soldi, ti consiglio vivamente di completare le sfide {Par} e {Birdie}.
+Dialogue/LMUGCREADY_05b	Dovrai conoscere ogni buca come il palmo della tua mano guantata, se vuoi avere qualche possibilità.
+Dialogue/LMUGCREADY_06	Quando sei pronto, vieni a comprare il biglietto e organizzeremo questo gran finale.
+Dialogue/LMUGC_UNLOCKED_00	Ci siamo... è arrivato il grande momento.
+Dialogue/LMUGC_UNLOCKED_01	Benvenuto... a <wiggle>{LMUGC}</wiggle>.
+Dialogue/LMUGC_UNLOCKED_02	La sfida è semplice: gioca tutte e nove le buche di fila e chiudi con un punteggio totale pari o inferiore al {Par}. Vale a dire <colorgreen>34 colpi</colorgreen>.
+Dialogue/LMUGC_UNLOCKED_03	Qui non puoi ripristinare subito il colpo. Ogni tiro conta, proprio come nel <swing>golf vero</swing>.
+Dialogue/LMUGC_UNLOCKED_04	È difficile e richiederà molta pratica. Dovrai conoscere davvero il percorso. Fidati, lo so bene. Ho tentato e fallito questa sfida. <swing>Tantissime</swing> volte.
+Dialogue/LMUGC_UNLOCKED_05	Ma non sono mica un dittatore crudele che intrappola la gente in una sfida <rainb>impossibile</rainb>.
+Dialogue/LMUGC_UNLOCKED_06	Puoi comprare ogni genere di aiuto qui al negozio. Sono potenziamenti permanenti per {LMUGCShort} e danno una <wiggle>grossa</wiggle> mano.
+Dialogue/LMUGC_UNLOCKED_07	Decidi tu. Puoi macinare sfide per comprare gli aiuti e facilitarti la prova finale... oppure buttarti senza alcun aiuto.
+Dialogue/LMUGC_UNLOCKED_08	La macchina per avviare {LMUGC} è alla partenza della {Hole 1}.
+Dialogue/LMUGC_UNLOCKED_09	Quindi divertiti, buona fortuna e goditi questo gioco meraviglioso e perfetto. Il golf.
+Dialogue/LMUGC_COMPLETE_00	Aspetta... cosa?
+Dialogue/LMUGC_COMPLETE_01	Tu... ce l'hai fatta davvero?
+Dialogue/LMUGC_COMPLETE_02	Ma... io ho provato questa stessa sfida tantissime volte! <whisper>Doveva essere impos...</whisper>
+Dialogue/LMUGC_COMPLETE_03	Naturalmente questa è una notizia fantastica.
+Dialogue/LMUGC_COMPLETE_04	Fate partire i cannoni sparacoriandoli!
+Dialogue/LMUGC_COMPLETE_05	Ah, già. Mi sa che anche quella è una delle cose rimaste incompiute.
+Dialogue/LMUGC_COMPLETE_06	Comunque, ora puoi venire a ritirare il tuo fantastico premio! Anche la tua auto sarà pronta e potrai andartene.
+Dialogue/LMUGC_COMPLETE_07	Ritira il premio all'<rainb>Ufficio premi</rainb>.
+Dialogue/LMUGC_FAILED_00	Così vicino eppure così lontano. Ti serve un punteggio finale di 34 colpi: una media pari o inferiore al par.
+Dialogue/LMUGC_FAILED_01	E fidati, lo so per esperienza: è DIFFICILE. Ma se fosse facile non darebbe soddisfazione, no?
+Dialogue/LMUGC_FAILED_02	Puoi sempre comprare qualche aiuto nel negozio, come i mulligan o perfino la possibilità di saltare una buca. Non mollare: so che ce la puoi fare!
+Dialogue/LMUGC_FAILEDSHORT_00	Andrà meglio la prossima volta. Ti avevo detto che era dura.
+Dialogue/CAR_A_00	Whoa, da quando è crollata questa galleria?
+Dialogue/CAR_A_01	Dev'essere stato quello del carro attrezzi quando si è portato via il tuo prezioso veicolo.
+Dialogue/CAR_A_02	Ma va bene così. Non abbiamo mica tutta questa fretta, no?
+Dialogue/CAR_A_03	Non con tutto il divertimento che ci aspetta sul campo da golf!
+Dialogue/CAR_B_00	Allora, vuoi aggiornamenti sulla tua auto?
+Dialogue/CAR_B_01	Preferisci prima le buone o le cattive notizie?
+Dialogue/CAR_B_02	La cattiva notizia è che... in realtà non li ho ancora chiamati. Sono stato terribilmente occupato a fare in modo che <colorgold>tu</colorgold> ti divertissi!
+Dialogue/CAR_B_04	La buona notizia è che c'è ancora ogni possibilità che la tua auto funzioni perfettamente.
+Dialogue/CAR_B_05	Stai tranquillo: non c'è motivo di pensare che la tua auto sia andata a fuoco per qualche <wiggle>impulsivo atto di incendio doloso</wiggle>.
+Dialogue/MARKETINGDEPT_00	Va bene, senti. Ti dirò tutta la verità. Non esiste nessun grande premio.
+Dialogue/MARKETINGDEPT_01	Non avresti dovuto completare la sfida così presto.
+Dialogue/MARKETINGDEPT_02	Vedi, ti ho osservato con attenzione. Ogni swing. Ogni piccola correzione.
+Dialogue/MARKETINGDEPT_03	Ho analizzato ogni aspetto del tuo gioco.
+Dialogue/MARKETINGDEPT_04	Eppure... faccio <swing>ANCORA</swing> schifo a golf.
+Dialogue/MARKETINGDEPT_05	Com'è possibile? Come hai fatto a diventare così tanto più bravo di me in così poco tempo? Pensavo che studiando il modo in cui completi queste prove assurde sarei migliorato.
+Dialogue/MARKETINGDEPT_06	Ma adesso ho capito. Non ti osservavo abbastanza da vicino. I dati erano confusi, <wiggle>imperfetti</wiggle>.
+Dialogue/MARKETINGDEPT_07	Ecco perché ti ho portato qui.
+Dialogue/MARKETINGDEPT_08	Ora posso osservarti da ogni angolazione. <wiggle>Scoprirò il segreto dello swing da golf <colorgold>PERFETTO</colorgold></wiggle>.
+Dialogue/MARKETINGDEPT_09	E non preoccuparti: sarai libero di andartene non appena diventerò bravo in questo sport terribile e <colorpurple>maledetto</colorpurple>.
+Dialogue/LEAVEMARKETING_00	Ehi, dove credi di andare?
+Dialogue/LEAVEMARKETING_01	Non ho ancora finito di analizzare il tuo swing.
+Dialogue/SERVERROOM_00	Aspetta... hai ancora il piede di porco?! <whisper>Oh, no...</whisper>
+Dialogue/SERVERROOM_01	Senti, evitiamo gesti avventati. Torna qui e continua a colpire la palla. Sono sicuro di essere <wiggle>così vicino</wiggle> a scoprire il segreto dello swing perfetto.
+Dialogue/FINAL_00	Quindi... finalmente ci incontriamo.
+Dialogue/FINAL_01	Strano, vero? Dare un volto a una voce.
+Dialogue/FINAL_02	Per tutto questo tempo sono stato una presenza misteriosa che ti osservava da lontano. Ma sono, a tutti gli effetti, una persona vera.
+Dialogue/FINAL_03	So che sei arrabbiato. Ti ho preso l'auto. Ti ho preso i soldi. Ti ho intrappolato qui e trascinato in un'assurda caccia al tesoro.
+Dialogue/FINAL_04	È stato tutto un po'... elaborato. Ma ero disperato.
+Dialogue/FINAL_05	I golfisti prima di te si sono arresi prima che riuscissi a scoprire <wiggle>il segreto</wiggle>.
+Dialogue/FINAL_06	Prima che imparassi finalmente a padroneggiare e apprezzare questo sport <colorpurple>maledetto</colorpurple> più di ogni altro.
+Dialogue/FINAL_07	Quindi sì, ti ho ingannato. Ma spero tu apprezzi che ho anche <swing>cercato</swing> di rendere tutto divertente.
+Dialogue/FINAL_08	Guarda cos'ho costruito! Tutto questo l'ho fatto per te.
+Dialogue/FINAL_09	Avrei potuto semplicemente... truffarti, sparire con i tuoi soldi e usarli per ingaggiare una squadra di allenatori di livello mondiale.
+Dialogue/FINAL_10	Ma non l'ho fatto. Perché, nonostante tutto, volevo che <colorgreen>tu</colorgreen> ti divertissi.
+Dialogue/FINAL_11	E questo ci porta qui. Non riguarda più me. Ora riguarda soltanto te.
+Dialogue/FINAL_12	Adesso hai tu il potere. <colorgreen>Tu</colorgreen> puoi scegliere.
+Dialogue/FINAL_13	Potresti colpirmi con quella palla da golf. Vendicarti. Far <wiggle>scorrere i titoli di coda...</wiggle> su di me.
+Dialogue/FINAL_14	Tecnicamente potresti anche riuscire a trovare da solo la strada di casa... forse.
+Dialogue/FINAL_15	Oppure... potresti continuare a divertirti. Continuare a giocare a golf. Sono riuscito a riavviare il server e a riattivare tutte le sfide. Fidati, hai ancora tantissimo da fare!
+Dialogue/FINAL_16	Magari, se completassi <colorgold>100 sfide</colorgold>, riuscirei finalmente a scoprire il segreto dello swing perfetto...
+Dialogue/KEEP_PLAYING_00	... e quindi, come dicevo, se mi facessi fuori con una palla da golf non servirebbe a niente.
+Dialogue/KEEP_PLAYING_01	La tua auto non è esattamente <swing>in perfette condizioni</swing>. Siamo nel bel mezzo del nulla. Davvero, <wiggle>non c'è via d'uscita</wiggle>.
+Dialogue/KEEP_PLAYING_01a	Non che <colorgreen>tu</colorgreen> ti abbasseresti a un livello di <wiggle>violenza così meschina</wiggle>...
+Dialogue/KEEP_PLAYING_02	Quindi tanto vale continuare a giocare a golf. Continua a divertirti. <rainb>Per sempre</rainb>.
+Dialogue/KEEP_PLAYING_03	Chissà, magari se riuscissi a completare <colorgold>100 sfide</colorgold> potrei perfezionare il mio swing.
+Dialogue/KEEP_PLAYING_04	Dopo non avrei davvero nessun motivo per non aiutarti a tornare a casa.
+Dialogue/TRUEENDING_00	Tu... ce l'hai fatta davvero.
+Dialogue/TRUEENDING_01	Hai completato <colorgold>100 sfide</colorgold>!
+Dialogue/TRUEENDING_02	Eppure... il <colorpurple>mio</colorpurple> gioco non è migliorato per niente. Anche dopo averti osservato così a lungo. Mi sa che sono destinato a essere scarso a golf quanto lo sono a <code>programmare</code>.
+Dialogue/TRUEENDING_03	Per me non c'è speranza. Ma tu? Tu sei di un'altra categoria.
+Dialogue/TRUEENDING_04	Hai davvero un futuro. Potresti giocare nel circuito professionistico! O perlomeno diventare un fenomeno virale del golf, con la storia delle origini più incredibile dello sport.
+Dialogue/TRUEENDING_05	Non dovresti essere intrappolato qui. Il mondo deve vedere <colorgreen>te</colorgreen>, deve sapere chi <colorgreen>sei</colorgreen>.
+Dialogue/TRUEENDING_06	E per tua fortuna... posso aiutarti.
+Dialogue/TRUEENDING_07	Pensavo a manager. Agente. Esperto di immagine. Analista delle prestazioni. Direttore generale dello <swing>Swing</swing>.
+Dialogue/TRUEENDING_08	Prima riparerò la tua auto e rimuoverò le macerie dalla galleria.
+Dialogue/TRUEENDING_09	<swing>Dobbiamo</swing> portarti là fuori. Tu ti occupi del golf, io gestisco... tutte le altre cose, estremamente importanti.
+Dialogue/TRUEENDING_10	Vedrai che mi guadagnerò ampiamente il mio <colorgold>70%</colorgold>.
+Dialogue/TRUEENDING_11	Ora firma questo contratto <rainb>assolutamente ragionevole</rainb> e <wiggle>del tutto normale</wiggle>.
+Dialogue/TRUEENDING_12	Ho la sensazione che faremo strada.
+Dialogue/TRUEENDING_13	Andiamo!
+Dialogue/WAITINGTRUE_1_00	Ehilà, come procede? Hai già completato almeno <colorgold>100 sfide</colorgold>?
+Dialogue/WAITINGTRUE_1_01	Dovresti proprio continuare a giocare. Sono sicuro che la svolta nel mio swing arriverà da un momento all'altro!
+Dialogue/WAITINGTRUE_1_02	Cercare di scappare colpendomi con una palla da golf ti darebbe soltanto una vittoria vuota.
+Dialogue/WAITINGTRUE_2_00	Stai andando alla grande. Le <colorgold>100 sfide</colorgold> sono a portata di mano! Non mollare adesso.
+Dialogue/WAITINGTRUE_2_01	Sfogare la frustrazione tirandomi addosso una palla da golf darebbe soltanto una soddisfazione momentanea.
+Dialogue/WAITINGTRUE_2_02	Ma diventare <wiggle>entrambi</wiggle> maestri di golf? Quella sì che è una gloria eterna.
+Dialogue/WAITINGTRUE_3_00	Non riesco a credere che faccia ancora così schifo a golf dopo averti visto compiere piccoli miracoli sul campo!
+Dialogue/WAITINGTRUE_3_01	Ma ci siamo quasi. Lo sento. <swing>Riuscirò</swing> a scoprire <rainb>quell'unico trucchetto</rainb> che mi renderà un golfista decente.
+Dialogue/WAITINGTRUE_3_02	Continua a completare sfide e io continuerò a studiare. So che possiamo farcela. Credo in noi.
+Dialogue/ENDOFPLAYTEST_0	Grazie per aver giocato! Per ora la sessione di test finisce qui.
+Dialogue/ENDOFPLAYTEST_1	Questo salvataggio sarà valido anche nella versione completa, quindi quando uscirà potrai riprendere da qui.
+Dialogue/POSTCREDITS_0	Luke riuscì a riparare l'auto e a liberare la galleria.
+Dialogue/POSTCREDITS_1	Le tue incredibili abilità con i colpi e la tua storia ti trasformarono in un fenomeno virale...
+Dialogue/POSTCREDITS_2	... e in una stella del circuito professionistico.
+Dialogue/POSTCREDITS_3	I giudici dichiararono illegale il contratto che concedeva a Luke il 70% dei tuoi guadagni e gli consigliarono di non licenziare il proprio avvocato.
+Dialogue/POSTCREDITS_4	Dopo aver perso tutti i ricorsi, Luke scomparve di nuovo nel suo campo da golf insieme a Barkley.
+Dialogue/POSTCREDITS_5	Il suo handicap è +22.
+Challenges/Go to the ball	Vai alla palla
+Challenges/Ball in water	Palla persa! Riparti dalla piazzola.
+Challenges/Ball in water LMUGC	Palla persa! Ripeti il colpo o usa un mulligan.
+Challenges/Stand on the tee	Posizionati sulla piazzola di partenza
+Challenges/Practice Green	Area di allenamento
+Challenges/Hole 1 Green	Green della buca 1
+Challenges/Hole 2 Tee	Partenza della buca 2
+Challenges/Hole 6 Tee	Partenza della buca 6
+Challenges/Hole 6 Fairway	Fairway della buca 6
+Challenges/Near Bounty	Terminale delle sfide
+Challenges/Head back to tee	Torna alla partenza. Tieni premuto [Sprint] per correre!
+Challenges/Head to Green 1	Raggiungi il {green}.
+Challenges/Head to Green 2	Vai al putt successivo. Premi [Crouch] per osservare il {green}.
+Challenges/Inspect Green	Premi [Crouch] per osservare il {green}.
+Challenges/Head back to tee for bounty	Completa la sfida {Multi Hit}. Tieni premuto [Sprint] per correre!
+Challenges/Wishlist	Aggiungilo alla lista dei desideri <3
+Challenges/Press Switch to Golf	Premi [Switch] per giocare a golf
+Challenges/Smash down the old event signs.	Distruggi i vecchi cartelli dell'evento.
+Challenges/Go back to normal golf.	Torna al golf normale.
+Challenges/Go inside the pro shop	Entra nel negozio di golf.
+Challenges/Come back to the security gate	Torna al cancello di sicurezza.
+Challenges/CH_Tutorial_0	Colpisci la palla.\nUsa [Swing Input] per trascinare le mani e muovere la mazza!
+Challenges/CH_Tutorial_1	Colpisci la palla con un {Good Contact}. Il centro della faccia della mazza deve colpire la palla.
+Challenges/CH_Tutorial_2	Colpisci la palla, poi premi [Reset] per riportarla subito al punto di partenza. Così puoi provare tanti colpi in poco tempo.
+Challenges/CH_Tutorial_3	Esegui un colpo {Thin} o {Topped} colpendo la parte superiore della palla con il bordo inferiore della mazza. Di solito è un brutto colpo.
+Challenges/CH_Tutorial_4	Colpisci la palla con molta potenza. Porta prima le braccia molto indietro per prendere slancio.
+Challenges/CH_Tutorial_5	Ti sembra troppo facile? Aspetta e vedrai. Esegui uno {Slice}. Usa [Angle] per ruotare la faccia della mazza. Uno {Slice} devia molto a destra rispetto alla direzione di mira.
+Challenges/CH_Tutorial_6	Esegui un colpo {Straight}.\nUsa [Angle] e [Path] per mantenere dritta la faccia della mazza! Ci vuole concentrazione.
+Challenges/CH_Tutorial_7	La gente se ne dimentica sempre, quindi lo ripetiamo. Premi [Reset] per riposizionare la palla dopo averla colpita.
+Challenges/CH_Tutorial_8	Regola la mira con [Adjust]. Oppure clicca sui pulsanti. Come preferisci.
+Challenges/CH_Tutorial_9	Termina entro <color=#B4FFFD>25 {yards}</color> dalla bandierina della {Hole 1}. Un approccio rispettabile per un giocatore rispettabile.
+Challenges/CH_Tutorial_10	Colpisci il gong segreto, <wiggle>nascosto</wiggle>.\nRiesci a trovarlo?
+Challenges/CH_Tutorial_11	Torna al cancello di sicurezza. Premi [Switch] per passare dalla camminata al golf e viceversa.
+Challenges/CH_Carpark1_0	Distruggi le assi che coprono i cartelli rossi di <color=#FF4800>DIVIETO DI SOSTA</color>. Puoi tirare da qualsiasi punto.
+Challenges/CH_Carpark1_1	Distruggi completamente i due vecchi cartelli dell'evento. Prova a spostare la posizione a sinistra o a destra per cambiare l'altezza del tiro.
+Challenges/CH_Carpark1_2	Basta distrazioni. Siamo qui per giocare a golf. Golf serio, assolutamente normale.
+Challenges/CH_DrawFadeTutorial_0	Esegui un {Draw}. Usa [Path] per dare molto effetto alla palla, poi compensa con [Angle]. La palla partirà come con uno slice, ma poi curverà a sinistra.
+Challenges/CH_DrawFadeTutorial_1	Esegui un {Fade}. È il contrario di un {Draw}. Dai effetto verso destra e inclina la mazza a sinistra!
+Challenges/CH_DrawFadeTutorial_2	Usa [Path] per <wiggle>far curvare la palla</wiggle> e colpire il birillo gigante. Evocare barriere magiche è solo uno dei miei tanti talenti.
+Challenges/CH_DrawFadeTutorial_3	Bah, che assurdità. Torniamo al golf <wiggle>normale</wiggle>. Termina in un {bunker}. Quelle zone sabbiose.
+Challenges/CH_DrawFadeTutorial_4	Tocca il {green}. Con la palla, intendo. Un bel colpo normalissimo.
+Challenges/CH_DrawFadeTutorial_5	Sapevi che controllo anche il meteo? Mi ero dimenticato di aggiungere il vento. Raggiungi di nuovo il {green}, tenendo conto del vento.
+Challenges/CH_DrawFadeTutorial_6	Colpisci il gong segreto, <wiggle>nascosto</wiggle>. Questo è davvero nascosto: potresti dover camminare in giro per trovarlo.
+Challenges/CH_DrawFadeTutorial_7	Mi sembri pronto per il prossimo passo. Entra nel negozio di golf. L'ho aperto apposta per te.
+Challenges/CH_BountyTutorial_0	Completa una sfida a premio.
+Challenges/CH_BountyTutorial_1	Compra il putter nel negozio. Costa 123 $.
+Challenges/BO_GreenFinish_NAME	Vento laterale
+Challenges/BO_GreenFinish_0	Termina entro <color=#B4FFFD>8 {yards}</color> dalla bandierina. Sì, è <wiggle>difficile</wiggle>, soprattutto visto che qualcuno ha alzato tutto questo vento...
+Challenges/BO_FairwayThrice_NAME	Costanza
+Challenges/BO_FairwayThrice_0	Tocca il {fairway} tre volte di fila. Attento a quando riposizioni la palla!
+Challenges/BO_ResumeShot_0	Colpisci la palla tre volte. Dopo ogni colpo, vai a cercarla per continuare da dove è finita.
+Challenges/BO_ResumeShot_1	Ritrova la palla e poi premi [Reset]. Tornerai esattamente al punto del primo colpo.
+Challenges/BO_ResumeShot_2	Colpisci il gong. Da qui non puoi raggiungerlo con un colpo solo: dovrai farne diversi.
+Challenges/BO_FN1_NAME	Ninja dell'anguria
+Challenges/BO_FN1_0	Distruggi tre angurie. Per qualche motivo, vedere la frutta esplodere in mille pezzi mi riempie di nostalgia...
+Challenges/BO_FN2_NAME	Ninja della mela
+Challenges/BO_FN2_0	Distruggi tre mele. Ho visto persone tagliare la frutta a metà con precisione incredibile. Usare palle da golf è una nuova direzione coraggiosa.
+Challenges/BO_FN3_NAME	Ninja della fragola
+Challenges/BO_FN3_0	Distruggi una fragola.
+Challenges/BO_FN4_NAME	Ninja in serie
+Challenges/BO_FN4_0	Distruggi tre angurie di fila.
+Challenges/DEMO_EndOfDemo_0	Grazie per aver giocato. Aggiungi il gioco alla lista dei desideri e prova a cancellare il salvataggio per fare una speedrun.
+Challenges/BO_LongDrive_NAME	La mela ventosa
+Challenges/BO_LongDrive_0	Termina su un {green}. Un {green} qualsiasi.
+Challenges/BO_Toilet1_NAME	Lo sciacquone gigante
+Challenges/BO_Toilet1_0	Fai finire la palla nel water gigante. Dovrò pur sfruttare questi asset in qualche modo...
+Challenges/BO_Bounce1_NAME	Flipper
+Challenges/BO_Bounce1_0	Questa è una <code>sfida in tre parti</code>. Per prima cosa, colpisci entrambi i bersagli con un solo tiro. Il difficile è trovare la posizione giusta!
+Challenges/BO_Bounce1_1	Seconda parte. Colpisci entrambi i bersagli con un solo tiro. Non badare agli asset provvisori: danno fascino all'insieme.
+Challenges/BO_Bounce1_2	E un'ultima volta. Così puoi apprezzare per bene questa grafica di altissima qualità.
+Challenges/BO_HiddenGong1_NAME	Attraversa tutto
+Challenges/BO_HiddenGong1_0	Colpisci il gong segreto, <wiggle>nascosto</wiggle>. È qui vicino. Usa [Switch] per trovare il punto migliore da cui tirare.
+Challenges/CH_BuyPutter_0	Completa sfide per guadagnare denaro, poi compra il putter. Le sfide sono sparse ovunque.
+Challenges/BuyPutterShort	Guadagna 200 $ e compra il putter
+Challenges/BuyDriverShort	Guadagna 250 $ e compra il driver
+Challenges/BuyWedgeShort	Guadagna 1.500 $ e compra il wedge
+Challenges/BuyHybridShort	Guadagna 1.500 $ e compra l'ibrido
+Challenges/BuyLMUGCShort	Compra il biglietto per {LMUGCShort} da 1.750 $.
+Challenges/CH_Putt1_0	Manda la palla in tre buche diverse con il putter. Controllare la potenza è fondamentale...
+Challenges/CH_Putt1_1	Vai al vero {green} per una sfida vera.
+Challenges/CH_Putt2_0	Imbuca questo putt corto. Qui il terreno non è pianeggiante, quindi è un po' più difficile.
+Challenges/CH_Putt2_1	Vai al punto del putt successivo. Mentre cammini, puoi usare [Crouch] per abbassarti e vedere meglio la pendenza del {green}.
+Challenges/CH_Putt3_0	<wiggle>Mentre cammini</wiggle>, usa [Crouch] per abbassarti e osservare il {green}. Ti aiuterà a imbucare questo putt <wiggle>lunghissimo</wiggle> e difficile.
+Challenges/CH_Putt3_1	Abbatti tutti i birilli che ho preparato. La qualità si VEDE proprio.
+Challenges/CH_Putt3_2	Ora mettiamo insieme quello che hai imparato. Torna alla piazzola e completa la nuova sfida {Multi Hit} che ho appena attivato...
+Challenges/CH_MultihitBountyComplete_0	Wow, hai giocato una buca di golf. Incredibile. Torna al negozio.
+Challenges/BO_MultihitTutorial_NAME	La mia prima sfida multicolpo
+Challenges/BO_MultihitTutorial_0	Questa è una palla {Multi Hit}. Colpiscila, vai a cercarla e poi colpiscila di nuovo. Se riposizioni la palla, ti <wiggle>teletrasporti</wiggle> alla partenza e ricominci da capo!
+Challenges/BO_MultihitTutorial_1	E ora la seconda parte della sfida. Fai entrare la palla in buca. Puoi usare tutti i colpi che vuoi... stavolta.
+Challenges/BO_MultihitTutorial_2	Wow, hai giocato una buca di golf. Incredibile. Torna al negozio.
+Challenges/BO_Pole1_NAME	Infilare l'ago
+Challenges/BO_Pole1_0	Colpisci l'asta della bandierina. Buona fortuna.
+Challenges/BO_Close1_NAME	Ottimo approccio
+Challenges/BO_Close1_0	Termina entro <color=#B4FFFD>3 {yards}</color> dalla {Hole 1}.
+Challenges/BO_PuttPuttAce_NAME	Asso del minigolf
+Challenges/BO_PuttPuttAce_0	Fai entrare la palla in una buca qualsiasi del green di allenamento con un approccio.
+Challenges/BO_TopShelf_NAME	Ripiano superiore
+Challenges/BO_TopShelf_0	Imbuca con il putter nella buca in cima alla piccola salita. Un classico del minigolf.
+Challenges/CH_BuyDriver_0	Guadagna abbastanza dalle sfide e poi compra il driver.
+Challenges/CH_BuyWedge_0	Guadagna abbastanza dalle sfide e poi compra il wedge.
+Challenges/CH_BuyHybrid_0	Guadagna abbastanza dalle sfide e poi compra l'ibrido.
+Challenges/CH_BuyLMUGC_0	Guadagna abbastanza dalle sfide per comprare il biglietto di {LMUGC} nel negozio.
+Challenges/CH_HitDriver_0	Esegui un drive di almeno <color=#B4FFFD>200 {yards}</color>. Il driver ha una fisica completamente diversa dal ferro!
+Challenges/CH_HitDriver_1	Esegui un {Fade} con il driver. Anche il suo effetto funziona diversamente, quindi c'è molto da imparare.
+Challenges/CH_HitDriver_2	Tocca il {green} della {Hole 2}. Hai la potenza, ma hai anche la precisione?
+Challenges/CH_HitDriver_3	Il driver non è solo potente: è anche distruttivo e utile per autodifesa. Sai cosa fare...
+Challenges/CH_HitDriver_4	Questo nemico cerca di abbassarsi sotto il tuo driver. Sposta la posizione tutta in avanti <whisperwhite>(verso destra)</whisperwhite> per ottenere un tiro più basso e teso!
+Challenges/CH_HitDriver_5	Sposta la posizione indietro <whisperwhite>(verso sinistra)</whisperwhite> per alzare la palla e colpire il nemico. Spostarti avanti e indietro cambia l'angolo di lancio.
+Challenges/CH_HitDriver_6	Colpisci il nemico senza toccare l'ostaggio. La parola chiave è <swing>senza</swing>.
+Challenges/CH_HitDriver_7	Colpisci il nemico due volte di fila. Abbi pazienza!
+Challenges/CH_HitDriver_8	Ogni mazza ha sensazioni diverse, quindi passare dall'una all'altra può essere difficile. Premi [Practice] per attivare l'allenamento ed esegui tre swing di prova.
+Challenges/CH_HitDriver_9	Termina sul {fairway} con il ferro due volte di fila. È la zona a strisce nel mezzo.
+Challenges/CH_HitDriver_10	Ora possiamo finalmente provare qualcosa che usa tutte e tre le mazze. Raggiungi la nuova sfida {Multi Hit} che ho appena attivato...
+Challenges/BO_GoneHome_NAME	Torna a casa
+Challenges/BO_GoneHome_0	Da qui manda la palla dentro la club house. Ti servirà qualcosa di più potente di un ferro...
+Challenges/BO_Bender_NAME	Tiro a effetto
+Challenges/BO_Bender_0	Da qui manda la palla nella club house. Immagina di giocare a un altro sport strano, inferiore al golf.
+Challenges/BO_WrongGreen_NAME	Green sbagliato 2
+Challenges/BO_WrongGreen_0	Termina entro <color=#B4FFFD>35 {yards}</color> dalla buca. Ah, ma non questa buca. La {Hole 3}.
+Challenges/BO_WrongGreen2_NAME	Green sbagliato 1
+Challenges/BO_WrongGreen2_0	Termina entro <color=#B4FFFD>10 {yards}</color> dalla {Hole 1}. È un po' come la modalità specchio, ma anche no.
+Challenges/BO_CrossCountry1_NAME	Grande esploratore
+Challenges/BO_CrossCountry1_0	Manda questa palla {Multi Hit} nella {Hole 5}. <color=#FF4800><wiggle>Non</wiggle></color> nella {Hole 2}: sarebbe un'avventura troppo breve. Se perdi la palla in acqua o oltre una recinzione, dovrai ricominciare!
+Challenges/BO_PuttHole4a_NAME	Putt putt putt putt
+Challenges/BO_PuttHole4a_0	Guarda questa semplice e normalissima buca da minigolf. Sarà facile... no?
+Challenges/BO_PuttHole4b_NAME	Specialista dei colpi d'approccio
+Challenges/BO_PuttHole4b_0	Termina entro <color=#B4FFFD>2 {yards}</color> dalla buca del minigolf. Magari evita driver, putter e ferro. Ce la puoi fare.
+Challenges/BO_LongDrop_NAME	Discesa lunga
+Challenges/BO_LongDrop_0	Termina sul {green} della {Hole 5}. Così vicino, eppure così lontano.
+Challenges/BO_FarFarAway_NAME	Lontano lontano
+Challenges/BO_FarFarAway_0	Termina sul {green} della {Hole 6}. Per arrivare fin là la palla avrà bisogno di molto incoraggiamento.
+Challenges/BO_HallMonitor_NAME	Sorvegliante
+Challenges/BO_HallMonitor_0	Colpisci il gong senza che la palla tocchi la galleria, il terreno o nient'altro.
+Challenges/BO_HeadWind_NAME	All'altezza della testa
+Challenges/BO_HeadWind_0	Colpisci il gong nel lago. Per una volta il vento è davvero utile!
+Challenges/BO_HeadWind2_NAME	Attratto dal lago
+Challenges/BO_HeadWind2_0	Da qui colpisci il gong sommerso nel lago.
+Challenges/BO_CantMiss_NAME	Impossibile sbagliare
+Challenges/BO_CantMiss_0	Manda la palla in buca. Sul serio, è di una facilità imbarazzante.
+Challenges/BO_CanMiss1_NAME	Potresti sbagliare
+Challenges/BO_CanMiss1_0	Manda la palla in questa buca da minigolf con un colpo da almeno <color=#B4FFFD>20 {yards}</color> di distanza.
+Challenges/BO_CanMiss2_NAME	Sbaglierai
+Challenges/BO_CanMiss2_0	Bene, ora si fa dura. Manda la palla in questa buca da minigolf con un colpo da almeno <color=#B4FFFD>100 {yards}</color> di distanza.
+Challenges/BO_CanMiss3_NAME	Hai sbagliato
+Challenges/BO_CanMiss3_0	Sai come funziona. Palla in buca da almeno <color=#B4FFFD>250 {yards}</color> di distanza. Metti su il tè e mettiti comodo: ci vorrà un'eternità.
+Challenges/BO_ToTheMoon_NAME	Verso la Luna
+Challenges/BO_ToTheMoon_0	Con il driver, da qui, esegui un tiro che raggiunga almeno <color=#B4FFFD>125 {yards}</color> d'altezza.
+Challenges/BO_Trivia1_NAME	Bravo cane
+Challenges/BO_Trivia1_0	Quiz a sorpresa! Come si chiama il cane ufficiale del campo? C'è un poster nella club house, se ti serve un indizio.
+Challenges/BO_Trivia2_NAME	Saputello
+Challenges/BO_Trivia2_0	Quiz a sorpresa! Sei bravo a risolvere problemi?
+Challenges/BO_Trivia3_NAME	La matematica è difficile
+Challenges/BO_Trivia3_0	Quiz a sorpresa! Se chiudessi tutte le normali buche del campo in par, quale sarebbe il tuo punteggio?
+Challenges/BO_Trivia4_NAME	Ricordi confusi
+Challenges/BO_Trivia4_0	Quiz a sorpresa! Di che colore era la tua auto? Cioè... <wiggle>È</wiggle> la tua auto. Esiste ancora. Va tutto bene.
+Challenges/BO_MiniHole_0	Fai entrare la palla nella buca sulla minuscola isola nel lago. Ho disattivato il vento per facilitarti, ma è comunque una sfida <swing>assurda</swing>.
+Challenges/BO_MiniHole_NAME	Isola minuscola 1
+Challenges/Ball In Hole	Manda la palla in buca
+Challenges/PAR_Hole1_NAME	Buca 1 - Par
+Challenges/PAR_Hole1_0	Ottieni il {Par} alla {Hole 1}. Sono 3 colpi. Non è per niente facile, fidati: ci ho provato un sacco di volte.
+Challenges/PAR_Hole2_NAME	Buca 2 - Par
+Challenges/PAR_Hole2_0	È ora di usare il driver. Ottieni il {Par}: un ottimo drive, un approccio e due putt! O un drive eccezionale e tre putt...
+Challenges/PAR_Hole3_NAME	Buca 3 - Par
+Challenges/PAR_Hole3_0	Ottieni il {Par} in questo classico e corto {Par} 3 sopra l'acqua. La conca nel {green} dovrebbe tenerti al centro e fuori dai guai.
+Challenges/PAR_Hole4_NAME	Buca 4 - Par
+Challenges/PAR_Hole4_0	Ottieni il {Par} in questo grande {Par} 4 con dogleg intorno alla collina. Devo fare tutti gli scavi a mano, quindi figurati se la spianavo tutta.
+Challenges/PAR_Hole5_NAME	Buca 5 - Par
+Challenges/PAR_Hole5_0	Ottieni il {Par} in questo {Par} 4 con bandierina non visibile e diversi percorsi possibili. Il {green} inclinato sul retro e la parete rocciosa perdonano parecchio.
+Challenges/PAR_Hole6_NAME	Buca 6 - Par
+Challenges/PAR_Hole6_0	Ottieni il {Par} nel nostro gigantesco {Par} 5. Riuscirai a superare l'acqua col drive? No, non ci riuscirai.
+Challenges/PAR_Hole7_NAME	Buca 7 - Par
+Challenges/PAR_Hole7_0	Ottieni il {Par} in questa buca dritta e stretta. Sono quattro colpi, ma il {green} e i bunker puniranno un approccio approssimativo.
+Challenges/PAR_Hole8_NAME	Buca 8 - Par
+Challenges/PAR_Hole8_0	Ottieni il {Par} in questa buca col {green} a vulcano. Non so neanche se sia piacevole da giocare, mi piaceva solo il nome. Vulcano.
+Challenges/PAR_Hole9_NAME	Buca 9 - Par
+Challenges/PAR_Hole9_0	Ottieni il {Par} in questo classico {Par} 3 in stile Redan. Che c'è, ti sorprende che sappia qualcosa sul design delle buche da golf?
+Challenges/BIRDY_Hole1_NAME	Buca 1 - Birdie
+Challenges/BIRDY_Hole1_0	Ottieni un {Birdie} alla {Hole 1}. Sono solo due colpi. Non hai idea di quanto sia più difficile del par!
+Challenges/BIRDY_Hole2_NAME	Buca 2 - Birdie
+Challenges/BIRDY_Hole2_0	Manda la palla in buca in soli tre colpi. Il {green} a terrazze ti punirà se non sarai preciso nell'approccio.
+Challenges/BIRDY_Hole3_NAME	Buca 3 - Birdie
+Challenges/BIRDY_Hole3_0	Ottieni un {Birdie} qui alla {Hole 3}. Ti serve un approccio perfetto e non devi perdere la calma sul putt.
+Challenges/BIRDY_Hole4_NAME	Buca 4 - Birdie
+Challenges/BIRDY_Hole4_0	Sai già come funziona. Ottieni un {Birdie} su questa buca. Queste sfide praticamente si scrivono da sole.
+Challenges/BIRDY_Hole5_NAME	Buca 5 - Birdie
+Challenges/BIRDY_Hole5_0	Ottieni un {Birdie}. A me piace fare un {Fade} fra gli alberi con l'ibrido, ma immagino tu possa anche scegliere qualcosa di meno spettacolare.
+Challenges/BIRDY_Hole6_NAME	Buca 6 - Birdie
+Challenges/BIRDY_Hole6_0	Ottieni un {Birdie} nella buca più facile per fare {Birdie}. Sarebbe comoda per recuperare colpi, se ci fosse una specie di sfida finale definitiva...
+Challenges/BIRDY_Hole7_NAME	Buca 7 - Birdie
+Challenges/BIRDY_Hole7_0	Ottieni un {Birdie}. È la buca meno interessante del campo, quindi faccio fatica a inventarmi una descrizione...
+Challenges/BIRDY_Hole8_NAME	Buca 8 - Birdie
+Challenges/BIRDY_Hole8_0	Ottieni un {Birdie}. Il {green} a vulcano rende questa prova una specie di roulette. Che divertimento per te!
+Challenges/BIRDY_Hole9_NAME	Buca 9 - Birdie
+Challenges/BIRDY_Hole9_0	Ottieni un {Birdie} alla {Hole 9}. Immagina la standing ovation del pubblico davanti al negozio! Se solo ci fosse qualcun altro qui...
+Challenges/ML_WedgeTutorial_0	Termina sul {green} usando il wedge. Questa mazza dà sensazioni un po' diverse.
+Challenges/ML_WedgeTutorial_1	Termina entro <color=#B4FFFD>8 {yards}</color> dalla buca usando il wedge. Noterai che la palla tende a fermarsi prima che con il ferro: è ottimo per avvicinarsi.
+Challenges/ML_WedgeTutorial_2	Anzi, proviamo. Termina entro <color=#B4FFFD>8 {yards}</color> dalla buca con il ferro. Cerca di capire quanto cambia il colpo.
+Challenges/ML_WedgeTutorial_3	Il wedge è utile anche per mandare la palla <swing>molto in alto</swing>. Colpisci il gong segreto, <wiggle>nascosto</wiggle>. Dovrai regolare anche la tua posizione.
+Challenges/ML_WedgeTutorial_4	Raggiungi il {bunker} per fare qualche altra prova!
+Challenges/ML_WedgeTutorial2_0	Esci dal {bunker} con un colpo d'approccio e termina entro <color=#B4FFFD>10 {yards}</color> dalla buca. Più tocchi la sabbia, più rallenta il tiro.
+Challenges/ML_WedgeTutorial2_1	Di nuovo, ma più vicino. Termina entro <color=#B4FFFD>5 {yards}</color> dalla buca. Prendi confidenza con questi colpi corti dal {bunker}.
+Challenges/ML_WedgeTutorial2_2	Si è radunata una folla! Fai un approccio alto sul {green} e termina entro <color=#B4FFFD>8 {yards}</color> senza ferire nessuno.
+Challenges/ML_WedgeTutorial2_3	La folla è in delirio! Non farti distrarre. Termina entro <color=#B4FFFD>8 {yards}</color> dalla buca senza fare male a nessuno.
+Challenges/ML_WedgeTutorial2_4	Attraversa il {green}. Prima di preparare il colpo, puoi usare il telemetro con [Zoom] per controllare la distanza dalla bandierina.
+Challenges/ML_WedgeTutorial3_0	Dal bordo del green puoi scegliere fra putt e approccio! Prova prima un putt e termina entro <color=#B4FFFD>2 {yards}</color> dalla buca.
+Challenges/ML_WedgeTutorial3_1	Stavolta c'è una barriera in mezzo. Fai un approccio entro <color=#B4FFFD>2 {yards}</color> dalla buca.
+Challenges/ML_WedgeTutorial3_2	Raggiungi il cancello all'inizio della {Hole 6}.
+Challenges/Hole 4 Near the Green	Vai al fairway della buca 5
+Challenges/Hole 4 Bunkers	Vai ai bunker della buca 5
+Challenges/Hole 4 Fringe	Vai al bordo del green della buca 5
+Challenges/ML_GetCrowbar_0	Vai a prendere il piede di porco
+Challenges/ML_SmashHole6Lock_0	Apri il cancello della buca 6
+Challenges/Go To Hole 6	Vai al cancello della buca 6
+Challenges/ML_TopOfMountain_0	Divertiti a esplorare e completare sfide! Quando sei pronto, vieni a trovarmi in cima alla montagna.
+Challenges/Top Of Mountain Short	Incontra {Luke Muscat} in cima alla montagna.
+Challenges/ML_DoLMUGC_0	Completa <wiggle>{LMUGC}</wiggle>. Se è troppo difficile, puoi comprare degli aiuti nel negozio.
+Challenges/LMUGC Short Buy Assists	Completa </wiggle>{LMUGCShort}</wiggle>. Compra gli aiuti per renderla più facile.
+Challenges/BO_Skim1_NAME	Saltatore
+Challenges/BO_Skim1_0	Fai rimbalzare la palla sull'acqua. Deve volare molto bassa e molto veloce.
+Challenges/BO_Skim2_NAME	Pesce fuor d'acqua
+Challenges/BO_Skim2_0	Fai rimbalzare la palla tre volte sull'acqua con un solo tiro.
+Challenges/BO_Skim3_NAME	Splash splash
+Challenges/BO_Skim3_0	Fai rimbalzare la palla due volte sull'acqua con un solo tiro. Trovare il punto giusto è fondamentale.
+Challenges/BO_Skim4_NAME	Otto salti
+Challenges/BO_Skim4_0	Fai rimbalzare la palla otto volte sull'acqua con un solo tiro. Per riuscirci deve essere tutto perfetto.
+Challenges/BO_TinyIsland2_NAME	Isola minuscola 2
+Challenges/BO_TinyIsland2_0	Manda la palla nella buca sulla minuscola isola. Ma cos'è, un campo da golf per formiche?
+Challenges/BO_TinyIsland3_NAME	Isola minuscola 3
+Challenges/BO_TinyIsland3_0	Termina sul green dell'isola nel lago. Si trova più o meno... da quella parte. Vedrai quando inizierai a tirare.
+Challenges/BO_Tilted_NAME	Inclinato
+Challenges/BO_Tilted_0	Questa è una <code>sfida in tre parti</code>. Sfrutta l'inclinazione e imbuca come preferisci.
+Challenges/BO_Tilted_1	Imbuca un altro putt. Stavolta hai qualche possibilità in meno.
+Challenges/BO_Tilted_2	Scegli la strada più bassa e imbuca un ultimo putt.
+Challenges/BO_Trickster_NAME	Trucchetto
+Challenges/BO_Trickster_0	Un'altra <code>sfida in due parti</code>. Per prima cosa fai una capriola! Voglio dire... un salto. E imbuca questo putt.
+Challenges/BO_Trickster_1	Ecco la seconda parte. Rendiamo il gran finale ancora più piccante...
+Challenges/BO_Pool_NAME	Palla 8 in buca
+Challenges/BO_Pool_0	Imbuca sia la palla numero 8 sia quella da golf in due buche diverse con un solo colpo. Prova da punti diversi per trovare l'angolo giusto!
+Challenges/BO_Pool2_NAME	Allenamento sotto pressione
+Challenges/BO_Pool2_0	Imbuca in tutte e sei le buche <swing>di fila</swing>. È un ottimo allenamento per le situazioni di alta pressione.
+Challenges/BO_PuttingDrill2_NAME	Allenamento col putter
+Challenges/BO_PuttingDrill2_0	Imbuca tre putt di fila. Puoi usare anche sempre la stessa buca. La pratica rende perfetti!
+Challenges/BO_ChipUp_NAME	Approccio senza scorciatoie 1
+Challenges/BO_ChipUp_0	Imbuca con un approccio in tutte e tre le buche. Puoi usare quanti colpi vuoi.
+Challenges/BO_ChipUpImpossible_NAME	Approccio senza scorciatoie 2
+Challenges/BO_ChipUpImpossible_0	Senti... questa sfida potrebbe anche non funzionare, non sono neppure riuscito a fare il debug. Imbuca con un approccio in tutte e tre le buche di fila.
+Challenges/BO_PuttHole7_NAME	Trova l'angolo
+Challenges/BO_PuttHole7_0	Imbuca con il putter. In questa buca anche 0,1 gradi di differenza cambiano tutto!
+Challenges/BO_CliffsidePool_NAME	Minigolf sulla scogliera 1
+Challenges/BO_CliffsidePool_0	Manda la palla sul percorso da minigolf a sei buche in cima alla scogliera.
+Challenges/BO_CliffsidePool2_NAME	Minigolf sulla scogliera 2
+Challenges/BO_CliffsidePool2_0	Manda la palla sul percorso da minigolf a sei buche sulla scogliera. Si intravede appena fra gli alberi...
+Challenges/BO_CliffsideGreen1_NAME	Piazzola centrale 1
+Challenges/BO_CliffsideGreen1_0	Termina sul {green} della {Hole 4}.
+Challenges/BO_CliffsideGreen2_NAME	Piazzola centrale 2
+Challenges/BO_CliffsideGreen2_0	Tocca il {green} della {Hole 5}.
+Challenges/BO_CliffsideGreen3_NAME	Piazzola centrale 3
+Challenges/BO_CliffsideGreen3_0	Tocca il {green} della {Hole 3}.
+Challenges/BO_SecretGreen1_NAME	Green segreto
+Challenges/BO_SecretGreen1_0	Termina sul {green} segreto. L'avresti trovato senza una sfida a indicartelo? Ce ne sono altri? Chi lo sa.
+Challenges/ML_MarketingDept_0	Ritira il premio all'<rainb>Ufficio premi</rainb>.
+Challenges/ML_MarketingDept_Short	Vai all'<rainb>Ufficio premi</rainb>
+Challenges/ML_MarketingEndless_0	Bene, prima voce della lista. Il driver è la mazza con cui vado peggio. Fammi vedere tre colpi con il driver e {Good Contact} di fila.
+Challenges/ML_MarketingEndless_1	Uffa, continuo <swing>ancora</swing> a colpire la palla con un {Thin}. Fammi vedere un colpo {Thin}. È importante capire anche cosa <color=#FF0000>NON</color> fare.
+Challenges/ML_MarketingEndless_2	Forse il driver non fa per me. Mostrami un {Draw} con l'ibrido.
+Challenges/ML_MarketingEndless_3	Forse un {Draw} è troppo ambizioso per me. Mi accontenterei di qualche {Good Contact}. Fai tre colpi consecutivi con l'ibrido e {Good Contact}.
+Challenges/ML_MarketingEndless_4	Io... mi sa che ci sto arrivando! Andiamo avanti. Esegui un colpo con il ferro e contatto {Perfect}.
+Challenges/ML_MarketingEndless_5	... forse non ci sto arrivando affatto. <whisper>Resteremo qui per sempre...</whisper> Fai qualche colpo {Straight} di fila con quel ferro.
+Challenges/ML_MarketingEndless_6	Il mio ferro è... rotto? Sì, deve essere quello. Passiamo al wedge. Esegui un colpo {Straight} con {Good Contact}.
+Challenges/ML_MarketingEndless_7	Perché non ci riesco? Perché la palla non va {Straight}? Fammi vedere alcuni colpi {Slice} o {Hook} di fila. Forse così capirò dove sbaglio.
+Challenges/ML_MarketingEndless_8	Non sono migliorato per niente. Forse osservavo le cose sbagliate? Dobbiamo ricominciare? Intanto... tira un putt o qualcosa del genere, così posso riflettere...
+Challenges/ML_CamerasOff_0	<wiggle>Tutte le telecamere offline. Sfide offline.
+Challenges/ML_Ending_0	<wiggle><color=#FF0000>NON</color></wiggle> colpire Luke con una palla da golf. Completa invece 100 sfide. Continua a giocare. Per sempre.
+Challenges/ML_Ending_Short	<wiggle><color=#FF0000>NON</color></wiggle> colpire Luke con una palla da golf. Completa invece 100 sfide...
+Challenges/BO_Pint1_NAME	Sfida virale 1
+Challenges/BO_Pint1_0	Distruggi il bicchiere di birra da qui. Nei video brevi sembra così facile.
+Challenges/BO_Pint2_NAME	Sfida virale 2
+Challenges/BO_Pint2_0	Distruggi il bicchiere di birra da qui. Preparati a reagire in modo esagerato.
+Challenges/BO_Pint3_NAME	Sfida virale 3
+Challenges/BO_Pint3_0	Distruggi il bicchiere di birra da qui. Questa è forse troppo facile per diventare virale. Che spreco.
+Challenges/CC_Hole5Birdie_NAME	Chiurlo 1
+Challenges/CC_Hole5Birdie_0	Raggiungi la {Hole 5} in tre colpi. Una specie di {Birdie} lunghissimo, per così dire.
+Challenges/CC_Hole5Birdie2_NAME	Chiurlo 2
+Challenges/CC_Hole5Birdie2_0	Raggiungi la {Hole 5} in tre colpi. Un altro {Birdie} lunghissimo. Ti servirà un drive creativo.
+Challenges/BO_MegaPutt1_NAME	Sisifo in piano
+Challenges/BO_MegaPutt1_0	Manda la palla gigante nella buca gigante. Manda? Imbuca? Insomma, ci siamo capiti.
+Challenges/BO_MegaPutt2_NAME	Sisifo in pendenza
+Challenges/BO_MegaPutt2_0	Spero tu ti sia allenato a far rotolare massi su per una collina. Manda la palla gigante in buca.
+Challenges/BO_MegaPutt3_NAME	Sisifo con la S
+Challenges/BO_MegaPutt3_0	Perché l'ho creata? L'ho fatta per un certo tipo di persona. Manda la palla gigante in buca.
+Challenges/BO_SpaceCaptain_NAME	Capitano spaziale
+Challenges/BO_SpaceCaptain_0	Tocca il {green} della {Hole 5}. Devi soltanto infilarti fra gli alberi in cima all'enorme montagna. Facilissimo.
+Challenges/BO_GongBomb_NAME	Bomba sul gong
+Challenges/BO_GongBomb_0	Colpisci il gong. È laggiù, molto lontano.
+Challenges/BO_Sideways_NAME	Di traverso
+Challenges/BO_Sideways_0	Manda la palla in buca. Normalissime cose da golf.
+Challenges/BO_Quitter_NAME	Rinunciatario
+Challenges/BO_Quitter_0	Tieni premuto [Reset] per abbandonare questa sfida. È così che la completi: rinunciando. Non chiedermi perché ci serva.
+Challenges/ML_HybridTutorial_0	Con l'ibrido, manda la palla oltre <color=#B4FFFD>200 {yards}</color>. È come un piccolo driver!
+Challenges/ML_HybridTutorial_1	Esegui un {Fade} con {Good Contact} usando l'ibrido.
+Challenges/ML_HybridTutorial_2	Ehi, ti ricordi questa sfida? È la preferita di tutti! Distruggi il birillo gigante con l'ibrido.
+Challenges/ML_HybridTutorial_3	Abbiamo messo alla prova le tue abilità fisiche, ma ora testiamo anche la mente. Quante buche Par 3 ci sono sul campo?
+Challenges/ML_HybridTutorial_4	Quanti {green} segreti e nascosti ci sono? Non contare quelli del minigolf.
+Challenges/ML_HybridTutorial_5	Ultima domanda. 1 + 1 = ???
+Challenges/ML_HybridTutorial_6	Basta sciocchezze. Con l'ibrido, termina sul {fairway} entro <color=#B4FFFD>250 {yards}</color> dalla bandierina della {Hole 6}. Avvicinati all'acqua quanto osi.
+Challenges/ML_HybridTutorial_7	Ottimo approccio! Risali il {fairway} fino al punto successivo.
+Challenges/ML_HybridTutorial_2_0	Continuiamo l'approccio: termina entro <color=#B4FFFD>25 {yards}</color> dalla bandierina della {Hole 6}.
+Challenges/ML_HybridTutorial_2_1	Colpisci il gong che levita per magia.
+Challenges/ML_HybridTutorial_2_2	Girati a destra e tocca il {green} della {Hole 8}! C'è un'apertura fra gli alberi molto comoda. Quasi fosse stata progettata apposta.
+Challenges/ML_HybridTutorial_2_3	Elimina le mie nuove guardie di sicur... <wiggle>cioè</wiggle>... tutti e tre i <swing>cattivi</swing> con un solo tiro.
+Challenges/ML_HybridTutorial_2_4	Uff, siamo di nuovo al sicuro. Vieni al negozio: ho una rivelazione entusiasmante da farti.
+Challenges/ML_BackToShop_NAME	Torna al negozio.
+Challenges/ML_BackToShop_0	Torna al negozio di golf.
+Challenges/ML_TRAILER_0	Impariamo a giocare a <code>golf</code>. Che cosa assolutamente normale.
+Challenges/ML_TRAILER_1	Il golf è <code>facile</code>. Basta mandare la palla in buca.
+Challenges/ML_TRAILER_2	È tutto <rainb>normale</rainb>.
+Challenges/ML_TRAILER_3	Qui va il testo della sfida. Lo stai leggendo? Spero di no. Questo è soltanto il trailer.
+Challenges/ML_TRAILER_4	Smettila di studiare il trailer nei dettagli e aggiungi il gioco alla lista dei desideri, oppure compralo. Ti prego. Devo dare da mangiare a Barkley.
+Challenges/ML_REVEAL_0	Rivela la data d'uscita.
+Challenges/ML_REVEAL_NAME	Data d'uscita
+Challenges/PARPLUS_Hole1_NAME	Buca 1 - Par Plus
+Challenges/PARPLUS_Hole1_0	Chi ha messo tutti questi alberi qui? Pazienza, prova comunque a ottenere il {Par}...
+Challenges/PARPLUS_Hole2_NAME	Buca 2 - Par Plus
+Challenges/PARPLUS_Hole2_0	Ottieni il {Par} senza usare il {Driver} o l'{Hybrid}. Potresti sorprenderti di quanto sia facile!
+Challenges/PARPLUS_Hole3_NAME	Buca 3 - Par Plus
+Challenges/PARPLUS_Hole3_0	Ottieni il {Par}... ma colpisci un albero lungo il percorso. Contano solo le «foglie» e i «rami».
+Challenges/PARPLUS_Hole4_NAME	Buca 4 - Par Plus
+Challenges/PARPLUS_Hole4_0	Niente trucchi o obiettivi strani stavolta. Ottieni il {Par}... con questo vento insolitamente forte.
+Challenges/PARPLUS_Hole5_NAME	Buca 5 - Par Plus
+Challenges/PARPLUS_Hole5_0	Colpisci entrambi i gong e ottieni anche il {Par} in questa buca.
+Challenges/PARPLUS_Hole6_NAME	Buca 6 - Par Plus
+Challenges/PARPLUS_Hole6_0	Ottieni il {Par} senza che la palla tocchi il fairway. Se lo tocca, tornerà immediatamente alla partenza!
+Challenges/PARPLUS_Hole7_NAME	Buca 7 - Par Plus
+Challenges/PARPLUS_Hole7_0	La buca normale sembra essere stata sostituita da una buca di minigolf. Tutto regolare. Ottieni comunque il {Par}.
+Challenges/PARPLUS_Hole8_NAME	Buca 8 - Par Plus
+Challenges/PARPLUS_Hole8_0	Ottieni il {Par}. Se la palla tocca la gabbia luminosa della morte, verrà subito riposizionata. Tu invece puoi attraversarla tranquillamente.
+Challenges/PARPLUS_Hole9_NAME	Buca 9 - Par Plus
+Challenges/PARPLUS_Hole9_0	Ottieni il {Par} colpendo anche il gong lungo il percorso.
+Challenges/BO_BB1_NAME	Comportamento nel bunker
+Challenges/BO_BB1_0	Tocca il {green} tre volte di fila. La sabbia rallenta la mazza, quindi mantenere la costanza dal bunker è difficile.
+Challenges/BO_BB2_NAME	Imbuca dal bunker
+Challenges/BO_BB2_0	Manda la palla in buca senza toccare il {green}. Probabilmente è proprio impossibile.
+Challenges/BO_BB3_NAME	Salta il bunker
+Challenges/BO_BB3_0	Prova a non toccare la sabbia con la mazza durante questo tiro. Esegui un colpo {Thin} e termina sul {green} della {Hole 1}.
+Challenges/BO_BB4_NAME	Distruttore di bunker
+Challenges/BO_BB4_0	Questi quattro golfisti <wiggle>temono</wiggle> il {bunker} e fanno di tutto per starne fuori. Mostra loro che non sono al sicuro da nessuna parte...
+Challenges/ML_NormalGolf_0	Premi il pulsante per iniziare il giro
+Challenges/BO_BigBunker_NAME	Bunker gigante
+Challenges/BO_BigBunker_0	Termina entro <color=#B4FFFD>50 {yards}</color> dalla buca nel bunker gigante.
+Challenges/BO_CliffGong_NAME	Gong sulla rupe
+Challenges/BO_CliffGong_0	Questa è una <code>sfida in due parti</code>. Per prima cosa, colpisci il gong sul bordo della scogliera usando il ferro.
+Challenges/BO_CliffGong_1	Ora colpisci lo stesso gong, ma stavolta con il driver.
+Challenges/BO_Volcano_NAME	Vulcano
+Challenges/BO_Volcano_0	Termina sul {green} della {Hole 8}.
+Challenges/BO_HiddenPin_NAME	Birillo nascosto
+Challenges/BO_HiddenPin_0	Distruggi il birillo segreto nella valle. È proprio davanti a te: basterebbe un piccolo {Draw}.
+Challenges/BO_SecretBunker_NAME	Clic sbagliato
+Challenges/BO_SecretBunker_0	Ma perché diavolo c'è un bunker quassù? Comunque, termina sul {green} della {Hole 7}.
+Terms/Good Contact	<color=#00FF00>Colpo ben centrato</color>
+Terms/Perfect	<color=#fcc203>Perfetto</color>
+Terms/Thin	<color=#FFEB00>Colpo sottile</color>
+Terms/Topped	<color=#FF4800>Colpo sopra la palla</color>
+Terms/Fat	<color=#C39BFF>Colpo grasso</color>
+Terms/Hit Ground	<color=#FF5D63>Colpito il terreno</color>
+Terms/Straight	<color=#00FF00>Straight</color>
+Terms/Slice	<color=#FF4800>Slice</color>
+Terms/Hook	<color=#FF4800>Hook</color>
+Terms/Draw	<color=#FFDD79>Draw</color>
+Terms/Fade	<color=#00A5FF>Fade</color>
+Terms/Luke Muscat	<color=#FF107D>Luke Muscat</color>
+Terms/Multi Hit	<color=#F18402>Multicolpo</color>
+Terms/Green	<color=#A0FF88>Green</color>
+Terms/green	<color=#A0FF88>green</color>
+Terms/Bunker	<color=#FFF29B>Bunker</color>
+Terms/bunker	<color=#FFF29B>bunker</color>
+Terms/Fairway	<color=#44FF44>Fairway</color>
+Terms/fairway	<color=#44FF44>fairway</color>
+Terms/Rough	<color=#00BB00>Rough</color>
+Terms/rough	<color=#00BB00>rough</color>
+Terms/Tee Box	<color=#00FF00>Tee Box</color>
+Terms/tee box	<color=#00FF00>tee box</color>
+Terms/Swing Input	Il mouse
+Terms/yards	<size=80%>YD</size>
+Terms/Triple Bogey	Triple Bogey
+Terms/Double Bogey	Double Bogey
+Terms/Bogey	Bogey
+Terms/Par	<wave>Par</wave>
+Terms/Birdie	<colorgreen><swing>Birdie</swing></colorgreen>
+Terms/Eagle	<colorpurple><swing>Eagle</swing></colorpurple>
+Terms/Albatross	<colorgold><wiggle>Albatross</wiggle></colorgold>
+Terms/Ace	<rainb>Ace</rainb>
+Terms/LMUGC	<color=#FF4089>La sfida</color> <color=#FFDD79>di golf</color> <color=#44F680>definitiva</color> <color=#00A5FF>di Luke Muscat</color>
+Terms/LMUGCPlain	La sfida di golf definitiva di Luke Muscat
+Terms/LMUGCShort	<color=#FF4089>LM</color><color=#FFDD79>U</color><color=#44F680>G</color><color=#00A5FF>C</color>
+Terms/LMUGCShort2	<color=#FFDD79>Sfida</color> <color=#00A5FF>definitiva</color>
+Terms/Hole 1	<color=#03fc98>BUCA 1</color>
+Terms/Hole 2	<color=#03fc98>BUCA 2</color>
+Terms/Hole 3	<color=#03fc98>BUCA 3</color>
+Terms/Hole 4	<color=#03fc98>BUCA 4</color>
+Terms/Hole 5	<color=#03fc98>BUCA 5</color>
+Terms/Hole 6	<color=#03fc98>BUCA 6</color>
+Terms/Hole 7	<color=#03fc98>BUCA 7</color>
+Terms/Hole 8	<color=#03fc98>BUCA 8</color>
+Terms/Hole 9	<color=#03fc98>BUCA 9</color>
+Terms/Putter	<color=#F18402>Putter</color>
+Terms/Wedge	<color=#F18402>Wedge</color>
+Terms/Iron	<color=#F18402>Iron</color>
+Terms/Hybrid	<color=#F18402>Hybrid</color>
+Terms/Driver	<color=#F18402>Driver</color>
+Terms/Water	<color=#00A5FF>Acqua</color>
+World/NO PARKING!	DIVIETO DI SOSTA!
+World/NO PARKING 2	L’AUTISTA DEL CARRO ATTREZZI MI MANDA UN BIGLIETTO DI NATALE OGNI ANNO
+World/NO PARKING 3	DIVIETO DI SOSTA\nRIMOZIONE FORZATA
+World/COMMUNITY BOARD	BACHECA COMUNITARIA
+World/Assist Board Description	Gli aiuti funzionano solo in {LMUGC}. Si ricaricano ogni volta che inizi la sfida.
+World/Assist Board Mulligan	<color=#44F680>Mulligan</color><size=80%>\nRipeti un colpo senza penalità.
+World/Assist Board No Wind	<color=#00A5FF>Vento assente</color><size=80%>\nElimina il vento per 60 secondi.
+World/Assist Board Hole Skip	<color=#FF4089>Salta la buca</color><size=80%>\nOttieni subito il Par in qualsiasi buca.
+MetaData/Capsule	Un simulatore di golf del tutto normale. Colpisci qualsiasi cosa. Tira da qualsiasi punto. Ma ricorda: non te ne andrai finché Luke Muscat in persona (Fruit Ninja, Jetpack Joyride) non sarà soddisfatto.
+MetaData/Main Description	[p]Ricordi confusi. Una quota da 100.000 $. Nessuna via d'uscita.[/p]\n[p]Benvenuto in un gioco di golf del tutto normale.[/p]\n[h2]QUANTO POTRÀ MAI ESSERE DIFFICILE?[/h2]\n[p]Dalla mente [strike]contorta[/strike] equilibrata e contorta di Luke Muscat (Fruit Ninja, Jetpack Joyride), Normal Golf Game ricrea il nobile sport del golf con una precisione sadica. Usa la fisica per controllare il movimento della mazza, gestendo contemporaneamente posizione, direzione, angolo e percorso della faccia.[/p]\n[p][img src="{STEAM_APP_IMAGE}/extras/gifgolf"][/img][/p]\n[h2]OK, A QUANTO PARE PARECCHIO.[/h2]\n[p]Esplora un enorme campo da golf che è insieme una trappola e un parco giochi. Tira da qualsiasi punto e mira a qualsiasi cosa. Purché non tenti di andartene, sarà un'esperienza divertente e normalissima.[img src="{STEAM_APP_IMAGE}/extras/gifwalk"][/img][/p]\n[h2]ALTRE CARATTERISTICHE[/h2]\n[list]\n
+MetaData/Demo Description	[h2]FUNZIONALITÀ DELLA DEMO[/h2]\n[p]La demo comprende i primi 30 minuti circa del gioco completo. Puoi esplorare soltanto la piccola area intorno alla club house; nella versione completa sbloccherai progressivamente un intero campo da golf a nove buche.[/p][p]La demo tiene traccia anche del tempo e dei colpi, così puoi provare una speedrun se vuoi![/p]

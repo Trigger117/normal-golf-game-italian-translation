@@ -1,20 +1,23 @@
-# Carica l'installer WPF sulla pre-release GitHub gia esistente.
-# Richiede GitHub CLI (gh) autenticato: https://cli.github.com/
+# Carica sulla release GitHub un EXE gia' provato, usando tag e SHA256 espliciti.
+# Richiede GitHub CLI: https://cli.github.com/
 param(
     [Parameter(Mandatory=$true)][string]$InstallerPath,
-    [string]$Repository = 'Trigger117/normal-golf-game-italian-translation',
-    [string]$Tag = 'v0.9.0-beta'
+    [Parameter(Mandatory=$true)][string]$Tag,
+    [Parameter(Mandatory=$true)][ValidatePattern('^[a-fA-F0-9]{64}$')][string]$ExpectedSha256,
+    [string]$Repository = 'Trigger117/normal-golf-game-italian-translation'
 )
-$ErrorActionPreference='Stop'
-$expected='1592ce46d31e299e03d7376c0a5a549842735c606cc960aa0c160cae95aa40c7'
-$resolved=(Resolve-Path -LiteralPath $InstallerPath -ErrorAction Stop).Path
-$actual=(Get-FileHash -LiteralPath $resolved -Algorithm SHA256).Hash.ToLowerInvariant()
-if($actual -ne $expected) {throw "SHA-256 non valido: $actual"}
-if(-not (Get-Command gh -ErrorAction SilentlyContinue)) {throw 'GitHub CLI non installato: https://cli.github.com/'}
+$ErrorActionPreference = 'Stop'
+$exe = (Resolve-Path -LiteralPath $InstallerPath -ErrorAction Stop).Path
+$actual = (Get-FileHash -LiteralPath $exe -Algorithm SHA256).Hash.ToLowerInvariant()
+$expected = $ExpectedSha256.ToLowerInvariant()
+if ($actual -ne $expected) { throw "SHA-256 diverso: previsto $expected, effettivo $actual" }
+if (-not (Get-Command gh -ErrorAction SilentlyContinue)) {
+    throw 'Installa GitHub CLI da https://cli.github.com/ e accedi con: gh auth login'
+}
 & gh auth status
-if($LASTEXITCODE -ne 0) {throw 'Esegui gh auth login prima di procedere'}
+if ($LASTEXITCODE -ne 0) { throw 'Accesso GitHub CLI non valido: gh auth login' }
 & gh release view $Tag --repo $Repository | Out-Null
-if($LASTEXITCODE -ne 0) {throw "Release $Tag non trovata"}
-& gh release upload $Tag $resolved --repo $Repository --clobber
-if($LASTEXITCODE -ne 0) {throw 'Upload non riuscito'}
-Write-Host "Installer pubblicato: https://github.com/$Repository/releases/tag/$Tag" -ForegroundColor Green
+if ($LASTEXITCODE -ne 0) { throw "La release $Tag non esiste. Creala prima di caricare gli allegati." }
+& gh release upload $Tag $exe --repo $Repository
+if ($LASTEXITCODE -ne 0) { throw 'Caricamento non riuscito' }
+Write-Host "Installer caricato su: https://github.com/$Repository/releases/tag/$Tag" -ForegroundColor Green

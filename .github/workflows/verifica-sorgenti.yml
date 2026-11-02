@@ -1,0 +1,46 @@
+name: Verifica sorgenti
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Controlla struttura e file esclusi
+        shell: bash
+        run: |
+          python3 - <<'PYCODE'
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+          required = [
+            'plugin/NormalGolfItalianI2.cs',
+            'plugin/CompilaPatch.ps1',
+            'translations/i2_terms.tsv',
+            'translations/ui_challenges.tsv',
+            'translations/ItalianoCompleto.txt',
+            'installer/src/MainWindow.xaml',
+            'installer/src/Installer.Wpf.ps1',
+            'installer/src/Installer.Worker.ps1',
+            'installer/launcher/launcher.cpp',
+            'installer/build_wpf_installer.py',
+            'LICENSE', 'LICENSING.md'
+          ]
+          for name in required:
+              if not Path(name).is_file():
+                  raise SystemExit(f'File mancante: {name}')
+          forbidden = {'Assembly-CSharp.dll', 'UnityPlayer.dll', 'resources.assets', 'Normal Golf Game.exe'}
+          for p in Path('.').rglob('*'):
+              if p.is_file() and p.name in forbidden:
+                  raise SystemExit(f'File originale del gioco nel repository: {p}')
+          ET.parse('installer/src/MainWindow.xaml')
+          print('Verifica struttura OK')
+          PYCODE

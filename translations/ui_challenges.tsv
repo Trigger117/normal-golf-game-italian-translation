@@ -1,0 +1,359 @@
+# I2 challenge key<TAB>original English<TAB>Italian; UI fallback only; original game files unchanged
+Challenges/Go to the ball	Go to the ball	Vai alla palla
+Challenges/Ball in water	Ball is gone! Reset to the tee.	Palla persa! Riparti dalla piazzola.
+Challenges/Ball in water LMUGC	Ball is gone! Retake shot or use a mulligan.	Palla persa! Ripeti il colpo o usa un mulligan.
+Challenges/Stand on the tee	Stand on the tee	Posizionati sulla piazzola di partenza
+Challenges/Practice Green	Practice Area	Area di allenamento
+Challenges/Hole 1 Green	Hole 1 Green	Green della buca 1
+Challenges/Hole 2 Tee	Hole 2 Tee	Partenza della buca 2
+Challenges/Hole 6 Tee	Hole 6 Tee	Partenza della buca 6
+Challenges/Hole 6 Fairway	Hole 6 Fairway	Fairway della buca 6
+Challenges/Near Bounty	Bounty Terminal	Terminale delle sfide
+Challenges/Head back to tee	Head back to the tee. Hold [Sprint] to run!	Torna alla partenza. Tieni premuto [Sprint] per correre!
+Challenges/Head to Green 1	Go to the {green}.	Raggiungi il {green}.
+Challenges/Head to Green 2	Go to the next putt. Press [Crouch] to inspect the {green}.	Vai al putt successivo. Premi [Crouch] per osservare il {green}.
+Challenges/Inspect Green	Press [Crouch] to inspect the {green}.	Premi [Crouch] per osservare il {green}.
+Challenges/Head back to tee for bounty	Complete the {Multi Hit} bounty. Hold [Sprint] to run!	Completa la sfida {Multi Hit}. Tieni premuto [Sprint] per correre!
+Challenges/Wishlist	Wishlist now <3	Aggiungilo alla lista dei desideri <3
+Challenges/Press Switch to Golf	Press [Switch] to Golf	Premi [Switch] per giocare a golf
+Challenges/Smash down the old event signs.	Smash down the old event signs.	Distruggi i vecchi cartelli dell'evento.
+Challenges/Go back to normal golf.	Go back to normal golf.	Torna al golf normale.
+Challenges/Go inside the pro shop	Go inside the pro shop.	Entra nel negozio di golf.
+Challenges/Come back to the security gate	Come back to the security gate.	Torna al cancello di sicurezza.
+Challenges/CH_Tutorial_0	Hit the ball.\nUse [Swing Input] to drag around your hands and swing the club!	Colpisci la palla.\nUsa [Swing Input] per trascinare le mani e muovere la mazza!
+Challenges/CH_Tutorial_1	Hit the ball with {Good Contact}. The middle of the clubface should hit the ball.	Colpisci la palla con un {Good Contact}. Il centro della faccia della mazza deve colpire la palla.
+Challenges/CH_Tutorial_2	Hit the ball, then press [Reset] to quickly reset the ball. You can try lots of shots fast this way.	Colpisci la palla, poi premi [Reset] per riportarla subito al punto di partenza. Così puoi provare tanti colpi in poco tempo.
+Challenges/CH_Tutorial_3	Hit a {Thin} or {Topped} shot by hitting the top of the ball with the bottom of your clubface. This is usually bad.	Esegui un colpo {Thin} o {Topped} colpendo la parte superiore della palla con il bordo inferiore della mazza. Di solito è un brutto colpo.
+Challenges/CH_Tutorial_4	Hit the ball with a lot of power. Swing your arms way back first to build up momentum.	Colpisci la palla con molta potenza. Porta prima le braccia molto indietro per prendere slancio.
+Challenges/CH_Tutorial_5	Think this is too easy? Just you wait. Hit a {Slice}. Use [Angle] to turn the club face. A {Slice} goes way off to the right of where you are aiming.	Ti sembra troppo facile? Aspetta e vedrai. Esegui uno {Slice}. Usa [Angle] per ruotare la faccia della mazza. Uno {Slice} devia molto a destra rispetto alla direzione di mira.
+Challenges/CH_Tutorial_6	Hit a {Straight} shot.\nUse [Angle] and [Path] to try and keep the clubface straight! It requires concentration.	Esegui un colpo {Straight}.\nUsa [Angle] e [Path] per mantenere dritta la faccia della mazza! Ci vuole concentrazione.
+Challenges/CH_Tutorial_7	People always forget, so now we do it twice. Press [Reset] to quick reset after hitting the ball.	La gente se ne dimentica sempre, quindi lo ripetiamo. Premi [Reset] per riposizionare la palla dopo averla colpita.
+Challenges/CH_Tutorial_8	Tweak your aim with [Adjust]. Or you can click the buttons. You do you.	Regola la mira con [Adjust]. Oppure clicca sui pulsanti. Come preferisci.
+Challenges/CH_Tutorial_9	Finish within <color=#B4FFFD>25 {yards}</color> of the {Hole 1} flag. A respectable approach for a respectable player.	Termina entro <color=#B4FFFD>25 {yards}</color> dalla bandierina della {Hole 1}. Un approccio rispettabile per un giocatore rispettabile.
+Challenges/CH_Tutorial_10	Hit the secret, <wiggle>hidden</wiggle> gong.\nCan you find it?	Colpisci il gong segreto, <wiggle>nascosto</wiggle>.\nRiesci a trovarlo?
+Challenges/CH_Tutorial_11	Come back to the security gate. Press [Switch] to switch between walking and golf.	Torna al cancello di sicurezza. Premi [Switch] per passare dalla camminata al golf e viceversa.
+Challenges/CH_Carpark1_0	Smash the boards covering the red <color=#FF4800>NO PARKING</color> signs. You can shoot from anywhere.	Distruggi le assi che coprono i cartelli rossi di <color=#FF4800>DIVIETO DI SOSTA</color>. Puoi tirare da qualsiasi punto.
+Challenges/CH_Carpark1_1	Completely smash the two old event signs. Experiment with pushing your stance to the left or right to change how high the ball pops.	Distruggi completamente i due vecchi cartelli dell'evento. Prova a spostare la posizione a sinistra o a destra per cambiare l'altezza del tiro.
+Challenges/CH_Carpark1_2	Enough distractions. We are here to play golf. Serious, totally normal golf.	Basta distrazioni. Siamo qui per giocare a golf. Golf serio, assolutamente normale.
+Challenges/CH_DrawFadeTutorial_0	Hit a {Draw}. Use [Path] to add a bunch of spin to the ball, and then compensate with [Angle]. The ball will start like a slice, but then curve left.	Esegui un {Draw}. Usa [Path] per dare molto effetto alla palla, poi compensa con [Angle]. La palla partirà come con uno slice, ma poi curverà a sinistra.
+Challenges/CH_DrawFadeTutorial_1	Hit A {Fade}. It's like a {Draw} but the opposite. Spin the ball to the right, and angle the club to the left!	Esegui un {Fade}. È il contrario di un {Draw}. Dai effetto verso destra e inclina la mazza a sinistra!
+Challenges/CH_DrawFadeTutorial_2	Use [Path] to <wiggle>curve the ball</wiggle> and hit the giant bowling pin. Summoning magic barriers is just one of my many special talents.	Usa [Path] per <wiggle>far curvare la palla</wiggle> e colpire il birillo gigante. Evocare barriere magiche è solo uno dei miei tanti talenti.
+Challenges/CH_DrawFadeTutorial_3	Gah, so ridiculous. Back to <wiggle>normal</wiggle> golf. Finish in a {bunker}. The sandy things.	Bah, che assurdità. Torniamo al golf <wiggle>normale</wiggle>. Termina in un {bunker}. Quelle zone sabbiose.
+Challenges/CH_DrawFadeTutorial_4	Touch the {green}. With the ball, I mean. Just a normal, good shot.	Tocca il {green}. Con la palla, intendo. Un bel colpo normalissimo.
+Challenges/CH_DrawFadeTutorial_5	Did you know I can control the weather? I forgot to add wind. Touch the {green} again, accounting for the wind.	Sapevi che controllo anche il meteo? Mi ero dimenticato di aggiungere il vento. Raggiungi di nuovo il {green}, tenendo conto del vento.
+Challenges/CH_DrawFadeTutorial_6	Hit the secret, <wiggle>hidden</wiggle> gong. This one is actually hidden; you might have to walk around to find it.	Colpisci il gong segreto, <wiggle>nascosto</wiggle>. Questo è davvero nascosto: potresti dover camminare in giro per trovarlo.
+Challenges/CH_DrawFadeTutorial_7	Looks like you are ready for the next step. Come on in to the Pro Shop. I've opened it just for you.	Mi sembri pronto per il prossimo passo. Entra nel negozio di golf. L'ho aperto apposta per te.
+Challenges/CH_BountyTutorial_0	Complete a bounty.	Completa una sfida a premio.
+Challenges/CH_BountyTutorial_1	Buy the putter in the pro shop. It is $123.	Compra il putter nel negozio. Costa 123 $.
+Challenges/BO_GreenFinish_NAME	Crosswind	Vento laterale
+Challenges/BO_GreenFinish_0	Finish within <color=#B4FFFD>8 {yards}</color> of the flag. Yes, this is <wiggle>hard</wiggle>, especially seeing as someone made it so windy...	Termina entro <color=#B4FFFD>8 {yards}</color> dalla bandierina. Sì, è <wiggle>difficile</wiggle>, soprattutto visto che qualcuno ha alzato tutto questo vento...
+Challenges/BO_FairwayThrice_NAME	Consistency	Costanza
+Challenges/BO_FairwayThrice_0	Touch the {fairway} three times in a row. Be careful with your resets!	Tocca il {fairway} tre volte di fila. Attento a quando riposizioni la palla!
+Challenges/BO_ResumeShot_0	Hit the ball three times. After hitting it, go find the ball to keep playing from that location.	Colpisci la palla tre volte. Dopo ogni colpo, vai a cercarla per continuare da dove è finita.
+Challenges/BO_ResumeShot_1	Find the ball again, and then press [Reset]. This will reset you all the way back to where you first hit the ball.	Ritrova la palla e poi premi [Reset]. Tornerai esattamente al punto del primo colpo.
+Challenges/BO_ResumeShot_2	Hit the gong. You can't hit it from here, so you will need to play a few shots.	Colpisci il gong. Da qui non puoi raggiungerlo con un colpo solo: dovrai farne diversi.
+Challenges/BO_FN1_NAME	Watermelon Ninja	Ninja dell'anguria
+Challenges/BO_FN1_0	Smash three watermelons. For some reason, watching fruit explode into tiny pieces fills me with a deep sense of nostalgia...	Distruggi tre angurie. Per qualche motivo, vedere la frutta esplodere in mille pezzi mi riempie di nostalgia...
+Challenges/BO_FN2_NAME	Apple Ninja	Ninja della mela
+Challenges/BO_FN2_0	Smash three apples. I've seen people cut fruit in half with astonishing precision. Using golf balls is a bold new direction.	Distruggi tre mele. Ho visto persone tagliare la frutta a metà con precisione incredibile. Usare palle da golf è una nuova direzione coraggiosa.
+Challenges/BO_FN3_NAME	Strawberry Ninja	Ninja della fragola
+Challenges/BO_FN3_0	Smash a strawberry.	Distruggi una fragola.
+Challenges/BO_FN4_NAME	Streak Ninja	Ninja in serie
+Challenges/BO_FN4_0	Smash three watermelons in a row.	Distruggi tre angurie di fila.
+Challenges/DEMO_EndOfDemo_0	Thanks for playing. Wishlist the game, and try clearing your save to speedrun the game.	Grazie per aver giocato. Aggiungi il gioco alla lista dei desideri e prova a cancellare il salvataggio per fare una speedrun.
+Challenges/BO_LongDrive_NAME	The Windy Apple	La mela ventosa
+Challenges/BO_LongDrive_0	Finish on a {green}. Any {green}.	Termina su un {green}. Un {green} qualsiasi.
+Challenges/BO_Toilet1_NAME	The Big Flush	Lo sciacquone gigante
+Challenges/BO_Toilet1_0	Land the ball in the giant toilet. I gotta make the most of these assets somehow...	Fai finire la palla nel water gigante. Dovrò pur sfruttare questi asset in qualche modo...
+Challenges/BO_Bounce1_NAME	Pinball	Flipper
+Challenges/BO_Bounce1_0	This is a <code>three part bounty</code>. First, hit both targets in a single shot. Finding the right position is the tricky part!	Questa è una <code>sfida in tre parti</code>. Per prima cosa, colpisci entrambi i bersagli con un solo tiro. Il difficile è trovare la posizione giusta!
+Challenges/BO_Bounce1_1	Part two. Hit both targets in a single shot. Never mind the placeholder nature of these assets. It just adds to the charm.	Seconda parte. Colpisci entrambi i bersagli con un solo tiro. Non badare agli asset provvisori: danno fascino all'insieme.
+Challenges/BO_Bounce1_2	And one last time. So you get to really appreciate this high quality artwork.	E un'ultima volta. Così puoi apprezzare per bene questa grafica di altissima qualità.
+Challenges/BO_HiddenGong1_NAME	No Clip	Attraversa tutto
+Challenges/BO_HiddenGong1_0	Hit the secret, <wiggle>hidden</wiggle> gong. It's nearby. Use [Switch] to find the best spot to shoot from.	Colpisci il gong segreto, <wiggle>nascosto</wiggle>. È qui vicino. Usa [Switch] per trovare il punto migliore da cui tirare.
+Challenges/CH_BuyPutter_0	Complete bounties to earn cash, then buy the putter. Bounties are scattered all over.	Completa sfide per guadagnare denaro, poi compra il putter. Le sfide sono sparse ovunque.
+Challenges/BuyPutterShort	Get $200 and buy the putter	Guadagna 200 $ e compra il putter
+Challenges/BuyDriverShort	Get $250 and buy the driver	Guadagna 250 $ e compra il driver
+Challenges/BuyWedgeShort	Get $1,500 and buy the wedge	Guadagna 1.500 $ e compra il wedge
+Challenges/BuyHybridShort	Get $1,500 and buy the hybrid	Guadagna 1.500 $ e compra l'ibrido
+Challenges/BuyLMUGCShort	Buy the $1,750 {LMUGCShort} Ticket.	Compra il biglietto per {LMUGCShort} da 1.750 $.
+Challenges/CH_Putt1_0	Putt the ball into three different holes. Power control is critical...	Manda la palla in tre buche diverse con il putter. Controllare la potenza è fondamentale...
+Challenges/CH_Putt1_1	Head over to the real {green} for a real challenge.	Vai al vero {green} per una sfida vera.
+Challenges/CH_Putt2_0	Sink this short putt. The surface here is not flat, so it can be a bit tougher.	Imbuca questo putt corto. Qui il terreno non è pianeggiante, quindi è un po' più difficile.
+Challenges/CH_Putt2_1	Go to the next putt location. While walking, you can use [Crouch] to crouch and see the slope of the {green} better.	Vai al punto del putt successivo. Mentre cammini, puoi usare [Crouch] per abbassarti e vedere meglio la pendenza del {green}.
+Challenges/CH_Putt3_0	<wiggle>While walking</wiggle>, you can use [Crouch] to crouch and inspect the {green}. It will help you sink this <wiggle>very</wiggle> long tough putt.	<wiggle>Mentre cammini</wiggle>, usa [Crouch] per abbassarti e osservare il {green}. Ti aiuterà a imbucare questo putt <wiggle>lunghissimo</wiggle> e difficile.
+Challenges/CH_Putt3_1	Knock down all these bowling pins I made. You can really SEE the quality.	Abbatti tutti i birilli che ho preparato. La qualità si VEDE proprio.
+Challenges/CH_Putt3_2	Now let's put it all together. Head back to the tee and complete the new {Multi Hit} bounty I just activated...	Ora mettiamo insieme quello che hai imparato. Torna alla piazzola e completa la nuova sfida {Multi Hit} che ho appena attivato...
+Challenges/CH_MultihitBountyComplete_0	Wow, you played a hole of golf. Incredible. Come back in to the Pro Shop.	Wow, hai giocato una buca di golf. Incredibile. Torna al negozio.
+Challenges/BO_MultihitTutorial_NAME	My First Multi Hit	La mia prima sfida multicolpo
+Challenges/BO_MultihitTutorial_0	This is a {Multi Hit} ball. Hit the ball, go find it, then hit it again. If you reset, you <wiggle>teleport</wiggle> back to the tee and start again!	Questa è una palla {Multi Hit}. Colpiscila, vai a cercarla e poi colpiscila di nuovo. Se riposizioni la palla, ti <wiggle>teletrasporti</wiggle> alla partenza e ricominci da capo!
+Challenges/BO_MultihitTutorial_1	Now for part two of this bounty. Get the ball into the hole. Take as many shots as you like... this time.	E ora la seconda parte della sfida. Fai entrare la palla in buca. Puoi usare tutti i colpi che vuoi... stavolta.
+Challenges/BO_MultihitTutorial_2	Wow, you played a hole of golf. Incredible. Come back in to the Pro Shop.	Wow, hai giocato una buca di golf. Incredibile. Torna al negozio.
+Challenges/BO_Pole1_NAME	Thread the needle	Infilare l'ago
+Challenges/BO_Pole1_0	Hit the flagpole. Good luck.	Colpisci l'asta della bandierina. Buona fortuna.
+Challenges/BO_Close1_NAME	Nice On	Ottimo approccio
+Challenges/BO_Close1_0	Finish within <color=#B4FFFD>3 {yards}</color> of {Hole 1}.	Termina entro <color=#B4FFFD>3 {yards}</color> dalla {Hole 1}.
+Challenges/BO_PuttPuttAce_NAME	Putt Putt Ace	Asso del minigolf
+Challenges/BO_PuttPuttAce_0	Chip the ball into any of the holes on the practice green.	Fai entrare la palla in una buca qualsiasi del green di allenamento con un approccio.
+Challenges/BO_TopShelf_NAME	Top Shelf	Ripiano superiore
+Challenges/BO_TopShelf_0	Putt the ball into the the hole that is up the little slope. Classic Putt Putt.	Imbuca con il putter nella buca in cima alla piccola salita. Un classico del minigolf.
+Challenges/CH_BuyDriver_0	Earn enough money from bounties and then go buy the driver.	Guadagna abbastanza dalle sfide e poi compra il driver.
+Challenges/CH_BuyWedge_0	Earn enough money from bounties and then go buy the wedge.	Guadagna abbastanza dalle sfide e poi compra il wedge.
+Challenges/CH_BuyHybrid_0	Earn enough money from bounties and then go buy the hybrid.	Guadagna abbastanza dalle sfide e poi compra l'ibrido.
+Challenges/CH_BuyLMUGC_0	Earn enough money from bounties to buy the ticket to {LMUGC} from the Pro Shop.	Guadagna abbastanza dalle sfide per comprare il biglietto di {LMUGC} nel negozio.
+Challenges/CH_HitDriver_0	Hit a drive that goes at least <color=#B4FFFD>200 {yards}</color>. The driver has totally different physics to the iron!	Esegui un drive di almeno <color=#B4FFFD>200 {yards}</color>. Il driver ha una fisica completamente diversa dal ferro!
+Challenges/CH_HitDriver_1	Hit a {Fade} with the driver. The driver also has different spin characteristics, so there is a lot to learn.	Esegui un {Fade} con il driver. Anche il suo effetto funziona diversamente, quindi c'è molto da imparare.
+Challenges/CH_HitDriver_2	Touch the {Hole 2} {green}. You have the power, but do you have the accuracy?	Tocca il {green} della {Hole 2}. Hai la potenza, ma hai anche la precisione?
+Challenges/CH_HitDriver_3	The driver isn't just powerful, it is also destructive and useful for self-defense. You know what to do...	Il driver non è solo potente: è anche distruttivo e utile per autodifesa. Sai cosa fare...
+Challenges/CH_HitDriver_4	This enemy is trying to duck under your driver. Push your stance all the way forward <whisperwhite>(to the right)</whisperwhite> to hit the ball with a flatter, low shot!	Questo nemico cerca di abbassarsi sotto il tuo driver. Sposta la posizione tutta in avanti <whisperwhite>(verso destra)</whisperwhite> per ottenere un tiro più basso e teso!
+Challenges/CH_HitDriver_5	Push your stance back <whisperwhite>(to the left)</whisperwhite> to scoop your shot up and take out this enemy. Adjusting your stance forward and back changes your launch angle.	Sposta la posizione indietro <whisperwhite>(verso sinistra)</whisperwhite> per alzare la palla e colpire il nemico. Spostarti avanti e indietro cambia l'angolo di lancio.
+Challenges/CH_HitDriver_6	Take out this enemy without hitting the hostage. The key word here is <swing>without</swing>.	Colpisci il nemico senza toccare l'ostaggio. La parola chiave è <swing>senza</swing>.
+Challenges/CH_HitDriver_7	Take out the enemy twice in a row. Be patient!	Colpisci il nemico due volte di fila. Abbi pazienza!
+Challenges/CH_HitDriver_8	All the clubs feel different, so it can be tricky to switch between them. Press [Practice] to toggle practice mode, and take three practice swings.	Ogni mazza ha sensazioni diverse, quindi passare dall'una all'altra può essere difficile. Premi [Practice] per attivare l'allenamento ed esegui tre swing di prova.
+Challenges/CH_HitDriver_9	Finish on the {fairway} with your iron twice in a row. That's the stripey middle part.	Termina sul {fairway} con il ferro due volte di fila. È la zona a strisce nel mezzo.
+Challenges/CH_HitDriver_10	Now we can finally try something that uses all three clubs. Head over to a new {Multi Hit} bounty I just enabled...	Ora possiamo finalmente provare qualcosa che usa tutte e tre le mazze. Raggiungi la nuova sfida {Multi Hit} che ho appena attivato...
+Challenges/BO_GoneHome_NAME	Go Home	Torna a casa
+Challenges/BO_GoneHome_0	Hit the ball into the Club House from here. You are going to need something more powerful than an Iron though...	Da qui manda la palla dentro la club house. Ti servirà qualcosa di più potente di un ferro...
+Challenges/BO_Bender_NAME	Bender	Tiro a effetto
+Challenges/BO_Bender_0	Hit the ball into the Club House from here. Imagine you are playing some other weird sport, inferior to golf.	Da qui manda la palla nella club house. Immagina di giocare a un altro sport strano, inferiore al golf.
+Challenges/BO_WrongGreen_NAME	Wrong Green 2	Green sbagliato 2
+Challenges/BO_WrongGreen_0	Finish within <color=#B4FFFD>35 {yards}</color> of the hole. Oh but not this hole. {Hole 3}.	Termina entro <color=#B4FFFD>35 {yards}</color> dalla buca. Ah, ma non questa buca. La {Hole 3}.
+Challenges/BO_WrongGreen2_NAME	Wrong Green 1	Green sbagliato 1
+Challenges/BO_WrongGreen2_0	Finish with <color=#B4FFFD>10 {yards}</color> of {Hole 1}. It's like Mirror Mode but not.	Termina entro <color=#B4FFFD>10 {yards}</color> dalla {Hole 1}. È un po' come la modalità specchio, ma anche no.
+Challenges/BO_CrossCountry1_NAME	Great Explorer	Grande esploratore
+Challenges/BO_CrossCountry1_0	Hit this {Multi Hit} ball into {Hole 5}. <color=#FF4800><wiggle>Not</wiggle></color> {Hole 2}, that would be less of an adventure. If you lose your ball in the water or over a fence, you will have to start again!	Manda questa palla {Multi Hit} nella {Hole 5}. <color=#FF4800><wiggle>Non</wiggle></color> nella {Hole 2}: sarebbe un'avventura troppo breve. Se perdi la palla in acqua o oltre una recinzione, dovrai ricominciare!
+Challenges/BO_PuttHole4a_NAME	Putt Putt Putt Putt	Putt putt putt putt
+Challenges/BO_PuttHole4a_0	Look at this simple normal putt putt hole. Should be easy... right?	Guarda questa semplice e normalissima buca da minigolf. Sarà facile... no?
+Challenges/BO_PuttHole4b_NAME	Chipper	Specialista dei colpi d'approccio
+Challenges/BO_PuttHole4b_0	Finish within <color=#B4FFFD>2 {yards}</color> of the putt putt hole. Probably don't use your Driver. Or Putter. Or Iron. You can figure it out.	Termina entro <color=#B4FFFD>2 {yards}</color> dalla buca del minigolf. Magari evita driver, putter e ferro. Ce la puoi fare.
+Challenges/BO_LongDrop_NAME	Long Drop	Discesa lunga
+Challenges/BO_LongDrop_0	Finish on the {green} of {Hole 5}. It is so close, and yet so far.	Termina sul {green} della {Hole 5}. Così vicino, eppure così lontano.
+Challenges/BO_FarFarAway_NAME	Far Far Away	Lontano lontano
+Challenges/BO_FarFarAway_0	Finish on the {green} of {Hole 6}. The ball will need a lot of encouragement to go that far.	Termina sul {green} della {Hole 6}. Per arrivare fin là la palla avrà bisogno di molto incoraggiamento.
+Challenges/BO_HallMonitor_NAME	Hall Monitor	Sorvegliante
+Challenges/BO_HallMonitor_0	Hit the gong without the ball touching the tunnel, the ground, or anything else.	Colpisci il gong senza che la palla tocchi la galleria, il terreno o nient'altro.
+Challenges/BO_HeadWind_NAME	Head High	All'altezza della testa
+Challenges/BO_HeadWind_0	Hit the gong in the lake. For once, the wind is actually helpful!	Colpisci il gong nel lago. Per una volta il vento è davvero utile!
+Challenges/BO_HeadWind2_NAME	Drawn In	Attratto dal lago
+Challenges/BO_HeadWind2_0	Hit the sunken gong in the lake from here.	Da qui colpisci il gong sommerso nel lago.
+Challenges/BO_CantMiss_NAME	You Can't Miss	Impossibile sbagliare
+Challenges/BO_CantMiss_0	Put the ball in the hole. Seriously, this is embarrassingly easy.	Manda la palla in buca. Sul serio, è di una facilità imbarazzante.
+Challenges/BO_CanMiss1_NAME	You Might Miss	Potresti sbagliare
+Challenges/BO_CanMiss1_0	Put the ball in this putt putt hole with a shot from at least <color=#B4FFFD>20 {yards}</color> away.	Manda la palla in questa buca da minigolf con un colpo da almeno <color=#B4FFFD>20 {yards}</color> di distanza.
+Challenges/BO_CanMiss2_NAME	You Will Miss	Sbaglierai
+Challenges/BO_CanMiss2_0	OK, now this is getting tough. Put the ball in this putt putt hole with a shot from at least <color=#B4FFFD>100 {yards}</color> away.	Bene, ora si fa dura. Manda la palla in questa buca da minigolf con un colpo da almeno <color=#B4FFFD>100 {yards}</color> di distanza.
+Challenges/BO_CanMiss3_NAME	You Have Missed	Hai sbagliato
+Challenges/BO_CanMiss3_0	You know the drill. Ball in hole from at least <color=#B4FFFD>250 {yards}</color> away. Put on the kettle and settle in, this will take forever.	Sai come funziona. Palla in buca da almeno <color=#B4FFFD>250 {yards}</color> di distanza. Metti su il tè e mettiti comodo: ci vorrà un'eternità.
+Challenges/BO_ToTheMoon_NAME	To The Moon	Verso la Luna
+Challenges/BO_ToTheMoon_0	With the driver, from this spot, hit a ball that goes at least <color=#B4FFFD>125 {yards}</color> high.	Con il driver, da qui, esegui un tiro che raggiunga almeno <color=#B4FFFD>125 {yards}</color> d'altezza.
+Challenges/BO_Trivia1_NAME	Good Dog	Bravo cane
+Challenges/BO_Trivia1_0	Pop quiz! Who is the official course dog? There is a poster in the club house if you need a reminder.	Quiz a sorpresa! Come si chiama il cane ufficiale del campo? C'è un poster nella club house, se ti serve un indizio.
+Challenges/BO_Trivia2_NAME	Smarty Pants	Saputello
+Challenges/BO_Trivia2_0	Pop quiz! Are you good at problem solving?	Quiz a sorpresa! Sei bravo a risolvere problemi?
+Challenges/BO_Trivia3_NAME	Math Is Hard	La matematica è difficile
+Challenges/BO_Trivia3_0	Pop quiz! If you shot par on every single regular golf hole on the course, what would your score be?	Quiz a sorpresa! Se chiudessi tutte le normali buche del campo in par, quale sarebbe il tuo punteggio?
+Challenges/BO_Trivia4_NAME	Hazy Memory	Ricordi confusi
+Challenges/BO_Trivia4_0	Pop quiz! What color was your car? I mean... <wiggle>IS</wiggle> your car. Your car still exists. Everything is fine.	Quiz a sorpresa! Di che colore era la tua auto? Cioè... <wiggle>È</wiggle> la tua auto. Esiste ancora. Va tutto bene.
+Challenges/BO_MiniHole_0	Get the ball into the hole on the tiny island in the lake. I turned off the wind to make it easier, but it is still kinda <swing>cooked</swing>.	Fai entrare la palla nella buca sulla minuscola isola nel lago. Ho disattivato il vento per facilitarti, ma è comunque una sfida <swing>assurda</swing>.
+Challenges/BO_MiniHole_NAME	Tiny Island 1	Isola minuscola 1
+Challenges/Ball In Hole	Get the ball in the hole	Manda la palla in buca
+Challenges/PAR_Hole1_NAME	Hole 1 - Par	Buca 1 - Par
+Challenges/PAR_Hole1_0	Get {Par} here on {Hole 1}. That's 3 shots. It's no mean feat, trust me I have tried a lot.	Ottieni il {Par} alla {Hole 1}. Sono 3 colpi. Non è per niente facile, fidati: ci ho provato un sacco di volte.
+Challenges/PAR_Hole2_NAME	Hole 2 - Par	Buca 2 - Par
+Challenges/PAR_Hole2_0	Time to use that driver. Score {Par}. That's one good drive, a chip and two putts! Or an excellent drive and a three putt...	È ora di usare il driver. Ottieni il {Par}: un ottimo drive, un approccio e due putt! O un drive eccezionale e tre putt...
+Challenges/PAR_Hole3_NAME	Hole 3 - Par	Buca 3 - Par
+Challenges/PAR_Hole3_0	Shoot {Par} on this a classic short {Par} 3 over the water. The scoop in the {green} should keep you centered and out of trouble.	Ottieni il {Par} in questo classico e corto {Par} 3 sopra l'acqua. La conca nel {green} dovrebbe tenerti al centro e fuori dai guai.
+Challenges/PAR_Hole4_NAME	Hole 4 - Par	Buca 4 - Par
+Challenges/PAR_Hole4_0	Score {Par} on this big dog-leg {Par} 4 around the hill. I have to do all the earthworks by hand, so no chance was I going to dig up all that.	Ottieni il {Par} in questo grande {Par} 4 con dogleg intorno alla collina. Devo fare tutti gli scavi a mano, quindi figurati se la spianavo tutta.
+Challenges/PAR_Hole5_NAME	Hole 5 - Par	Buca 5 - Par
+Challenges/PAR_Hole5_0	Shoot {Par} on this blind {Par} 4 with a few different options. With the sloped back of the {green} and the rock face, it's pretty forgiving.	Ottieni il {Par} in questo {Par} 4 con bandierina non visibile e diversi percorsi possibili. Il {green} inclinato sul retro e la parete rocciosa perdonano parecchio.
+Challenges/PAR_Hole6_NAME	Hole 6 - Par	Buca 6 - Par
+Challenges/PAR_Hole6_0	Score {Par} on our big boy {Par} 5. Can you make it over the water with your drive? No, you cannot.	Ottieni il {Par} nel nostro gigantesco {Par} 5. Riuscirai a superare l'acqua col drive? No, non ci riuscirai.
+Challenges/PAR_Hole7_NAME	Hole 7 - Par	Buca 7 - Par
+Challenges/PAR_Hole7_0	Score {Par} on this very straight and narrow hole. That's four shots, but the {green} and bunkers will punish a lazy approach.	Ottieni il {Par} in questa buca dritta e stretta. Sono quattro colpi, ma il {green} e i bunker puniranno un approccio approssimativo.
+Challenges/PAR_Hole8_NAME	Hole 8 - Par	Buca 8 - Par
+Challenges/PAR_Hole8_0	Score {Par} on this hole featuring a volcano {green}. I don't even know if it plays well, I just liked the name. Volcano.	Ottieni il {Par} in questa buca col {green} a vulcano. Non so neanche se sia piacevole da giocare, mi piaceva solo il nome. Vulcano.
+Challenges/PAR_Hole9_NAME	Hole 9 - Par	Buca 9 - Par
+Challenges/PAR_Hole9_0	Score {Par} on this classic Redan style {Par} 3. What, are you surprised I actually know something about golf hole design?	Ottieni il {Par} in questo classico {Par} 3 in stile Redan. Che c'è, ti sorprende che sappia qualcosa sul design delle buche da golf?
+Challenges/BIRDY_Hole1_NAME	Hole 1 - Birdie	Buca 1 - Birdie
+Challenges/BIRDY_Hole1_0	Get a {Birdie} on {Hole 1}. That's just two shots. It is hard to overstate how much trickier this is than par!	Ottieni un {Birdie} alla {Hole 1}. Sono solo due colpi. Non hai idea di quanto sia più difficile del par!
+Challenges/BIRDY_Hole2_NAME	Hole 2 - Birdie	Buca 2 - Birdie
+Challenges/BIRDY_Hole2_0	Get the ball in the hole with just three shots. The tiered {green} will punish you if you don't approach with accuracy.	Manda la palla in buca in soli tre colpi. Il {green} a terrazze ti punirà se non sarai preciso nell'approccio.
+Challenges/BIRDY_Hole3_NAME	Hole 3 - Birdie	Buca 3 - Birdie
+Challenges/BIRDY_Hole3_0	Get a {Birdie} here on {Hole 3}. You need the perfect approach, and don't lose your cool when putting.	Ottieni un {Birdie} qui alla {Hole 3}. Ti serve un approccio perfetto e non devi perdere la calma sul putt.
+Challenges/BIRDY_Hole4_NAME	Hole 4 - Birdie	Buca 4 - Birdie
+Challenges/BIRDY_Hole4_0	You know the drill. Get a {Birdie} on this hole. These challenges basically write themselves.	Sai già come funziona. Ottieni un {Birdie} su questa buca. Queste sfide praticamente si scrivono da sole.
+Challenges/BIRDY_Hole5_NAME	Hole 5 - Birdie	Buca 5 - Birdie
+Challenges/BIRDY_Hole5_0	Get a {Birdie}. I like taking a {Fade} through the trees with a hybrid, but you could also do something less cool I suppose.	Ottieni un {Birdie}. A me piace fare un {Fade} fra gli alberi con l'ibrido, ma immagino tu possa anche scegliere qualcosa di meno spettacolare.
+Challenges/BIRDY_Hole6_NAME	Hole 6 - Birdie	Buca 6 - Birdie
+Challenges/BIRDY_Hole6_0	Get a {Birdie} on this, the easiest hole to {Birdie}. This would be a nice hole to make up strokes on if there was some kind of ultimate, final challenge...	Ottieni un {Birdie} nella buca più facile per fare {Birdie}. Sarebbe comoda per recuperare colpi, se ci fosse una specie di sfida finale definitiva...
+Challenges/BIRDY_Hole7_NAME	Hole 7 - Birdie	Buca 7 - Birdie
+Challenges/BIRDY_Hole7_0	Get a {Birdie}. This is the least interesting hole on the course, so I'm struggling to write any flavor text here...	Ottieni un {Birdie}. È la buca meno interessante del campo, quindi faccio fatica a inventarmi una descrizione...
+Challenges/BIRDY_Hole8_NAME	Hole 8 - Birdie	Buca 8 - Birdie
+Challenges/BIRDY_Hole8_0	Get a {Birdie}. The volcano {green} makes this one a bit of a roulette spin. How fun for you!	Ottieni un {Birdie}. Il {green} a vulcano rende questa prova una specie di roulette. Che divertimento per te!
+Challenges/BIRDY_Hole9_NAME	Hole 9 - Birdie	Buca 9 - Birdie
+Challenges/BIRDY_Hole9_0	Get a {Birdie} on {Hole 9}. Imagine the standing ovation from onlookers at the Pro Shop! If anyone else was here that is...	Ottieni un {Birdie} alla {Hole 9}. Immagina la standing ovation del pubblico davanti al negozio! Se solo ci fosse qualcun altro qui...
+Challenges/ML_WedgeTutorial_0	Finish on the {green} using the wedge. The wedge has a bit of a different feel.	Termina sul {green} usando il wedge. Questa mazza dà sensazioni un po' diverse.
+Challenges/ML_WedgeTutorial_1	Finish within <color=#B4FFFD>8 {yards}</color> of the hole with the wedge. You will notice the ball tends to bite and stop faster than with the iron, so it's good for getting close.	Termina entro <color=#B4FFFD>8 {yards}</color> dalla buca usando il wedge. Noterai che la palla tende a fermarsi prima che con il ferro: è ottimo per avvicinarsi.
+Challenges/ML_WedgeTutorial_2	In fact, let's try that. Finish within <color=#B4FFFD>8 {yards}</color> of the hole using the iron. Get a feeling for how differently they play.	Anzi, proviamo. Termina entro <color=#B4FFFD>8 {yards}</color> dalla buca con il ferro. Cerca di capire quanto cambia il colpo.
+Challenges/ML_WedgeTutorial_3	The wedge is also good for hitting things <swing>up high</swing>. Hit the secret, <wiggle>hidden gong</wiggle>. You will need to adjust your stance too.	Il wedge è utile anche per mandare la palla <swing>molto in alto</swing>. Colpisci il gong segreto, <wiggle>nascosto</wiggle>. Dovrai regolare anche la tua posizione.
+Challenges/ML_WedgeTutorial_4	Head over to the {bunker} for a few more tests!	Raggiungi il {bunker} per fare qualche altra prova!
+Challenges/ML_WedgeTutorial2_0	Chip up out of the {bunker} and finish within <color=#B4FFFD>10 {yards}</color> of the hole. The more you touch the sand, the more it slows your shot.	Esci dal {bunker} con un colpo d'approccio e termina entro <color=#B4FFFD>10 {yards}</color> dalla buca. Più tocchi la sabbia, più rallenta il tiro.
+Challenges/ML_WedgeTutorial2_1	Again, but closer. Finish within <color=#B4FFFD>5 {yards}</color> of the hole. Get a feel for these short {bunker} shots.	Di nuovo, ma più vicino. Termina entro <color=#B4FFFD>5 {yards}</color> dalla buca. Prendi confidenza con questi colpi corti dal {bunker}.
+Challenges/ML_WedgeTutorial2_2	A crowd has gathered! Chip high up on to the {green} and finish within <color=#B4FFFD>8 {yards}</color> without hurting anyone.	Si è radunata una folla! Fai un approccio alto sul {green} e termina entro <color=#B4FFFD>8 {yards}</color> senza ferire nessuno.
+Challenges/ML_WedgeTutorial2_3	The crowd is going wild! Don't let them distract you. Finish within <color=#B4FFFD>8 {yards}</color> of the hole without hurting anyone.	La folla è in delirio! Non farti distrarre. Termina entro <color=#B4FFFD>8 {yards}</color> dalla buca senza fare male a nessuno.
+Challenges/ML_WedgeTutorial2_4	Head across the {green}. Before you set up to swing, you can use your rangefinder with [Zoom], and check how far away the flag is.	Attraversa il {green}. Prima di preparare il colpo, puoi usare il telemetro con [Zoom] per controllare la distanza dalla bandierina.
+Challenges/ML_WedgeTutorial3_0	On the fringe, you can choose to either putt, or chip! Try a putt first, and finish within <color=#B4FFFD>2 {yards}</color> of the hole.	Dal bordo del green puoi scegliere fra putt e approccio! Prova prima un putt e termina entro <color=#B4FFFD>2 {yards}</color> dalla buca.
+Challenges/ML_WedgeTutorial3_1	This time there is a barrier in the way. Chip within <color=#B4FFFD>2 {yards}</color> of the hole.	Stavolta c'è una barriera in mezzo. Fai un approccio entro <color=#B4FFFD>2 {yards}</color> dalla buca.
+Challenges/ML_WedgeTutorial3_2	Head over to the gate at the start of {Hole 6}.	Raggiungi il cancello all'inizio della {Hole 6}.
+Challenges/Hole 4 Near the Green	Go To Hole 5 Fairway	Vai al fairway della buca 5
+Challenges/Hole 4 Bunkers	Go To Hole 5 Bunkers	Vai ai bunker della buca 5
+Challenges/Hole 4 Fringe	Go To Hole 5 Fringe	Vai al bordo del green della buca 5
+Challenges/ML_GetCrowbar_0	Go get the crowbar	Vai a prendere il piede di porco
+Challenges/ML_SmashHole6Lock_0	Open the Hole 6 gate	Apri il cancello della buca 6
+Challenges/Go To Hole 6	Go To Hole 6 Gate	Vai al cancello della buca 6
+Challenges/ML_TopOfMountain_0	Have fun exploring and doing bounties! When you are ready, come find me at the top of the mountain.	Divertiti a esplorare e completare sfide! Quando sei pronto, vieni a trovarmi in cima alla montagna.
+Challenges/Top Of Mountain Short	Meet {Luke Muscat} at the top of the mountain. 	Incontra {Luke Muscat} in cima alla montagna.
+Challenges/ML_DoLMUGC_0	Complete <wiggle>{LMUGC}</wiggle>. You can buy assists in the Club Shop if it's too hard.	Completa <wiggle>{LMUGC}</wiggle>. Se è troppo difficile, puoi comprare degli aiuti nel negozio.
+Challenges/LMUGC Short Buy Assists	Complete </wiggle>{LMUGCShort}</wiggle>. Buy assists to make it easier.	Completa </wiggle>{LMUGCShort}</wiggle>. Compra gli aiuti per renderla più facile.
+Challenges/BO_Skim1_NAME	Skipper	Saltatore
+Challenges/BO_Skim1_0	Skip the ball across the water. The ball needs to fly very low, very fast.	Fai rimbalzare la palla sull'acqua. Deve volare molto bassa e molto veloce.
+Challenges/BO_Skim2_NAME	Fish Out Of Water	Pesce fuor d'acqua
+Challenges/BO_Skim2_0	Skip the ball across the water three times in one shot.	Fai rimbalzare la palla tre volte sull'acqua con un solo tiro.
+Challenges/BO_Skim3_NAME	Splishy Splashy	Splash splash
+Challenges/BO_Skim3_0	Skip the ball across the water twice in one shot. Finding the right position is key.	Fai rimbalzare la palla due volte sull'acqua con un solo tiro. Trovare il punto giusto è fondamentale.
+Challenges/BO_Skim4_NAME	Sea Legs	Otto salti
+Challenges/BO_Skim4_0	Skip the ball across the water eight times in one shot. Everything has to be perfect for this.	Fai rimbalzare la palla otto volte sull'acqua con un solo tiro. Per riuscirci deve essere tutto perfetto.
+Challenges/BO_TinyIsland2_NAME	Tiny Island 2	Isola minuscola 2
+Challenges/BO_TinyIsland2_0	Get the ball into the hole on the tiny island. What is this, a golf course for ants?	Manda la palla nella buca sulla minuscola isola. Ma cos'è, un campo da golf per formiche?
+Challenges/BO_TinyIsland3_NAME	Tiny Island 3	Isola minuscola 3
+Challenges/BO_TinyIsland3_0	Finish on the green on the island in the lake. It's kind of... that way. You'll see when you start shooting.	Termina sul green dell'isola nel lago. Si trova più o meno... da quella parte. Vedrai quando inizierai a tirare.
+Challenges/BO_Tilted_NAME	Tilted	Inclinato
+Challenges/BO_Tilted_0	This is a <code>three part bounty</code>. Use the tilt and sink the putt any way you like.	Questa è una <code>sfida in tre parti</code>. Sfrutta l'inclinazione e imbuca come preferisci.
+Challenges/BO_Tilted_1	Sink another putt. A few less options available this time.	Imbuca un altro putt. Stavolta hai qualche possibilità in meno.
+Challenges/BO_Tilted_2	Take the low road and sink one final putt.	Scegli la strada più bassa e imbuca un ultimo putt.
+Challenges/BO_Trickster_NAME	Trickster	Trucchetto
+Challenges/BO_Trickster_0	Another <code>two part bounty</code>. First up, do a flip! I mean... do a jump. And sink this putt.	Un'altra <code>sfida in due parti</code>. Per prima cosa fai una capriola! Voglio dire... un salto. E imbuca questo putt.
+Challenges/BO_Trickster_1	Part two coming up. Let's make it more spicy for this final act...	Ecco la seconda parte. Rendiamo il gran finale ancora più piccante...
+Challenges/BO_Pool_NAME	8 Ball Scratch	Palla 8 in buca
+Challenges/BO_Pool_0	Sink both the 8 Ball and the golf ball in different holes in a single shot. Try putting from different spots to get the right angle!	Imbuca sia la palla numero 8 sia quella da golf in due buche diverse con un solo colpo. Prova da punti diversi per trovare l'angolo giusto!
+Challenges/BO_Pool2_NAME	Pressure Drill	Allenamento sotto pressione
+Challenges/BO_Pool2_0	Get the ball in all six holes <swing>in a row</swing>. This is good training for those high pressure situations.	Imbuca in tutte e sei le buche <swing>di fila</swing>. È un ottimo allenamento per le situazioni di alta pressione.
+Challenges/BO_PuttingDrill2_NAME	Putting Drill	Allenamento col putter
+Challenges/BO_PuttingDrill2_0	Sink three putts in a row. It can be the same hole if you like. Practice makes perfect!	Imbuca tre putt di fila. Puoi usare anche sempre la stessa buca. La pratica rende perfetti!
+Challenges/BO_ChipUp_NAME	No Cheese Chip 1	Approccio senza scorciatoie 1
+Challenges/BO_ChipUp_0	Chip the ball into all three holes. Take as many shots as you like.	Imbuca con un approccio in tutte e tre le buche. Puoi usare quanti colpi vuoi.
+Challenges/BO_ChipUpImpossible_NAME	No Cheese Chip 2	Approccio senza scorciatoie 2
+Challenges/BO_ChipUpImpossible_0	Look... this challenge might not even work, I couldn't even debug it. Chip into all three holes in a row.	Senti... questa sfida potrebbe anche non funzionare, non sono neppure riuscito a fare il debug. Imbuca con un approccio in tutte e tre le buche di fila.
+Challenges/BO_PuttHole7_NAME	Find the Angle	Trova l'angolo
+Challenges/BO_PuttHole7_0	Putt into the hole. Even 0.1 degrees of angle change makes a difference on this hole!	Imbuca con il putter. In questa buca anche 0,1 gradi di differenza cambiano tutto!
+Challenges/BO_CliffsidePool_NAME	Cliffside Pool 1	Minigolf sulla scogliera 1
+Challenges/BO_CliffsidePool_0	Hit the ball up and on to the six-hole putt putt course on the cliff.	Manda la palla sul percorso da minigolf a sei buche in cima alla scogliera.
+Challenges/BO_CliffsidePool2_NAME	Cliffside Pool 2	Minigolf sulla scogliera 2
+Challenges/BO_CliffsidePool2_0	Hit the ball up and on to the six-hole putt putt course on the cliff. You can just spy it through the trees...	Manda la palla sul percorso da minigolf a sei buche sulla scogliera. Si intravede appena fra gli alberi...
+Challenges/BO_CliffsideGreen1_NAME	Central Tee 1	Piazzola centrale 1
+Challenges/BO_CliffsideGreen1_0	Finish on the {Hole 4} {green}.	Termina sul {green} della {Hole 4}.
+Challenges/BO_CliffsideGreen2_NAME	Central Tee 2	Piazzola centrale 2
+Challenges/BO_CliffsideGreen2_0	Touch the {Hole 5} {green}.	Tocca il {green} della {Hole 5}.
+Challenges/BO_CliffsideGreen3_NAME	Central Tee 3	Piazzola centrale 3
+Challenges/BO_CliffsideGreen3_0	Touch the {Hole 3} {green}.	Tocca il {green} della {Hole 3}.
+Challenges/BO_SecretGreen1_NAME	Secret Green	Green segreto
+Challenges/BO_SecretGreen1_0	Finish on the secret {green}. Would you have found this without a bounty pointing it out? Are there more? Who knows.	Termina sul {green} segreto. L'avresti trovato senza una sfida a indicartelo? Ce ne sono altri? Chi lo sa.
+Challenges/ML_MarketingDept_0	Collect your prize from the <rainb>Prize Department</rainb>.	Ritira il premio all'<rainb>Ufficio premi</rainb>.
+Challenges/ML_MarketingDept_Short	Go to the <rainb>Prize Department</rainb>	Vai all'<rainb>Ufficio premi</rainb>
+Challenges/ML_MarketingEndless_0	OK, top of the list. The driver is my worst club. Let me see you hit the driver with {Good Contact} three times in a row.	Bene, prima voce della lista. Il driver è la mazza con cui vado peggio. Fammi vedere tre colpi con il driver e {Good Contact} di fila.
+Challenges/ML_MarketingEndless_1	Gah, I <swing>still</swing> keep hitting it {Thin}. Show me a {Thin} shot. It's important that I also learn what <color=#FF0000>NOT</color> to do.	Uffa, continuo <swing>ancora</swing> a colpire la palla con un {Thin}. Fammi vedere un colpo {Thin}. È importante capire anche cosa <color=#FF0000>NON</color> fare.
+Challenges/ML_MarketingEndless_2	Maybe the driver just isn't my club. Show me your {Draw} with the hybrid.	Forse il driver non fa per me. Mostrami un {Draw} con l'ibrido.
+Challenges/ML_MarketingEndless_3	A {Draw} might just be too ambitous for me. I would settle for just some {Good Contact}. Just hit three {Good Contact} shots with the hybrid in a row.	Forse un {Draw} è troppo ambizioso per me. Mi accontenterei di qualche {Good Contact}. Fai tre colpi consecutivi con l'ibrido e {Good Contact}.
+Challenges/ML_MarketingEndless_4	I... I think I'm getting it! Let's move on. Hit a shot with {Perfect} contact with the iron.	Io... mi sa che ci sto arrivando! Andiamo avanti. Esegui un colpo con il ferro e contatto {Perfect}.
+Challenges/ML_MarketingEndless_5	...maybe I'm not getting it after all. <whisper>We are going to be here forever...</whisper> Hit a few {Straight} shots in a row with that iron.	... forse non ci sto arrivando affatto. <whisper>Resteremo qui per sempre...</whisper> Fai qualche colpo {Straight} di fila con quel ferro.
+Challenges/ML_MarketingEndless_6	Is my iron... broken? Yes, that's probably it. Let's move on to the wedge. Hit a {Straight} shot with {Good Contact}.	Il mio ferro è... rotto? Sì, deve essere quello. Passiamo al wedge. Esegui un colpo {Straight} con {Good Contact}.
+Challenges/ML_MarketingEndless_7	Why can't I do this, why won't the ball go {Straight}? Show me some {Slice} or {Hook} shots in a row. Perhaps then I can see the error of my ways.	Perché non ci riesco? Perché la palla non va {Straight}? Fammi vedere alcuni colpi {Slice} o {Hook} di fila. Forse così capirò dove sbaglio.
+Challenges/ML_MarketingEndless_8	I haven't improved at all. Maybe I was watching the wrong details? Do we have to start over? Just like... hit a putt or something while I think...	Non sono migliorato per niente. Forse osservavo le cose sbagliate? Dobbiamo ricominciare? Intanto... tira un putt o qualcosa del genere, così posso riflettere...
+Challenges/ML_CamerasOff_0	<wiggle>All cameras offline. Bounties offline.	<wiggle>Tutte le telecamere offline. Sfide offline.
+Challenges/ML_Ending_0	Do <wiggle><color=#FF0000>NOT</color></wiggle> hit a golf ball at Luke. Complete 100 bounties instead. Keep golfing. Forever.	<wiggle><color=#FF0000>NON</color></wiggle> colpire Luke con una palla da golf. Completa invece 100 sfide. Continua a giocare. Per sempre.
+Challenges/ML_Ending_Short	Do <wiggle><color=#FF0000>NOT</color></wiggle> hit a golf ball at Luke. Complete 100 bounties instead...	<wiggle><color=#FF0000>NON</color></wiggle> colpire Luke con una palla da golf. Completa invece 100 sfide...
+Challenges/BO_Pint1_NAME	Viral Challenge 1	Sfida virale 1
+Challenges/BO_Pint1_0	Smash the pint of beer from here. The short videos make it look so easy.	Distruggi il bicchiere di birra da qui. Nei video brevi sembra così facile.
+Challenges/BO_Pint2_NAME	Viral Challenge 2	Sfida virale 2
+Challenges/BO_Pint2_0	Smash the pint of beer from here. Make sure your over-the-top reaction is ready.	Distruggi il bicchiere di birra da qui. Preparati a reagire in modo esagerato.
+Challenges/BO_Pint3_NAME	Viral Challenge 3	Sfida virale 3
+Challenges/BO_Pint3_0	Smash the pint of beer from here. This one is probably too easy to go viral. Such a waste.	Distruggi il bicchiere di birra da qui. Questa è forse troppo facile per diventare virale. Che spreco.
+Challenges/CC_Hole5Birdie_NAME	Curlew 1	Chiurlo 1
+Challenges/CC_Hole5Birdie_0	Get into {Hole 5} in three shots. Like a very long {Birdie}, so to speak.	Raggiungi la {Hole 5} in tre colpi. Una specie di {Birdie} lunghissimo, per così dire.
+Challenges/CC_Hole5Birdie2_NAME	Curlew 2	Chiurlo 2
+Challenges/CC_Hole5Birdie2_0	Get into {Hole 5} in three shots. Another very long {Birdie}. You will need a creative drive here.	Raggiungi la {Hole 5} in tre colpi. Un altro {Birdie} lunghissimo. Ti servirà un drive creativo.
+Challenges/BO_MegaPutt1_NAME	Sisyphus Flat	Sisifo in piano
+Challenges/BO_MegaPutt1_0	Put the giant ball into the giant hole. Put? Putt? Whatever.	Manda la palla gigante nella buca gigante. Manda? Imbuca? Insomma, ci siamo capiti.
+Challenges/BO_MegaPutt2_NAME	Sisyphus Tilt	Sisifo in pendenza
+Challenges/BO_MegaPutt2_0	Hope you've been practising rolling boulders up a hill. Put the giant ball into the hole.	Spero tu ti sia allenato a far rotolare massi su per una collina. Manda la palla gigante in buca.
+Challenges/BO_MegaPutt3_NAME	Sisyphus With A S	Sisifo con la S
+Challenges/BO_MegaPutt3_0	Why did I make this? I created this for a certain kind of person. Put the giant ball in the hole.	Perché l'ho creata? L'ho fatta per un certo tipo di persona. Manda la palla gigante in buca.
+Challenges/BO_SpaceCaptain_NAME	Space Captain	Capitano spaziale
+Challenges/BO_SpaceCaptain_0	Touch the {Hole 5} {green}. You just have to thread the needle between the trees on the top of the huge mountain. Easy.	Tocca il {green} della {Hole 5}. Devi soltanto infilarti fra gli alberi in cima all'enorme montagna. Facilissimo.
+Challenges/BO_GongBomb_NAME	Gong Bomb	Bomba sul gong
+Challenges/BO_GongBomb_0	Hit the gong. It's way over there.	Colpisci il gong. È laggiù, molto lontano.
+Challenges/BO_Sideways_NAME	Sideways	Di traverso
+Challenges/BO_Sideways_0	Get the ball in the hole. Normal golf stuff right here.	Manda la palla in buca. Normalissime cose da golf.
+Challenges/BO_Quitter_NAME	Quitter	Rinunciatario
+Challenges/BO_Quitter_0	Hold down [Reset] to quit this bounty. That's how you complete this one. By quitting. Don't ask why we need this.	Tieni premuto [Reset] per abbandonare questa sfida. È così che la completi: rinunciando. Non chiedermi perché ci serva.
+Challenges/ML_HybridTutorial_0	Hit the ball over <color=#B4FFFD>200 {yards}</color> with the hybrid. It is like a baby driver!	Con l'ibrido, manda la palla oltre <color=#B4FFFD>200 {yards}</color>. È come un piccolo driver!
+Challenges/ML_HybridTutorial_1	Hit a {Fade} with {Good Contact} with the hybrid.	Esegui un {Fade} con {Good Contact} usando l'ibrido.
+Challenges/ML_HybridTutorial_2	Hey remember this challenge? It's everyone's favourite! Smash the giant bowling pin with the hybrid.	Ehi, ti ricordi questa sfida? È la preferita di tutti! Distruggi il birillo gigante con l'ibrido.
+Challenges/ML_HybridTutorial_3	We've tested your physical skill, but let's also test your mind. How many Par 3 holes are there on this course?	Abbiamo messo alla prova le tue abilità fisiche, ma ora testiamo anche la mente. Quante buche Par 3 ci sono sul campo?
+Challenges/ML_HybridTutorial_4	How many secret, hidden {green}s are there. Does not include putt putt greens.	Quanti {green} segreti e nascosti ci sono? Non contare quelli del minigolf.
+Challenges/ML_HybridTutorial_5	Last question. 1 + 1 = ???	Ultima domanda. 1 + 1 = ???
+Challenges/ML_HybridTutorial_6	Enough silliness. With the hybrid, finish on the {fairway} within <color=#B4FFFD>250 {yards}</color> of the {Hole 6} flag. Get as close to the water as you dare.	Basta sciocchezze. Con l'ibrido, termina sul {fairway} entro <color=#B4FFFD>250 {yards}</color> dalla bandierina della {Hole 6}. Avvicinati all'acqua quanto osi.
+Challenges/ML_HybridTutorial_7	Great approach! Head up the {fairway} to the next spot.	Ottimo approccio! Risali il {fairway} fino al punto successivo.
+Challenges/ML_HybridTutorial_2_0	Let's continue our approach and finish within <color=#B4FFFD>25 {yards}</color> of the {Hole 6} flag. 	Continuiamo l'approccio: termina entro <color=#B4FFFD>25 {yards}</color> dalla bandierina della {Hole 6}.
+Challenges/ML_HybridTutorial_2_1	Hit the magically hovering gong.	Colpisci il gong che levita per magia.
+Challenges/ML_HybridTutorial_2_2	Turn to the right and touch the {Hole 8} {green}! There is a very convenient gap in the trees. It's like it was designed that way.	Girati a destra e tocca il {green} della {Hole 8}! C'è un'apertura fra gli alberi molto comoda. Quasi fosse stata progettata apposta.
+Challenges/ML_HybridTutorial_2_3	Take my new security... <wiggle>I mean</wiggle>... all three the <swing>bad guys</swing> in a single shot.	Elimina le mie nuove guardie di sicur... <wiggle>cioè</wiggle>... tutti e tre i <swing>cattivi</swing> con un solo tiro.
+Challenges/ML_HybridTutorial_2_4	Phew, we are safe again. Come to the Pro Shop for an exciting new revelation.	Uff, siamo di nuovo al sicuro. Vieni al negozio: ho una rivelazione entusiasmante da farti.
+Challenges/ML_BackToShop_NAME	Go back to the shop.	Torna al negozio.
+Challenges/ML_BackToShop_0	Go back to the pro shop.	Torna al negozio di golf.
+Challenges/ML_TRAILER_0	Let's learn to play <code>golf</code>. What a normal thing to do.	Impariamo a giocare a <code>golf</code>. Che cosa assolutamente normale.
+Challenges/ML_TRAILER_1	Golf is <code>easy</code>. Just hit the ball in to the hole.	Il golf è <code>facile</code>. Basta mandare la palla in buca.
+Challenges/ML_TRAILER_2	This is <rainb>normal</rainb>.	È tutto <rainb>normale</rainb>.
+Challenges/ML_TRAILER_3	Challenge text goes here. Are you reading this? I hope not. This is just the trailer.	Qui va il testo della sfida. Lo stai leggendo? Spero di no. Questo è soltanto il trailer.
+Challenges/ML_TRAILER_4	Stop studying the trailer in detail and just go wishlist/buy the game. Please. I need to feed Barkley.	Smettila di studiare il trailer nei dettagli e aggiungi il gioco alla lista dei desideri, oppure compralo. Ti prego. Devo dare da mangiare a Barkley.
+Challenges/ML_REVEAL_0	Reveal the release date.	Rivela la data d'uscita.
+Challenges/ML_REVEAL_NAME	Release Date	Data d'uscita
+Challenges/PARPLUS_Hole1_NAME	Hole 1 - Par Plus	Buca 1 - Par Plus
+Challenges/PARPLUS_Hole1_0	Who put all these trees here? Oh well, try and shoot {Par} anyway...	Chi ha messo tutti questi alberi qui? Pazienza, prova comunque a ottenere il {Par}...
+Challenges/PARPLUS_Hole2_NAME	Hole 2 - Par Plus	Buca 2 - Par Plus
+Challenges/PARPLUS_Hole2_0	Shoot {Par} without using the {Driver} or {Hybrid}. You might be surprised how easy this is!	Ottieni il {Par} senza usare il {Driver} o l'{Hybrid}. Potresti sorprenderti di quanto sia facile!
+Challenges/PARPLUS_Hole3_NAME	Hole 3 - Par Plus	Buca 3 - Par Plus
+Challenges/PARPLUS_Hole3_0	Shoot {Par}... but hit a tree along the way. Only the "leaves" and "branches" counts for this one.	Ottieni il {Par}... ma colpisci un albero lungo il percorso. Contano solo le «foglie» e i «rami».
+Challenges/PARPLUS_Hole4_NAME	Hole 4 - Par Plus	Buca 4 - Par Plus
+Challenges/PARPLUS_Hole4_0	No weird tricks or objectives this time. Just shoot {Par}... with this unseasonably strong wind blowing.	Niente trucchi o obiettivi strani stavolta. Ottieni il {Par}... con questo vento insolitamente forte.
+Challenges/PARPLUS_Hole5_NAME	Hole 5 - Par Plus	Buca 5 - Par Plus
+Challenges/PARPLUS_Hole5_0	Hit both gongs while also shooting {Par} on this hole.	Colpisci entrambi i gong e ottieni anche il {Par} in questa buca.
+Challenges/PARPLUS_Hole6_NAME	Hole 6 - Par Plus	Buca 6 - Par Plus
+Challenges/PARPLUS_Hole6_0	Shoot {Par} without the ball touching the fairway. If it touches you will be instantly reset back to the tee!	Ottieni il {Par} senza che la palla tocchi il fairway. Se lo tocca, tornerà immediatamente alla partenza!
+Challenges/PARPLUS_Hole7_NAME	Hole 7 - Par Plus	Buca 7 - Par Plus
+Challenges/PARPLUS_Hole7_0	The regular hole seems to have been replaced with a putt putt hole. Seems normal. Score {Par} anyway.	La buca normale sembra essere stata sostituita da una buca di minigolf. Tutto regolare. Ottieni comunque il {Par}.
+Challenges/PARPLUS_Hole8_NAME	Hole 8 - Par Plus	Buca 8 - Par Plus
+Challenges/PARPLUS_Hole8_0	Score {Par}. If the ball touches the glowy cage of death, you will be instantly reset. But you can walk through it just fine.	Ottieni il {Par}. Se la palla tocca la gabbia luminosa della morte, verrà subito riposizionata. Tu invece puoi attraversarla tranquillamente.
+Challenges/PARPLUS_Hole9_NAME	Hole 9 - Par Plus	Buca 9 - Par Plus
+Challenges/PARPLUS_Hole9_0	Shoot {Par} while also hitting the gong along the way.	Ottieni il {Par} colpendo anche il gong lungo il percorso.
+Challenges/BO_BB1_NAME	Bunker Behavior	Comportamento nel bunker
+Challenges/BO_BB1_0	Touch the {green} three times in a row. The clubface moving through the sand slows your shot, so consistency is hard from bunkers.	Tocca il {green} tre volte di fila. La sabbia rallenta la mazza, quindi mantenere la costanza dal bunker è difficile.
+Challenges/BO_BB2_NAME	Bunker Dunker	Imbuca dal bunker
+Challenges/BO_BB2_0	Get the ball in the hole without touching the {green}. Probably actually impossible.	Manda la palla in buca senza toccare il {green}. Probabilmente è proprio impossibile.
+Challenges/BO_BB3_NAME	Bunker Bypass	Salta il bunker
+Challenges/BO_BB3_0	Try and avoid touching the sand with your club for this shot. Hit a {Thin} shot and finish on the {Hole 1} {green}.	Prova a non toccare la sabbia con la mazza durante questo tiro. Esegui un colpo {Thin} e termina sul {green} della {Hole 1}.
+Challenges/BO_BB4_NAME	Bunker Buster	Distruttore di bunker
+Challenges/BO_BB4_0	These four other golfers <wiggle>fear</wiggle> the {bunker} and do their best to stay out. Show them they are safe nowhere...	Questi quattro golfisti <wiggle>temono</wiggle> il {bunker} e fanno di tutto per starne fuori. Mostra loro che non sono al sicuro da nessuna parte...
+Challenges/ML_NormalGolf_0	Press button to start round	Premi il pulsante per iniziare il giro
+Challenges/BO_BigBunker_NAME	Big Bunker	Bunker gigante
+Challenges/BO_BigBunker_0	Finish within <color=#B4FFFD>50 {yards}</color> of the hole in the big bunker.	Termina entro <color=#B4FFFD>50 {yards}</color> dalla buca nel bunker gigante.
+Challenges/BO_CliffGong_NAME	Crag Gong	Gong sulla rupe
+Challenges/BO_CliffGong_0	This is a <code>two part bounty</code>. First, hit the gong up on the cliff edge using the iron.	Questa è una <code>sfida in due parti</code>. Per prima cosa, colpisci il gong sul bordo della scogliera usando il ferro.
+Challenges/BO_CliffGong_1	Now hit the same gong but this time with the driver.	Ora colpisci lo stesso gong, ma stavolta con il driver.
+Challenges/BO_Volcano_NAME	Volcano	Vulcano
+Challenges/BO_Volcano_0	Finish on the {Hole 8} {green}.	Termina sul {green} della {Hole 8}.
+Challenges/BO_HiddenPin_NAME	Hidden Pin	Birillo nascosto
+Challenges/BO_HiddenPin_0	Smash the secret bowling pin in the valley. It is straight ahead, just a little {Draw} would do nicely.	Distruggi il birillo segreto nella valle. È proprio davanti a te: basterebbe un piccolo {Draw}.
+Challenges/BO_SecretBunker_NAME	Misclick	Clic sbagliato
+Challenges/BO_SecretBunker_0	Why on earth is there a bunker up here? Anyway, finish on the {Hole 7} {green}.	Ma perché diavolo c'è un bunker quassù? Comunque, termina sul {green} della {Hole 7}.
