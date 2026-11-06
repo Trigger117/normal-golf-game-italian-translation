@@ -1,5 +1,13 @@
 # Cronologia delle modifiche
 
+## In sviluppo — Termini golfistici (non ancora distribuiti)
+
+- Ripristinati i nomi tecnici **Thin Shot**, **Topped Shot** e **Fat Shot** nei termini dinamici colorati del gioco.
+- Corretta la frase della sfida **«Salta il bunker»** per eliminare la duplicazione «colpo Colpo sottile» e mantenere «Thin Shot».
+- Allineate le descrizioni di sfide che richiedono esplicitamente un **Chip Shot**, inclusa **«Asso del minigolf»**; gli approcci generici restano in italiano.
+- Aggiornati insieme `i2_terms.tsv`, `ui_challenges.tsv` e le corrispondenze disponibili in `ItalianoCompleto.txt`.
+- **Non ancora testato in gioco e non incluso negli allegati della release pubblica v0.9.1-beta.**
+
 ## v0.9.1-beta — 2 novembre 2026 (release pubblica)
 
 - Pubblicati **installer WPF Windows** e ZIP per l'installazione manuale.
