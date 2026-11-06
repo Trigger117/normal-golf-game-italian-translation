@@ -23,7 +23,7 @@ Challenges/Come back to the security gate	Come back to the security gate.	Torna 
 Challenges/CH_Tutorial_0	Hit the ball.\nUse [Swing Input] to drag around your hands and swing the club!	Colpisci la palla.\nUsa [Swing Input] per trascinare le mani e muovere la mazza!
 Challenges/CH_Tutorial_1	Hit the ball with {Good Contact}. The middle of the clubface should hit the ball.	Colpisci la palla con un {Good Contact}. Il centro della faccia della mazza deve colpire la palla.
 Challenges/CH_Tutorial_2	Hit the ball, then press [Reset] to quickly reset the ball. You can try lots of shots fast this way.	Colpisci la palla, poi premi [Reset] per riportarla subito al punto di partenza. Così puoi provare tanti colpi in poco tempo.
-Challenges/CH_Tutorial_3	Hit a {Thin} or {Topped} shot by hitting the top of the ball with the bottom of your clubface. This is usually bad.	Esegui un colpo {Thin} o {Topped} colpendo la parte superiore della palla con il bordo inferiore della mazza. Di solito è un brutto colpo.
+Challenges/CH_Tutorial_3	Hit a {Thin} or {Topped} shot by hitting the top of the ball with the bottom of your clubface. This is usually bad.	Esegui un {Thin} o un {Topped} colpendo la parte superiore della pallina con il bordo inferiore della mazza. Di solito è un errore.
 Challenges/CH_Tutorial_4	Hit the ball with a lot of power. Swing your arms way back first to build up momentum.	Colpisci la palla con molta potenza. Porta prima le braccia molto indietro per prendere slancio.
 Challenges/CH_Tutorial_5	Think this is too easy? Just you wait. Hit a {Slice}. Use [Angle] to turn the club face. A {Slice} goes way off to the right of where you are aiming.	Ti sembra troppo facile? Aspetta e vedrai. Esegui uno {Slice}. Usa [Angle] per ruotare la faccia della mazza. Uno {Slice} devia molto a destra rispetto alla direzione di mira.
 Challenges/CH_Tutorial_6	Hit a {Straight} shot.\nUse [Angle] and [Path] to try and keep the clubface straight! It requires concentration.	Esegui un colpo {Straight}.\nUsa [Angle] e [Path] per mantenere dritta la faccia della mazza! Ci vuole concentrazione.
@@ -94,7 +94,7 @@ Challenges/BO_Pole1_0	Hit the flagpole. Good luck.	Colpisci l'asta della bandier
 Challenges/BO_Close1_NAME	Nice On	Ottimo approccio
 Challenges/BO_Close1_0	Finish within <color=#B4FFFD>3 {yards}</color> of {Hole 1}.	Termina entro <color=#B4FFFD>3 {yards}</color> dalla {Hole 1}.
 Challenges/BO_PuttPuttAce_NAME	Putt Putt Ace	Asso del minigolf
-Challenges/BO_PuttPuttAce_0	Chip the ball into any of the holes on the practice green.	Fai entrare la palla in una buca qualsiasi del green di allenamento con un approccio.
+Challenges/BO_PuttPuttAce_0	Chip the ball into any of the holes on the practice green.	Imbuca la pallina in una delle buche del green di allenamento con un Chip Shot.
 Challenges/BO_TopShelf_NAME	Top Shelf	Ripiano superiore
 Challenges/BO_TopShelf_0	Putt the ball into the the hole that is up the little slope. Classic Putt Putt.	Imbuca con il putter nella buca in cima alla piccola salita. Un classico del minigolf.
 Challenges/CH_BuyDriver_0	Earn enough money from bounties and then go buy the driver.	Guadagna abbastanza dalle sfide e poi compra il driver.
@@ -160,7 +160,7 @@ Challenges/Ball In Hole	Get the ball in the hole	Manda la palla in buca
 Challenges/PAR_Hole1_NAME	Hole 1 - Par	Buca 1 - Par
 Challenges/PAR_Hole1_0	Get {Par} here on {Hole 1}. That's 3 shots. It's no mean feat, trust me I have tried a lot.	Ottieni il {Par} alla {Hole 1}. Sono 3 colpi. Non è per niente facile, fidati: ci ho provato un sacco di volte.
 Challenges/PAR_Hole2_NAME	Hole 2 - Par	Buca 2 - Par
-Challenges/PAR_Hole2_0	Time to use that driver. Score {Par}. That's one good drive, a chip and two putts! Or an excellent drive and a three putt...	È ora di usare il driver. Ottieni il {Par}: un ottimo drive, un approccio e due putt! O un drive eccezionale e tre putt...
+Challenges/PAR_Hole2_0	Time to use that driver. Score {Par}. That's one good drive, a chip and two putts! Or an excellent drive and a three putt...	È ora di usare il driver. Ottieni il {Par}: un buon drive, un Chip Shot e due putt! Oppure un drive eccezionale e tre putt...
 Challenges/PAR_Hole3_NAME	Hole 3 - Par	Buca 3 - Par
 Challenges/PAR_Hole3_0	Shoot {Par} on this a classic short {Par} 3 over the water. The scoop in the {green} should keep you centered and out of trouble.	Ottieni il {Par} in questo classico e corto {Par} 3 sopra l'acqua. La conca nel {green} dovrebbe tenerti al centro e fuori dai guai.
 Challenges/PAR_Hole4_NAME	Hole 4 - Par	Buca 4 - Par
@@ -198,13 +198,13 @@ Challenges/ML_WedgeTutorial_1	Finish within <color=#B4FFFD>8 {yards}</color> of 
 Challenges/ML_WedgeTutorial_2	In fact, let's try that. Finish within <color=#B4FFFD>8 {yards}</color> of the hole using the iron. Get a feeling for how differently they play.	Anzi, proviamo. Termina entro <color=#B4FFFD>8 {yards}</color> dalla buca con il ferro. Cerca di capire quanto cambia il colpo.
 Challenges/ML_WedgeTutorial_3	The wedge is also good for hitting things <swing>up high</swing>. Hit the secret, <wiggle>hidden gong</wiggle>. You will need to adjust your stance too.	Il wedge è utile anche per mandare la palla <swing>molto in alto</swing>. Colpisci il gong segreto, <wiggle>nascosto</wiggle>. Dovrai regolare anche la tua posizione.
 Challenges/ML_WedgeTutorial_4	Head over to the {bunker} for a few more tests!	Raggiungi il {bunker} per fare qualche altra prova!
-Challenges/ML_WedgeTutorial2_0	Chip up out of the {bunker} and finish within <color=#B4FFFD>10 {yards}</color> of the hole. The more you touch the sand, the more it slows your shot.	Esci dal {bunker} con un colpo d'approccio e termina entro <color=#B4FFFD>10 {yards}</color> dalla buca. Più tocchi la sabbia, più rallenta il tiro.
+Challenges/ML_WedgeTutorial2_0	Chip up out of the {bunker} and finish within <color=#B4FFFD>10 {yards}</color> of the hole. The more you touch the sand, the more it slows your shot.	Usa un Chip Shot per uscire dal {bunker} e termina entro <color=#B4FFFD>10 {yards}</color> dalla buca. Più tocchi la sabbia, più rallenta il tiro.
 Challenges/ML_WedgeTutorial2_1	Again, but closer. Finish within <color=#B4FFFD>5 {yards}</color> of the hole. Get a feel for these short {bunker} shots.	Di nuovo, ma più vicino. Termina entro <color=#B4FFFD>5 {yards}</color> dalla buca. Prendi confidenza con questi colpi corti dal {bunker}.
-Challenges/ML_WedgeTutorial2_2	A crowd has gathered! Chip high up on to the {green} and finish within <color=#B4FFFD>8 {yards}</color> without hurting anyone.	Si è radunata una folla! Fai un approccio alto sul {green} e termina entro <color=#B4FFFD>8 {yards}</color> senza ferire nessuno.
+Challenges/ML_WedgeTutorial2_2	A crowd has gathered! Chip high up on to the {green} and finish within <color=#B4FFFD>8 {yards}</color> without hurting anyone.	Si è radunata una folla! Esegui un Chip Shot alto verso il {green} e termina entro <color=#B4FFFD>8 {yards}</color> senza ferire nessuno.
 Challenges/ML_WedgeTutorial2_3	The crowd is going wild! Don't let them distract you. Finish within <color=#B4FFFD>8 {yards}</color> of the hole without hurting anyone.	La folla è in delirio! Non farti distrarre. Termina entro <color=#B4FFFD>8 {yards}</color> dalla buca senza fare male a nessuno.
 Challenges/ML_WedgeTutorial2_4	Head across the {green}. Before you set up to swing, you can use your rangefinder with [Zoom], and check how far away the flag is.	Attraversa il {green}. Prima di preparare il colpo, puoi usare il telemetro con [Zoom] per controllare la distanza dalla bandierina.
-Challenges/ML_WedgeTutorial3_0	On the fringe, you can choose to either putt, or chip! Try a putt first, and finish within <color=#B4FFFD>2 {yards}</color> of the hole.	Dal bordo del green puoi scegliere fra putt e approccio! Prova prima un putt e termina entro <color=#B4FFFD>2 {yards}</color> dalla buca.
-Challenges/ML_WedgeTutorial3_1	This time there is a barrier in the way. Chip within <color=#B4FFFD>2 {yards}</color> of the hole.	Stavolta c'è una barriera in mezzo. Fai un approccio entro <color=#B4FFFD>2 {yards}</color> dalla buca.
+Challenges/ML_WedgeTutorial3_0	On the fringe, you can choose to either putt, or chip! Try a putt first, and finish within <color=#B4FFFD>2 {yards}</color> of the hole.	Dal bordo del green puoi scegliere fra un putt e un Chip Shot! Prova prima un putt e termina entro <color=#B4FFFD>2 {yards}</color> dalla buca.
+Challenges/ML_WedgeTutorial3_1	This time there is a barrier in the way. Chip within <color=#B4FFFD>2 {yards}</color> of the hole.	Stavolta c'è una barriera in mezzo. Esegui un Chip Shot e termina entro <color=#B4FFFD>2 {yards}</color> dalla buca.
 Challenges/ML_WedgeTutorial3_2	Head over to the gate at the start of {Hole 6}.	Raggiungi il cancello all'inizio della {Hole 6}.
 Challenges/Hole 4 Near the Green	Go To Hole 5 Fairway	Vai al fairway della buca 5
 Challenges/Hole 4 Bunkers	Go To Hole 5 Bunkers	Vai ai bunker della buca 5
@@ -242,9 +242,9 @@ Challenges/BO_Pool2_0	Get the ball in all six holes <swing>in a row</swing>. Thi
 Challenges/BO_PuttingDrill2_NAME	Putting Drill	Allenamento col putter
 Challenges/BO_PuttingDrill2_0	Sink three putts in a row. It can be the same hole if you like. Practice makes perfect!	Imbuca tre putt di fila. Puoi usare anche sempre la stessa buca. La pratica rende perfetti!
 Challenges/BO_ChipUp_NAME	No Cheese Chip 1	Approccio senza scorciatoie 1
-Challenges/BO_ChipUp_0	Chip the ball into all three holes. Take as many shots as you like.	Imbuca con un approccio in tutte e tre le buche. Puoi usare quanti colpi vuoi.
+Challenges/BO_ChipUp_0	Chip the ball into all three holes. Take as many shots as you like.	Imbuca la pallina in tutte e tre le buche con un Chip Shot. Puoi usare quanti colpi vuoi.
 Challenges/BO_ChipUpImpossible_NAME	No Cheese Chip 2	Approccio senza scorciatoie 2
-Challenges/BO_ChipUpImpossible_0	Look... this challenge might not even work, I couldn't even debug it. Chip into all three holes in a row.	Senti... questa sfida potrebbe anche non funzionare, non sono neppure riuscito a fare il debug. Imbuca con un approccio in tutte e tre le buche di fila.
+Challenges/BO_ChipUpImpossible_0	Look... this challenge might not even work, I couldn't even debug it. Chip into all three holes in a row.	Senti... questa sfida potrebbe anche non funzionare, non sono neppure riuscito a fare il debug. Imbuca con un Chip Shot in tutte e tre le buche di fila.
 Challenges/BO_PuttHole7_NAME	Find the Angle	Trova l'angolo
 Challenges/BO_PuttHole7_0	Putt into the hole. Even 0.1 degrees of angle change makes a difference on this hole!	Imbuca con il putter. In questa buca anche 0,1 gradi di differenza cambiano tutto!
 Challenges/BO_CliffsidePool_NAME	Cliffside Pool 1	Minigolf sulla scogliera 1
@@ -262,7 +262,7 @@ Challenges/BO_SecretGreen1_0	Finish on the secret {green}. Would you have found 
 Challenges/ML_MarketingDept_0	Collect your prize from the <rainb>Prize Department</rainb>.	Ritira il premio all'<rainb>Ufficio premi</rainb>.
 Challenges/ML_MarketingDept_Short	Go to the <rainb>Prize Department</rainb>	Vai all'<rainb>Ufficio premi</rainb>
 Challenges/ML_MarketingEndless_0	OK, top of the list. The driver is my worst club. Let me see you hit the driver with {Good Contact} three times in a row.	Bene, prima voce della lista. Il driver è la mazza con cui vado peggio. Fammi vedere tre colpi con il driver e {Good Contact} di fila.
-Challenges/ML_MarketingEndless_1	Gah, I <swing>still</swing> keep hitting it {Thin}. Show me a {Thin} shot. It's important that I also learn what <color=#FF0000>NOT</color> to do.	Uffa, continuo <swing>ancora</swing> a colpire la palla con un {Thin}. Fammi vedere un colpo {Thin}. È importante capire anche cosa <color=#FF0000>NON</color> fare.
+Challenges/ML_MarketingEndless_1	Gah, I <swing>still</swing> keep hitting it {Thin}. Show me a {Thin} shot. It's important that I also learn what <color=#FF0000>NOT</color> to do.	Uffa, continuo <swing>ancora</swing> a fare un {Thin}. Fammi vedere un {Thin}. È importante capire anche cosa <color=#FF0000>NON</color> fare.
 Challenges/ML_MarketingEndless_2	Maybe the driver just isn't my club. Show me your {Draw} with the hybrid.	Forse il driver non fa per me. Mostrami un {Draw} con l'ibrido.
 Challenges/ML_MarketingEndless_3	A {Draw} might just be too ambitous for me. I would settle for just some {Good Contact}. Just hit three {Good Contact} shots with the hybrid in a row.	Forse un {Draw} è troppo ambizioso per me. Mi accontenterei di qualche {Good Contact}. Fai tre colpi consecutivi con l'ibrido e {Good Contact}.
 Challenges/ML_MarketingEndless_4	I... I think I'm getting it! Let's move on. Hit a shot with {Perfect} contact with the iron.	Io... mi sa che ci sto arrivando! Andiamo avanti. Esegui un colpo con il ferro e contatto {Perfect}.
@@ -342,7 +342,7 @@ Challenges/BO_BB1_0	Touch the {green} three times in a row. The clubface moving 
 Challenges/BO_BB2_NAME	Bunker Dunker	Imbuca dal bunker
 Challenges/BO_BB2_0	Get the ball in the hole without touching the {green}. Probably actually impossible.	Manda la palla in buca senza toccare il {green}. Probabilmente è proprio impossibile.
 Challenges/BO_BB3_NAME	Bunker Bypass	Salta il bunker
-Challenges/BO_BB3_0	Try and avoid touching the sand with your club for this shot. Hit a {Thin} shot and finish on the {Hole 1} {green}.	Prova a non toccare la sabbia con la mazza durante questo tiro. Esegui un colpo {Thin} e termina sul {green} della {Hole 1}.
+Challenges/BO_BB3_0	Try and avoid touching the sand with your club for this shot. Hit a {Thin} shot and finish on the {Hole 1} {green}.	Cerca di non toccare la sabbia con la mazza. Esegui un {Thin} e fai arrivare la pallina sul {green} della {Hole 1}.
 Challenges/BO_BB4_NAME	Bunker Buster	Distruttore di bunker
 Challenges/BO_BB4_0	These four other golfers <wiggle>fear</wiggle> the {bunker} and do their best to stay out. Show them they are safe nowhere...	Questi quattro golfisti <wiggle>temono</wiggle> il {bunker} e fanno di tutto per starne fuori. Mostra loro che non sono al sicuro da nessuna parte...
 Challenges/ML_NormalGolf_0	Press button to start round	Premi il pulsante per iniziare il giro
