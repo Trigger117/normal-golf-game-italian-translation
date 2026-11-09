@@ -10,6 +10,7 @@ import argparse
 import base64
 import hashlib
 import struct
+import re
 import xml.etree.ElementTree as ET
 import zipfile
 from pathlib import Path
@@ -45,7 +46,14 @@ def build(patch_path: Path, stub_path: Path, output: Path) -> str:
     for placeholder, file in PLACEHOLDERS.items():
         if main.count(placeholder) != 1:
             raise ValueError(f'Placeholder mancante o duplicato: {placeholder}')
-        main = main.replace(placeholder, base64.b64encode(file.read_bytes()).decode('ascii'))
+        payload = file.read_bytes()
+        if placeholder == '__WORKER_BASE64__':
+            worker = payload.decode('utf-8-sig')
+            worker, count = re.subn(r"(?m)^(\$hashPatch\s*=\s*')[0-9a-fA-F]{64}(')$", lambda m: m.group(1) + hashlib.sha256(patch).hexdigest() + m.group(2), worker)
+            if count != 1:
+                raise ValueError('Hash ZIP nel worker mancante o duplicato')
+            payload = worker.encode('utf-8-sig')
+        main = main.replace(placeholder, base64.b64encode(payload).decode('ascii'))
     if any(p in main for p in PLACEHOLDERS):
         raise ValueError('Placeholder rimasti nel risultato')
     if any(c in main for c in '\u2018\u2019\u201c\u201d'):
@@ -70,7 +78,10 @@ def build(patch_path: Path, stub_path: Path, output: Path) -> str:
     if stub[-16:-8] == b'NGIP2026':
         a,b = struct.unpack('<II',stub[-8:])
         stub = stub[:-16-a-b]  # rimuove un eventuale overlay precedente
-    exe = stamp(stub, (ROOT/'assets/app_icon.ico').read_bytes())
+    # A public installer may already contain the icon resource.
+    pe = struct.unpack_from('<I', stub, 0x3c)[0]
+    resource_rva, resource_size = struct.unpack_from('<II', stub, pe + 24 + 112 + 16)
+    exe = stub if resource_rva and resource_size else stamp(stub, (ROOT/'assets/app_icon.ico').read_bytes())
     encoded = b'\xff\xfe' + wrapper.encode('utf-16le')
     exe += encoded + patch + b'NGIP2026' + struct.pack('<II',len(encoded),len(patch))
     output.parent.mkdir(parents=True,exist_ok=True)
