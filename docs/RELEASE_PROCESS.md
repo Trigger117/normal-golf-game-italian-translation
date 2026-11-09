@@ -1,6 +1,8 @@
 # Procedura di rilascio (Beta)
 
-**Versione pubblica:** [`v0.9.1-beta`](https://github.com/Trigger117/normal-golf-game-italian-translation/releases/tag/v0.9.1-beta), con installer WPF e ZIP manuale. La precedente `v0.9.0-beta` rimane disponibile. I test dell'installer su una installazione completamente pulita sono ancora da completare.
+**Versione pubblica:** [`v0.9.2-beta`](https://github.com/Trigger117/normal-golf-game-italian-translation/releases/tag/v0.9.2-beta), con installer WPF e ZIP manuale. Le versioni precedenti rimangono disponibili. I test dell'installer su una installazione completamente pulita sono ancora da completare.
+
+La Beta 0.9.2 è stata costruita dal workflow `.github/workflows/pubblica-v0.9.2-beta.yml`, partendo dalla DLL verificata nella Beta 0.9.1 e dai dizionari correnti. Il nuovo ZIP è stato incorporato byte per byte nel nuovo installer. Questo non sostituisce un test completo su Windows.
 
 ## Sorgenti
 
