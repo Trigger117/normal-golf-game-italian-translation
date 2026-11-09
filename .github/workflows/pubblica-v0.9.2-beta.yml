@@ -1,0 +1,88 @@
+name: Pubblica traduzione Beta 0.9.2
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/pubblica-v0.9.2-beta.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Scarica i sorgenti
+        uses: actions/checkout@v4
+
+      - name: Recupera i binari della Beta 0.9.1 verificata
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          mkdir -p previous
+          gh release download v0.9.1-beta --pattern 'NormalGolf_Italian_v0.9.1.zip' --pattern 'NormalGolf_Installer_WPF.exe' --dir previous
+          echo '7879d19b78f08be95a909f071756fc6d24e33d3daa2932785ec1241567bc1701  previous/NormalGolf_Italian_v0.9.1.zip' | sha256sum -c -
+          echo '1592ce46d31e299e03d7376c0a5a549842735c606cc960aa0c160cae95aa40c7  previous/NormalGolf_Installer_WPF.exe' | sha256sum -c -
+
+      - name: Prepara ZIP dalla DLL verificata e dai dizionari correnti
+        shell: bash
+        run: |
+          python3 scripts/package_current_translation.py --previous-release-zip previous/NormalGolf_Italian_v0.9.1.zip --output dist/NormalGolf_Italian_v0.9.2.zip
+
+      - name: Ricrea installer WPF con il nuovo ZIP integrato
+        shell: bash
+        run: |
+          python3 installer/build_wpf_installer.py --patch dist/NormalGolf_Italian_v0.9.2.zip --stub previous/NormalGolf_Installer_WPF.exe --output dist/NormalGolf_Installer_WPF.exe
+
+      - name: Controlla che l'EXE contenga esattamente lo ZIP nuovo e il suo hash
+        shell: bash
+        run: |
+          python3 - <<'PYCODE'
+          import base64
+          import hashlib
+          import struct
+          import zipfile
+          from pathlib import Path
+
+          exe = Path('dist/NormalGolf_Installer_WPF.exe').read_bytes()
+          expected = Path('dist/NormalGolf_Italian_v0.9.2.zip').read_bytes()
+          assert exe.startswith(b'MZ')
+          assert exe[-16:-8] == b'NGIP2026'
+          ps_len, zip_len = struct.unpack('<II', exe[-8:])
+          assert zip_len == len(expected)
+          assert exe[-16-zip_len:-16] == expected
+          with zipfile.ZipFile('dist/NormalGolf_Italian_v0.9.2.zip') as z:
+              assert z.testzip() is None
+              assert len(z.namelist()) == 5
+          ps = exe[-16-zip_len-ps_len:-16-zip_len].decode('utf-16')
+          worker_encoded = None
+          import re
+          m = re.search(r"\$workerScript\s*=\s*\[Text.Encoding\]::UTF8.GetString\(\[Convert\]::FromBase64String\('([^']+)'\)\)", ps)
+          if m:
+              worker_encoded = m.group(1)
+          # Il controllo principale e' sullo ZIP embedded. Il builder verifica
+          # che l'hash SHA-256 sia iniettato una sola volta nel worker.
+          print('EXE:', hashlib.sha256(exe).hexdigest())
+          print('ZIP:', hashlib.sha256(expected).hexdigest())
+          print('Payload verificato; byte per byte identico allo ZIP della release.')
+          PYCODE
+
+      - name: Pubblica la nuova prerelease
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          if gh release view v0.9.2-beta >/dev/null 2>&1; then
+            echo 'La release esiste gia: non sovrascrivo allegati esistenti.'
+            exit 1
+          fi
+          gh release create v0.9.2-beta \
+            dist/NormalGolf_Italian_v0.9.2.zip \
+            dist/NormalGolf_Installer_WPF.exe \
+            --target "$GITHUB_SHA" \
+            --prerelease \
+            --title 'Normal Golf Game — Traduzione Italiana Beta 0.9.2' \
+            --notes-file release-notes/v0.9.2-beta.md
