@@ -1,0 +1,52 @@
+name: Imposta Beta 0.9.2 come release principale
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/imposta-latest-v0.9.2.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  latest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Convalida release e allegati
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          tag="v0.9.2-beta"
+          repo="$GITHUB_REPOSITORY"
+          gh api "repos/$repo/releases/tags/$tag" > /tmp/release.json
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          data = json.loads(Path('/tmp/release.json').read_text())
+          names = {a['name'] for a in data['assets']}
+          required = {'NormalGolf_Installer_WPF.exe', 'NormalGolf_Italian_v0.9.2.zip'}
+          assert not data['draft'], 'Release non pubblicata'
+          assert required.issubset(names), f'Allegati mancanti: {required - names}'
+          print('Release ed entrambi gli allegati verificati')
+          PY
+
+      - name: Rendi release completa e contrassegnala Latest
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          repo="$GITHUB_REPOSITORY"
+          id=$(gh api "repos/$repo/releases/tags/v0.9.2-beta" --jq '.id')
+          gh api --method PATCH "repos/$repo/releases/$id" \
+            -F prerelease=false \
+            -f make_latest=true \
+            --jq '{tag: .tag_name, prerelease: .prerelease, draft: .draft}'
+          latest=$(gh api "repos/$repo/releases/latest" --jq '.tag_name')
+          test "$latest" = "v0.9.2-beta" || { echo "Latest non corrisponde: $latest"; exit 1; }
+          test "$(gh api "repos/$repo/releases/tags/v0.9.2-beta" --jq '.prerelease')" = "false"
+          echo "Beta 0.9.2 confermata come release principale e Latest"
