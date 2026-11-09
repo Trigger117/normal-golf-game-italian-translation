@@ -6,6 +6,8 @@ Per controllare che la traduzione funzioni senza servizi online, effettuare i te
 - [x] Applicazione di **881 voci I2** confermata nei log.
 - [x] Descrizione della sfida **«Isola minuscola 1»** visualizzata in italiano.
 - [x] Pacchetto ZIP pubblico contenente la DLL compilata.
+- [x] Beta 0.9.2: workflow GitHub completato con successo; ZIP e installer WPF sincronizzati mediante confronto byte per byte.
+- [ ] Beta 0.9.2: test diretto della nuova build EXE su Windows.
 - [x] Verifica strutturale dell'archivio ZIP per escludere DLL e asset originali del gioco.
 - [x] Installer WPF provato su una cartella di gioco già predisposta, con installazione completata e backup registrato.
 - [ ] Test dell'installer WPF su un sistema pulito, con download delle dipendenze non ancora installate.
