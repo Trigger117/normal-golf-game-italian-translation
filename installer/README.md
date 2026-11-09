@@ -12,10 +12,10 @@ Questa cartella contiene il **sorgente dell'installer WPF pubblicato come beta**
 Esempio da terminale Windows, dopo aver compilato `launcher.cpp` e ottenuto `launcher.exe`:
 
 ```powershell
-python installer/build_wpf_installer.py --stub installer/launcher/launcher.exe --patch .\NormalGolf_Italian_v0.9.0-beta.zip --output .\dist\NormalGolf_Installer_WPF.exe
+python installer/build_wpf_installer.py --stub installer/launcher/launcher.exe --patch .\NormalGolf_Italian_v0.9.2.zip --output .\dist\NormalGolf_Installer_WPF.exe
 ```
 
-Il comando non utilizza percorsi assoluti hardcoded, non scarica il gioco e genera un file con risorse icona incorporate. La distribuzione pubblica della Beta 0.9.1 si trova [nelle Releases](../releases/tag/v0.9.1-beta). **Compilare il launcher Windows e verificare l'installazione su Windows sono comunque necessari; la build non è stata convalidata come pipeline completamente automatica.**
+Lo script aggiorna automaticamente l'hash SHA-256 dello ZIP incorporato nel worker e riusa le risorse dell'icona se il launcher è già provvisto di icona. Il comando non utilizza percorsi assoluti hardcoded, non scarica il gioco e genera un file con risorse icona incorporate. La distribuzione pubblica della Beta 0.9.2 si trova [nelle Releases](../releases/tag/v0.9.2-beta). **Compilare il launcher Windows e verificare l'installazione su Windows sono comunque necessari; la build non è stata convalidata come pipeline completamente automatica.**
 
 Il formato tecnico dell'EXE è `[launcher Win64][script PowerShell UTF-16LE][patch ZIP][NGIP2026 + due lunghezze]`. La `launcher.cpp` ne estrae temporaneamente il contenuto all'avvio.
 
