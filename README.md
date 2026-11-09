@@ -4,16 +4,20 @@
 
 La patch traduce dialoghi, menu, interfaccia e descrizioni delle sfide. Il doppiaggio rimane in inglese; termini golfistici come *par*, *green*, *draw*, *fade*, *hook* e *slice* vengono mantenuti quando appropriato.
 
-> **Versione pubblica attuale: [Beta 0.9.1 — v0.9.1-beta](https://github.com/Trigger117/normal-golf-game-italian-translation/releases/tag/v0.9.1-beta).** Include il nuovo installer WPF e ulteriori traduzioni dei menu. È ancora una **beta**: alcuni testi potrebbero rimanere in inglese e i test su installazione pulita non sono completi.
+> **Versione pubblica attuale: [Beta 0.9.2 — v0.9.2-beta](https://github.com/Trigger117/normal-golf-game-italian-translation/releases/tag/v0.9.2-beta).** Include installer WPF e correzioni alla terminologia golfistica (Thin Shot, Topped Shot, Fat Shot e Chip Shot). È ancora una **beta**: alcuni testi potrebbero rimanere in inglese e i test su installazione pulita non sono completi.
+
+### Novità della Beta 0.9.2
+
+Corrette le descrizioni di **«Salta il bunker»** e **«Asso del minigolf»**, mantenendo in inglese i nomi tecnici dei colpi. La nuova build **non corregge** il crash nativo di Unity segnalato durante un Thin Shot: la causa non è ancora stata individuata.
 
 ## 📥 Download
 
-**[Scarica la Beta 0.9.1 da GitHub Releases](https://github.com/Trigger117/normal-golf-game-italian-translation/releases/tag/v0.9.1-beta)**
+**[Scarica la Beta 0.9.2 da GitHub Releases](https://github.com/Trigger117/normal-golf-game-italian-translation/releases/tag/v0.9.2-beta)**
 
 La release contiene due file:
 
-- **[NormalGolf_Installer_WPF.exe](https://github.com/Trigger117/normal-golf-game-italian-translation/releases/download/v0.9.1-beta/NormalGolf_Installer_WPF.exe)** — installer automatico Windows (consigliato).
-- **[NormalGolf_Italian_v0.9.1.zip](https://github.com/Trigger117/normal-golf-game-italian-translation/releases/download/v0.9.1-beta/NormalGolf_Italian_v0.9.1.zip)** — installazione manuale.
+- **[NormalGolf_Installer_WPF.exe](https://github.com/Trigger117/normal-golf-game-italian-translation/releases/download/v0.9.2-beta/NormalGolf_Installer_WPF.exe)** — installer automatico Windows (consigliato).
+- **[NormalGolf_Italian_v0.9.2.zip](https://github.com/Trigger117/normal-golf-game-italian-translation/releases/download/v0.9.2-beta/NormalGolf_Italian_v0.9.2.zip)** — installazione manuale.
 
 ### 🖥️ Installazione automatica (Windows)
 
@@ -29,7 +33,7 @@ L'installer crea backup dei file sovrascritti. È stato provato su Windows con l
 
 1. Chiudi il gioco.
 2. Installa [BepInEx 5 per Unity Mono](https://github.com/BepInEx/BepInEx/releases) e [XUnity.AutoTranslator per BepInEx](https://github.com/bbepis/XUnity.AutoTranslator/releases).
-3. Scarica **NormalGolf_Italian_v0.9.1.zip** e decomprimilo nella cartella che contiene `Normal Golf Game.exe`.
+3. Scarica **NormalGolf_Italian_v0.9.2.zip** e decomprimilo nella cartella che contiene `Normal Golf Game.exe`.
 4. Nel file di configurazione XUnity (sotto `BepInEx/config`) imposta:
 
    ```ini
@@ -52,7 +56,7 @@ Se la configurazione di XUnity non è ancora stata generata, avvia il gioco una 
 
 ## 📷 Anteprima della traduzione
 
-Schermate reali di una build di test della traduzione italiana. Sono indicative: la Beta 0.9.1 può presentare differenze e alcune voci restano da perfezionare.
+Schermate reali di una build di test della traduzione italiana. Sono indicative: la Beta 0.9.2 può presentare differenze e alcune voci restano da perfezionare.
 
 **Menu principale tradotto**
 
