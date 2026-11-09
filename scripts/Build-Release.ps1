@@ -1,6 +1,6 @@
 # Create a distributable ZIP from a locally tested BepInEx plugin DLL.
 # Run from the game's root folder (next to Normal Golf Game.exe).
-param([string]$GameDir = (Get-Location).Path, [string]$Version = 'v0.9.0-beta')
+param([string]$GameDir = (Get-Location).Path, [string]$Version = 'v0.9.2-beta')
 $ErrorActionPreference = 'Stop'
 $GameDir = (Resolve-Path -LiteralPath $GameDir).Path
 $path = Join-Path $GameDir 'BepInEx\plugins\NormalGolfItalianI2.dll'
