@@ -6,4 +6,4 @@
 
 Questi dizionari sono **materiale derivato da contenuti di Normal Golf Game**: non fanno parte della licenza MIT che copre il codice originale del plugin e dell'installer. I diritti sul gioco, sulle stringhe originali e sui relativi contenuti restano ai titolari dei diritti. Vedi `../LICENSING.md`.
 
-Le correzioni introdotte nei file della Beta 0.9.1 sono ancora da verificare su tutte le schermate. La release pubblica attuale è la **Beta 0.9.1**, disponibile con installer WPF e ZIP manuale. Le nuove corrispondenze rimangono da verificare su tutte le schermate.
+La release pubblica attuale è la **Beta 0.9.2**, con installer WPF e ZIP manuale. Conserva in inglese i termini tecnici *Thin Shot*, *Topped Shot*, *Fat Shot* e *Chip Shot* quando opportuno. Le correzioni sono state provate preliminarmente, ma non tutte le schermate e le sfide sono state verificate.
